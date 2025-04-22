@@ -841,17 +841,17 @@ El "As-is Scenario Mapping" para **Dueños de Playas de Estacionamientos** ident
 ### 3.4. Product Backlog
 
 
-## Capítulo IV: Product Design
+## Capítulo IV: Solution Software Design
 
-### 4.1. Style Guidelines
-
-En este apartado, se mostrará de manera organizada los estilos y herramientas que se usarán para diseñar nuestra solución.
-
-#### 4.1.1. General Style Guidelines
+### 4.1. Strategic-Level Domain-Driven Design
 
 
-#### 4.1.2. Web Style Guidelines
+#### 4.1.1. EventStorming
 
+
+#### 4.1.2. Context Mappin
+
+#### 4.1.3. Software Architecture
 
 ### 4.2. Information Architecture
 
