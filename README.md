@@ -360,7 +360,6 @@ Incluye la elaboración de preguntas principales y complementarias dirigidas a c
 -  ¿A qué te dedicas?
 -  ¿Cuáles consideras que son tus principales habilidades?
 
-
 **Preguntas principales:**
 
 * ¿Con qué frecuencia necesitas estacionamiento en la ciudad?  
@@ -369,23 +368,6 @@ Incluye la elaboración de preguntas principales y complementarias dirigidas a c
 * ¿Qué tan importante es para ti conocer la disponibilidad de estacionamiento en tiempo real?  
 * ¿Estarías dispuesto/a a pagar una tarifa adicional por garantizar un espacio de estacionamiento reservado?  
 * ¿Qué consideras más importante al elegir un estacionamiento: costo, proximidad, o seguridad?  
-
-- ¿Cuál es tu nombre?
-- ¿Cuál es tu edad?
-- ¿Dónde vives?
-- ¿A qué te dedicas?
-- ¿Cuáles consideras que son tus principales habilidades?
-
-**Preguntas principales:**
-
-* ¿Con qué frecuencia necesitas estacionamiento en la ciudad?
-* ¿Cuánto tiempo dedicas normalmente a buscar estacionamiento?
-* ¿Utilizas actualmente alguna aplicación o servicio para encontrar estacionamiento?
-* ¿Qué tan importante es para ti conocer la disponibilidad de estacionamiento en tiempo real?
-* ¿Estarías dispuesto/a a pagar una tarifa adicional por garantizar un espacio de estacionamiento reservado?
-* ¿Qué consideras más importante al elegir un estacionamiento: costo, proximidad, o seguridad?
-
-* ¿Te gustaría recibir recomendaciones de rutas hacia el estacionamiento más cercano basado en el tráfico en tiempo real?
 
 **Preguntas complementarias:**
 
@@ -409,20 +391,6 @@ main
 
 **Preguntas principales:**
 
-* ¿Consideras sencillo el proceso de gestionamiento de espacios en tu estacionamiento?  
-* ¿Qué tan importante es para ti contar con información en tiempo real sobre los espacios disponibles?  
-* ¿Utilizas algún sistema digital para administrar los pagos y reservas de los espacios de estacionamiento?  
-* ¿Qué beneficios ves en la posibilidad de automatizar el proceso de reserva y pago de los espacios de estacionamiento?  
-* ¿Qué tan relevante es para ti ofrecer opciones de pago seguras y rápidas a tus clientes?  
-
-- ¿Cuál es tu nombre?
-- ¿Cuál es tu edad?
-- ¿Dónde vives?
-- ¿A qué te dedicas?
-- ¿Cuáles consideras que son tus principales habilidades?
-
-**Preguntas principales:**
-
 * ¿Consideras sencillo el proceso de gestionamiento de espacios en tu estacionamiento?
 * ¿Qué tan importante es para ti contar con información en tiempo real sobre los espacios disponibles?
 * ¿Utilizas algún sistema digital para administrar los pagos y reservas de los espacios de estacionamiento?
@@ -441,8 +409,60 @@ main
 #### 2.2.2. Registro de entrevistas
 **Segmento objetivo \#1: Conductores Urbanos Frecuentes**
 
+Entrevistado N°1: Joan Talizo Balbin 
+
+Sexo: Masculino
+Edad: 23
+Ubicación en la que vive: Surco, Lima, Perú.
+
+![screenshot-balbin](/Assets/chapter-2/conductor-balbin.jpg)
+
+Instante en el que inicia: 
+Duración: 
+Link: 
+Resumen:
+Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona.
+Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos.
+Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento.
+Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo.
+
+Entrevistado N°2: Luis Ángel Anampa Lavado
+
+Sexo: Masculino
+Edad: 20
+Ubicación en la que vive: San Borja, Lima, Perú.
+
+![screenshot-balbin](/Assets/chapter-2/conductor-angel.jpg)
+
+Instante en el que inicia: 
+Duración: 
+Link: 
+Resumen:
+Ángel utiliza su vehículo todos los días, por lo que necesita estacionamiento de forma constante. El tiempo que le toma encontrar un espacio varía según la zona y el tráfico, pudiendo tardar entre 10 a 20 minutos o más en horas punta. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que sería una herramienta muy útil.
+Destaca que conocer la disponibilidad de espacios en tiempo real es clave, ya que le permitiría ahorrar tiempo y evitar vueltas innecesarias. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre y cuando no sea excesiva. Al elegir un estacionamiento, valora principalmente el costo y la proximidad, dejando la seguridad en un segundo plano aunque también le parece importante.
+Ángel estaría muy interesado en una aplicación que le recomiende rutas hacia estacionamientos disponibles evitando el tráfico. Ha tenido experiencias frustrantes buscando estacionamiento, como perder espacios a último momento o tener que maniobrar en lugares muy estrechos.
+Finalmente, sugiere como mejoras la posibilidad de recibir notificaciones en tiempo real cuando se libera un espacio cercano, y también alertas de seguridad en caso de movimientos sospechosos cerca del vehículo.
+
 
 **Segmento objetivo \#2: Dueños de playas de estacionamientos**
+
+Entrevistado N°1: Carlos Ponce
+
+Sexo: Masculino
+Edad: 20
+Ubicación en la que vive: La molina, Lima, Perú.
+
+![screenshot-balbin](/Assets/chapter-2/dueño-playa-carlos.jpg)
+
+Instante en el que inicia: 
+Duración: 
+Link: 
+Resumen:
+Carlos tiene 20 años y vive en La Molina, donde administra una playa de estacionamiento. Se considera organizado, resolutivo y orientado a mantener el orden, aunque admite que en momentos de alta afluencia puede resultar complicado.
+Respecto a la gestión del espacio, indica que el proceso suele ser sencillo, pero se complica cuando hay mucho movimiento o los conductores no respetan los espacios designados. Por ello, valora mucho contar con información en tiempo real sobre los espacios disponibles, ya que evitaría revisiones físicas constantes y mejoraría la eficiencia.
+Actualmente no utiliza sistemas de reserva digital, pero acepta pagos a través de Yape y Plin, que considera rápidos y populares entre sus clientes. Cree que automatizar reservas y pagos sería muy beneficioso, ya que permitiría organizar mejor los tiempos de permanencia, agilizar entradas/salidas y mantener mejor control de cobros.
+Carlos considera que ofrecer opciones de pago seguras y rápidas es crucial, ya que sus clientes buscan un proceso ágil y sin complicaciones. Está convencido de que una app que integre gestión de espacios y pagos le permitiría llevar un control detallado de la ocupación, ingresos diarios y brindar mayor transparencia.
+Entre los desafíos que enfrenta están la organización en horas pico y el seguimiento manual de pagos. Le gustaría que una app permita a los clientes indicar su tiempo de permanencia, calcule el costo automáticamente y notifique disponibilidad en tiempo real. También está interesado en reportes de ocupación y rotación para tomar mejores decisiones.
 
 
 #### 2.2.3. Análisis de entrevistas
