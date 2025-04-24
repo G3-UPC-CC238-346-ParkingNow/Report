@@ -5,6 +5,12 @@
 #### 4.1.1. EventStorming
 ![Event Stormen1](Assets/EventStorment1.png)
 
+![Event Stormen2](Assets/EventStorment2.png)
+
+![Event Stormen3](Assets/EventStorment3.png)
+
+![Event Stormen4](Assets/EventStorment4.png)
+
 #### 4.1.2. Context Mapping
 #### 4.1.3. Software Architecture
 
