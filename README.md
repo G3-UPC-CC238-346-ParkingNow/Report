@@ -3,7 +3,7 @@
 ### 4.1. Strategic-Level Domain-Driven Design
 
 #### 4.1.1. EventStorming
-![Event Stormen1](Captura_de_pantalla_2025-04-24_a_la(s)_17.42.48.png)
+![Event Stormen1](Assets/Captura_de_pantalla_2025-04-24_a_la(s)_17.42.48.png)
 
 #### 4.1.2. Context Mapping
 #### 4.1.3. Software Architecture
