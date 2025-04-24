@@ -11,6 +11,20 @@
 
 ![Event Stormen4](Assets/EventStorment4.png)
 
+#### 4.1.1.3 Bounded context canvas
+
+![boundedcontextcanvas1](Assets/BoundedContextCanvas1)
+
+![boundedcontextcanvas2](Assets/BoundedContextCanvas2)
+
+![boundedcontextcanvas3](Assets/BoundedContextCanvas3)
+
+![boundedcontextcanvas4](Assets/BoundedContextCanvas4)
+
+![boundedcontextcanvas5](Assets/BoundedContextCanvas5)
+
+![boundedcontextcanvas6](Assets/BoundedContextCanvas6)
+
 #### 4.1.2. Context Mapping
 #### 4.1.3. Software Architecture
 
