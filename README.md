@@ -13,17 +13,17 @@
 
 #### 4.1.1.3 Bounded context canvas
 
-![boundedcontextcanvas1](Assets/BoundedContextCanvas1)
+![boundedcontextcanvas1](Assets/BoundedContextCanvas1.png)
 
-![boundedcontextcanvas2](Assets/BoundedContextCanvas2)
+![boundedcontextcanvas2](Assets/BoundedContextCanvas2.png)
 
-![boundedcontextcanvas3](Assets/BoundedContextCanvas3)
+![boundedcontextcanvas3](Assets/BoundedContextCanvas3.png)
 
-![boundedcontextcanvas4](Assets/BoundedContextCanvas4)
+![boundedcontextcanvas4](Assets/BoundedContextCanvas4.png)
 
-![boundedcontextcanvas5](Assets/BoundedContextCanvas5)
+![boundedcontextcanvas5](Assets/BoundedContextCanvas5.png)
 
-![boundedcontextcanvas6](Assets/BoundedContextCanvas6)
+![boundedcontextcanvas6](Assets/BoundedContextCanvas6.png)
 
 #### 4.1.2. Context Mapping
 #### 4.1.3. Software Architecture
