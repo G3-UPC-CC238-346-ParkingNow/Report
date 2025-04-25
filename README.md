@@ -787,28 +787,365 @@ EventStorming es una técnica colaborativa utilizada para explorar y comprender 
 ![alt text](Assets/camaras.png)
 
 ##### 4.1.1.1. Candidate Context Discovery
+
+En esta sección se describe cómo se identificaron los principales bounded contexts del sistema ParkingNow.  
+Se utilizó la técnica de Event Storming para descubrir separaciones naturales basadas en las capacidades de negocio como el Monitoreo de Espacios, Gestión de Reservas y Administración de Usuarios, asegurando una estructura modular.
+
 ##### 4.1.1.2. Domain Message Flows Modeling
+
+Aquí se modelaron los flujos de mensajes entre los bounded contexts detectados.  
+Se aplicó Domain Storytelling para visualizar los eventos críticos como la actualización del estado de espacios, la confirmación de reservas y la notificación de disponibilidad a los usuarios.
+
 ##### 4.1.1.3. Bounded Context Canvases
+
+En esta sección se presentan los Bounded Context Canvases desarrollados para ParkingNow.  
+Cada canvas detalla el propósito del contexto, sus comunicaciones inbound y outbound, lenguaje ubicuo y decisiones clave de negocio.
+
+<p align="center"><em>Reservation Management Context</em></p>
+
+![alt text](Assets/canvas1.png)
+
+<p align="center"><em>Parking Space Monitoring Context</em></p>
+
+![alt text](<Assets/canvas 2.png>)
+
+<p align="center"><em>Account Management Context</em></p>
+
+![alt text](<Assets/canvas 3.png>)
+
+<p align="center"><em>Billing & Payment Context</em></p>
+
+![alt text](<Assets/canvas 4.png>)
+
+<p align="center"><em>Notifications Context</em></p>
+
+![alt text](<Assets/canvas 5.png>)
+
+<p align="center"><em>Location Services Context</em></p>
+
+![alt text](<Assets/canvas 6.png>)
 
 #### 4.1.2. Context Mapping
 
+Esta sección muestra cómo los bounded contexts de ParkingNow se relacionan entre sí.  
+Se elaboraron context maps aplicando patrones como Customer/Supplier y Anti-Corruption Layer, para definir las dependencias y responsabilidades entre contextos.
+
 #### 4.1.3. Software Architecture
+
+Aquí se describe la arquitectura general de software de ParkingNow siguiendo el modelo C4.  
+Se explican los niveles Contexto, Contenedor y Despliegue, asegurando una visión clara de la solución.
+
 ##### 4.1.3.1. Software Architecture Context Level Diagrams
+
+Se presenta el diagrama de nivel de contexto, mostrando ParkingNow en el centro y sus interacciones principales con usuarios, otros sistemas internos y servicios externos.
+
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
+
+Esta sección incluye el diagrama de nivel de contenedor, detallando los principales componentes de software como la aplicación móvil, el backend API y la base de datos.
+
 ##### 4.1.3.3. Software Architecture Deployment Diagrams
+
+Se presenta el diagrama de despliegue, visualizando la infraestructura necesaria para soportar ParkingNow, incluyendo servidores, servicios cloud y dispositivos móviles.
 
 ### 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.X. Bounded Context: <Bounded Context Name>
-##### 4.2.X.1. Domain Layer
-##### 4.2.X.2. Interface Layer
-##### 4.2.X.3. Application Layer
-##### 4.2.X.4. Infrastructure Layer
-##### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
-##### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.X.6.2. Bounded Context Database Design Diagram
+En esta sección se aborda el diseño táctico de ParkingNow, desglosando las capas internas de los bounded contexts principales según los principios de Domain-Driven Design.
 
+#### 4.2.1. Bounded Context: Parking Space Monitoring
+
+Se detallan las capas del contexto Parking Space Monitoring, enfocadas en la gestión del estado de los espacios de estacionamiento a través de sistemas de cámaras y monitoreo visual.
+
+##### 4.2.1.1. Domain Layer
+
+Esta capa representa el núcleo de la lógica de negocio del contexto. Se centra en la entidad `Espacio` como aggregate root, encargada de mantener la información de cada unidad de estacionamiento y su estado.
+
+**Aggregates:**
+
+- `Espacio`: incluye `espacioId`, `localId`, `descripcion`, `ubicacion`, `estadoEspacio`
+
+**Value Objects:**
+
+- `EspacioId`, `LocalId`, `UbicacionEspacio`, `EstadoEspacio` (Disponible, Ocupado, Reservado, EnMantenimiento)
+
+**Métodos del Aggregate:**
+
+- `ocupar()`, `liberar()`, `marcarReservado()`, `marcarDisponible()`, `ponerEnMantenimiento()`, `actualizarEstadoPorCamara()`
+
+**Domain Services:**
+
+- `VerificacionEstadoActualService`: permite consultar el estado consolidado de uno o varios espacios.
+
+**Repository Interfaces:**
+
+- `IEspacioRepository`: define los métodos para guardar y recuperar espacios.
+
+##### 4.2.1.2. Interface Layer
+
+Esta capa proporciona la interfaz pública para interactuar con el contexto desde otros sistemas o bounded contexts.
+
+**Controllers:**
+
+- `EspacioController`: expone endpoints REST como `GET /espacios/{id}`, `PUT /espacios/{id}/ocupar`
+
+**Event Consumers:**
+
+- Procesan eventos externos como `ReservaCanceladaEvent` o `EspacioLiberadoPorAdministradorEvent`
+
+**Event Producers:**
+
+- Emiten eventos como `EspacioOcupadoEvent`, `EspacioDisponibleEvent` al cambiar el estado del espacio.
+
+##### 4.2.1.3. Application Layer
+
+Contiene los componentes responsables de coordinar las operaciones del dominio, manejando comandos, eventos y consultas.
+
+**Command Handlers:**
+
+- `OcuparEspacioCommandHandler`  
+- `MarcarReservadoCommandHandler`  
+- `LiberarEspacioCommandHandler`
+
+**Event Handlers:**
+
+- `ReservaConfirmadaEventHandler`, `VisualUpdateEventHandler`
+
+**Query Services:**
+
+- `ConsultaEspaciosQueryService`: permite obtener espacios disponibles o consultar el estado actual de un espacio, retornando DTOs optimizados.
+
+##### 4.2.1.4. Infrastructure Layer
+
+Responsable de la implementación técnica que permite persistencia, comunicación y adaptadores externos.
+
+**Repositories:**
+
+- `EspacioJpaRepository`: implementación concreta para almacenamiento relacional.
+
+**Messaging:**
+
+- Adaptadores para brokers como RabbitMQ o Kafka, que permiten publicar y suscribirse a eventos del dominio.
+
+**External Adapters:**
+
+- `MonitoreoVisualAdapterService`: integra con el sistema de cámaras que valida visualmente si un espacio está ocupado o disponible.  
+- Otros adaptadores conectan con contextos como notificaciones o reservas.
+
+##### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+Este diagrama representa cómo está compuesto internamente un container, en este caso el container del contexto Parking Space Monitoring.
+
+Incluye:
+
+- **Componentes principales**: Interface Layer, Application Layer, Domain Layer, Infrastructure Layer.
+- **Interacciones internas** entre capas, donde cada una cumple una función especializada dentro del flujo de ejecución.
+- **Responsabilidades** de cada capa:
+  - **Interface Layer**: expone endpoints REST y consume/produce eventos externos.
+  - **Application Layer**: coordina la ejecución de casos de uso mediante comandos, eventos y consultas.
+  - **Domain Layer**: contiene las reglas de negocio, entidades, agregados, servicios de dominio y value objects.
+  - **Infrastructure Layer**: conecta con sistemas externos como bases de datos, message brokers y servicios visuales de monitoreo por cámaras.
+
+![alt text](Assets/contexto1.png)
+
+##### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
+
+Aquí se muestran los diagramas de clases que reflejan la estructura de código del Domain Layer para el contexto Parking Space Monitoring.
+
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+Aquí se muestra el diseño de clases del Domain Layer, centrado en el agregado Espacio, sus Value Objects, servicios de dominio y repositorio.
+![alt text](Assets/c.png)
+
+##### 4.6.1.6.2. Bounded Context Database Design Diagram
+
+Representación del modelo relacional para la persistencia del agregado Espacio.
+
+![alt text](Assets/espacio.png)
+
+### 4.2.2. Bounded Context: Reservation Management Context
+
+En esta sección se describen las clases clave que conforman la lógica del contexto de Reservas, su propósito, atributos, métodos y relaciones.
+
+#### 4.2.2.1. Domain Layer
+
+Aggregate Root: **Reserva**, gestiona las reglas del negocio en torno al flujo de estados de la reserva y coordina entidades hijas.  
+Entities: **RegistroTiempo**, se utiliza para registrar los hitos temporales relevantes.  
+Value Objects: **ReservaId, PeriodoReserva, EstadoReserva, EspacioId, VehiculoId, UsuarioId, MultaExceso**.  
+Domain Services: **ValidacionDisponibilidadPeriodoService** (verifica disponibilidad de espacios);  
+**CalculoTiempoUsoService** y **DeterminacionMultaService** (manejan lógica temporal y penalidades).  
+Repository Interfaces: **IReservaRepository**, contrato para persistencia y recuperación de Reserva.
+
+#### 4.2.2.2. Interface Layer
+
+REST Controller: **ReservaController**, expone endpoints para manejar reservas (crear, consultar, cancelar, check-in/out).  
+Event Listeners: Responden a eventos como **EspacioDisponibleEvent, PagoCompletadoEvent**, etc.  
+Event Publishers: Publican eventos del dominio como **ReservaConfirmadaEvent, CheckOutRegistradoEvent**.
+
+#### 4.2.2.3. Application Layer
+
+Command Services: **GestionReservaCommandService**, orquesta flujos a partir de comandos como **CrearReservaCommand**.  
+Query Services: **ConsultaReservasQueryService**, consultas optimizadas sobre historial o estado actual.
+
+#### 4.2.2.4. Infrastructure Layer
+
+Repository Implementations: **ReservaJpaRepository**, implementación concreta para IReservaRepository.  
+Messaging: **Brokers** para emitir y consumir eventos.  
+Adapters (ACL): Adaptación hacia otros BCs como **ParkingSpaceServiceAdapter**, **PaymentServiceAdapter**, garantizando acoplamiento bajo.
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama representa la descomposición a nivel de componentes del Reservation Management Context según el modelo hexagonal.
+
+`ReservationManagementContext-ComponentLevelDiagrams`
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.2.6.1. Domain Layer Class Diagrams
+
+`ReservationManagementContext-DomainLayerClassDiagrams`
+
+##### 4.2.2.6.2. Database Design Diagram
+
+`ReservationManagementContext-DatabaseDesignDiagram`
+
+---
+
+### 4.2.3. Bounded Context: User Management Context
+
+Se describe la estructura del User Management Context centrado en la gestión de usuarios.
+
+#### 4.2.3.1. Domain Layer
+
+Aggregate Root: **Usuario**, representa a un usuario del sistema.  
+Entities: **Perfil**, **Credenciales**, **Vehiculo**, **Estacionamiento**, **Rol**.  
+Value Objects: **UsuarioId**, **Email**, **Password**, **NombreCompleto**, **Telefono**, **Direccion**, **RolUsuario**.  
+Domain Services: **AutenticacionDomainService**, **AutorizacionDomainService**.  
+Repository Interfaces: **IUsuarioRepository**
+
+#### 4.2.3.2. Interface Layer
+
+REST Controller: **UsuarioController**  
+Event Listeners: **EstacionamientoRegistradoEventListener**, **VehiculoRegistradoEventListener**  
+Event Publishers: **UsuarioRegistradoEvent**, **VehiculoAsociadoEvent**, **EstacionamientoAsociadoEvent**
+
+#### 4.2.3.3. Application Layer
+
+Command Services: **GestionUsuarioCommandService**  
+Query Services: **ConsultaUsuarioQueryService**  
+Event Handlers: **UsuarioEventHandler**
+
+#### 4.2.3.4. Infrastructure Layer
+
+Repository Implementations: **UsuarioJpaRepository**  
+Messaging: **Kafka**, **RabbitMQ**  
+Adapters (ACL): **TokenService**, **HashingService**, **ParkingServiceAdapter**, **VehicleServiceAdapter**
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+`UserManagement-ComponentLevelDiagrams`
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.3.6.1. Domain Layer Class Diagrams
+
+`UserManagement-LayerClassDiagrams`
+
+##### 4.2.3.6.2. Database Design Diagram
+
+`UserManagement-LayerClassDiagrams`
+
+---
+
+### 4.2.4. Bounded Context: Local Context
+
+Este contexto gestiona la lógica de locales, tarifas y promociones.
+
+#### 4.2.4.1. Domain Layer
+
+Aggregate Root: **Local**  
+Entities: **Tarifa**, **Promocion**, **Opinion**  
+Value Objects: **LocalId**, **UbicacionFisica**  
+Domain Services: **CalculoTarifaAplicableService**, **CalculoCalificacionPromedioService**  
+Repository Interfaces: **ILocalRepository**
+
+#### 4.2.4.2. Interface Layer
+
+REST Controller: **LocalController**  
+Event Listeners: **UsuarioRegistradoEvent**  
+Event Publishers: **LocalRegistradoEvent**, **PromocionActivaEvent**
+
+#### 4.2.4.3. Application Layer
+
+Command Services: **GestionLocalCommandService**  
+Query Services: **ConsultaLocalQueryService**
+
+#### 4.2.4.4. Infrastructure Layer
+
+Repository Implementations: **LocalJpaRepository**  
+Messaging: Brokers  
+Adapters (ACL): **GeoServiceAdapter**, **UserServiceAdapter**
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+`LocalContext-ComponentLevelDiagrams`
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.4.6.1. Domain Layer Class Diagrams
+
+`LocalContext-ComponentLevelDiagrams`
+
+##### 4.2.4.6.2. Database Design Diagram
+
+`LocalContext-DatabaseDesignDiagram`
+
+---
+
+### 4.2.5. Bounded Context: Security Context
+
+Gestión de políticas, niveles de seguridad y auditoría.
+
+#### 4.2.5.1. Domain Layer
+
+Aggregate Root: **Seguridad**  
+Entities: **RegistroSeguridad**  
+Value Objects: **SecurityType**, **SecurityLevel**, **DatosAuditoria**  
+Domain Services: **AuthorizationService**, **AuditingService**  
+Repository Interfaces: **ISecurityPolicyRepository**, **ISecurityLogRepository**
+
+#### 4.2.5.2. Interface Layer
+
+REST Controller: APIs de configuración de políticas  
+Event Listeners: **AccessDeniedEvent**, **SecurityEventLoggedEvent**  
+Event Publishers: **SecurityEventLoggedEvent**, **AccessDeniedEvent**
+
+#### 4.2.5.3. Application Layer
+
+Command Services: **SecurityPolicyCommandService**  
+Query Services: **SecurityLogQueryService**
+
+#### 4.2.5.4. Infrastructure Layer
+
+Repository Implementations: JPA  
+Messaging: Brokers  
+Adapters (ACL): Servicios de integración con sistemas externos de monitoreo
+
+#### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
+
+`SecurityContext-ComponentLevelDiagrams`
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 4.2.5.6.1. Domain Layer Class Diagrams
+
+`SecurityContext-DomainLayerClassDiagrams`
+
+##### 4.2.5.6.2. Database Design Diagram
+
+`SecurityContext-DatabaseDesignDiagram`
+
+---
+
+¿Quieres que te pase también los puntos `4.2.6` (Support) y `4.2.7` (Notification) en el mismo formato para seguir completándolo?
 
 
 ### Conclusiones y recomendaciones
