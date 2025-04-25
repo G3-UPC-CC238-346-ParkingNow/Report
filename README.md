@@ -40,13 +40,12 @@ Ciclo: 6to <br>
 | TB2     | --         | --                                                                                                                                                                                                                           | --                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | TF1     | --         | --                                                                                                                                                                                                                           | --                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 
-
 ## Project Report Collaboration Insights
 
 TB1: Las tareas asignadas para la entrega TB1 han sido completadas y están documentadas en el siguiente repositorio de GitHub perteneciente a la organización del equipo:
 
-**Repositorio:** G3-UPC-CC238-346-ParkingNow/Report  
-🔗 [https://github.com/G3-UPC-CC238-346-ParkingNow/Report](https://github.com/G3-UPC-CC238-346-ParkingNow/Report)
+**Repositorio:** G3-UPC-CC238-346-ParkingNow/Report:  
+ [https://github.com/G3-UPC-CC238-346-ParkingNow/Report](https://github.com/G3-UPC-CC238-346-ParkingNow/Report)
 
 Durante la preparación del informe, se llevaron a cabo las siguientes actividades:
 
@@ -57,9 +56,7 @@ Durante la preparación del informe, se llevaron a cabo las siguientes actividad
 
  Esta entrega representa una evidencia del trabajo colaborativo del equipo, permitiendo cumplir con el Student Outcome 7 (ABET – EAC), demostrando la capacidad para adquirir conocimientos, aplicar metodologías y documentar procesos en un entorno ágil.
 
-
 ![alt text](<Assets/grupo 1.png>)
-
 
  TP1: Project Report Collaboration Insights
 
@@ -221,7 +218,6 @@ A continuación, cada miembro del equipo formula dos objetivos SMART que refleja
 | **Frezzia Eldaa Isabel Espinoza Paredes** | Obtener una posición en una empresa tecnológica del sector salud o educación en el primer año como egresada. | Completar una certificación Scrum Master o en gestión ágil en los primeros 10 meses tras terminar la carrera.|
 | **Diego Ulises Soto Quispe**          | Iniciar una maestría en ciberseguridad o arquitectura de software dentro de los primeros 18 meses de egresado. | Liderar un proyecto tecnológico completo en una empresa o startup dentro de los primeros 2 años post-egreso. |
 
-
 ## Capítulo I: Introducción
 
 ### 1.1. StartUp Profile
@@ -297,18 +293,14 @@ A continuación, se presenta una tabla comparativa de los principales competidor
 || ***Oportunidades***| A medida que las ciudades sigan creciendo, la demanda de servicios de reserva podría aumentar |La congestión del tráfico se vuelve más común, eso provocaría una alta demanda en la reserva de estacionamientos | En su país de origen, España, las personas en zonas urbanas van a tener que aprender más acerca de la app para poder vivir en comodidad. | Tiene grandes posibilidades de expandir su mercado aun enfocándose en la reserva de estacionamientos en América Latina |
 || ***Amenazas***| Cambios en las políticas de movilidad urbana.|Nuevas startups compitiendo por la misma base de usuarios.|Nuevas startups compitiendo por la misma base de usuarios. | Nuevas startups compitiendo por la misma base de usuarios. |
 
-
-
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 A continuación, encontraremos la tabla de Matriz de FODA y C.A.M.E para poder analizar nuestras estrategias a futuro para competir contra los competidores anteriormente mencionados.
-
 
 | ***MATRIZ FODA y C.A.M.E*** | **Oportunidades: La demanda de este servicio aumenta bastante con los años** | **Amenazas: Cambios en la política de movilidad urbana** |
 |-----------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------|
 | **Fortalezas: Innovación, público objetivo más amplio y soporte en tiempo real para los consumidores** | Ofrecer soporte eficiente a través de la app para fidelizar usuarios, destacando el valor diferenciador de los sensores inteligentes como una funcionalidad poco común y atractiva para el mercado. | Realizar un monitoreo constante de las políticas de movilidad urbana para adaptar nuestra propuesta a los cambios y mantenernos siempre alineados con la normativa. |
 | **Debilidades: Mercado competitivo y nuevo** | Fortalecer las campañas de difusión y visibilidad digital, resaltando las características innovadoras de la app como su enfoque en tiempo real y personalización para lograr una mejor recepción en el mercado. | Desarrollar mensajes de marketing enfocados en cómo nuestra solución contribuye a una mejor gestión urbana, mostrando que no se opone a las políticas sino que las complementa. |
-
 
 ### 2.2. Entrevistas
 
@@ -375,11 +367,9 @@ Incluye la elaboración de preguntas principales y complementarias dirigidas a c
 **Edad:** 23  
 **Ubicación en la que vive:** Surco, Lima, Perú  
 
-
 ![alt text](Assets/conductor-balbin.jpg)
 
 Link de la entrevista:
-
 
 Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo.
 
@@ -387,7 +377,6 @@ Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su
 **Sexo:** Masculino  
 **Edad:** 20  
 **Ubicación en la que vive:** San Borja, Lima, Perú  
-
 
 ![alt text](Assets/conductor-angel.jpg)
 
@@ -400,11 +389,9 @@ Resumen: Ángel utiliza su vehículo todos los días, por lo que necesita estaci
 **Edad:** 20  
 **Ubicación en la que vive:** Chorrillos, Lima, Perú  
 
-
 ![alt text](<Assets/Rodrigo 1.png>)
 
 Link de la entrevista:
-
 
 Resumen: Rodrigo enfrenta a diario la dificultad de encontrar estacionamiento, lo que afecta su trabajo como repartidor. No usa apps especializadas, pero muestra alta disposición a utilizar una que le garantice disponibilidad en tiempo real, reserva segura y rutas optimizadas. Valora la proximidad y la rapidez. Su experiencia indica una gran oportunidad para crear una app práctica, con pagos digitales y geolocalización inteligente.
 
@@ -471,20 +458,13 @@ En el **segmento 2**, los dueños de estacionamientos coinciden en la utilidad d
 
 Ambos segmentos coinciden en que una aplicación móvil que integre información en tiempo real, pagos digitales y comunicación directa generaría una experiencia más eficiente, confiable y satisfactoria.
 
-
 **Entrevista completa:**
-
 
 Link de las entrevistas completas: 
 
 **Análisis por medio de herramientas estadísticas:**
 
 Segmento objetivo 1: [https://forms.gle/Lo3Z69GnkyYDcaAYA](https://forms.gle/Lo3Z69GnkyYDcaAYA) 
-
-**Análisis por medio de herramientas estadísticas:**
-
-Segmento objetivo 1: [https://forms.gle/Lo3Z69GnkyYDcaAYA](https://forms.gle/Lo3Z69GnkyYDcaAYA)
-
 
 ![Pregunta 1 - Segmento 1](Assets/Seg1-P1.png)
 
@@ -504,11 +484,7 @@ Segmento objetivo 1: [https://forms.gle/Lo3Z69GnkyYDcaAYA](https://forms.gle/Lo3
 
 ![Pregunta 9 - Segmento 1](Assets/Seg1-P9.png)
 
-
 Segmento objetivo 2: [https://forms.gle/pCNNRar5TBzSPoX38](https://forms.gle/pCNNRar5TBzSPoX38) 
-
-Segmento objetivo 2: [https://forms.gle/pCNNRar5TBzSPoX38](https://forms.gle/pCNNRar5TBzSPoX38)
-
 
 ![Pregunta 1 - Segmento 1](Assets/Seg2-P1.png)
 
@@ -540,16 +516,17 @@ En esta sección del documento, se presentan perfiles ficticios que representan 
 
 La "User Persona" de Anna Pacheco representa a los conductores urbanos que requieren soluciones rápidas, eficientes y seguras para estacionar cerca de sus destinos. Anna es una organizadora de eventos de 29 años, cuya rutina diaria implica múltiples desplazamientos por la ciudad. Está motivada por la comodidad y la optimización del tiempo, pero suele frustrarse por la falta de espacios disponibles y la pérdida de tiempo al buscar estacionamiento. Busca una solución móvil práctica, con información en tiempo real, reserva anticipada y funciones que mejoren su experiencia general al conducir en zonas urbanas.
 
+<p align="center"><em>User Persona: Conductora Urbana</em></p>
 
 ![User Person s1](Assets/Anna%20Pacheco.png)
 
 ###### User Person para Dueños de estacionamientos
 
-
 La "User Persona" de Luis Cordova representa a propietarios de estacionamientos interesados en mejorar la gestión y aumentar ingresos. Luis, de 26 años y dueño de un estacionamiento, utiliza tecnología para optimizar la ocupación y reducir tiempos de espera. Sus objetivos incluyen la fidelización de clientes y la expansión del negocio, pero enfrenta frustraciones con problemas tecnológicos y altos costos operativos.
+
+<p align="center"><em>User Persona: Dueño de Estacionamiento</em></p>
+
 ![User Person s2](Assets/Luis%20Cordova.png)
-
-
 
 ## 2.3.2. User Task Matrix
 
@@ -557,15 +534,11 @@ En el User Task Matrix hemos identificado las actividades que realizan nuestros 
 
 ### Indicadores de Importancia:
 
-
 - ALTA
 - MEDIA
 - BAJA
 
 ### Indicadores de Frecuencia:
-
-
-
 
 - ALTA
 - MEDIA
@@ -603,7 +576,6 @@ A través del User Task Matrix, podemos identificar las frecuencias e importanci
 
 Para los usuarios, las tareas que presentan mayor frecuencia son:
 
-
 - Pagar por estacionamiento a través de la aplicación.
 - Recibir direcciones al estacionamiento reservado.
 - Filtrar estacionamientos por criterios (precio, seguridad, etc.).
@@ -612,7 +584,6 @@ Para los usuarios, las tareas que presentan mayor frecuencia son:
 Estas tareas son cruciales para mejorar la experiencia del usuario en la búsqueda y uso de estacionamientos.
 
 Para los usuarios, las tareas que presentan mayor importancia son:
-
 
 - Pagar por estacionamiento a través de la aplicación.
 - Recibir direcciones al estacionamiento reservado.
@@ -625,7 +596,6 @@ Estas tareas son importantes porque aseguran una experiencia de estacionamiento 
 
 Para los dueños de estacionamientos, las tareas que presentan mayor frecuencia son:
 
-
 - Administrar y actualizar la disponibilidad de espacios.
 - Gestionar reservas de estacionamientos.
 - Procesar pagos de estacionamiento a través de la aplicación.
@@ -634,9 +604,6 @@ Para los dueños de estacionamientos, las tareas que presentan mayor frecuencia 
 Estas tareas son esenciales para la gestión efectiva de sus espacios de estacionamiento y para asegurar que los usuarios tengan una experiencia positiva.
 
 Para los dueños de estacionamientos, las tareas que presentan mayor importancia son:
-
-
-
 
 - Administrar y actualizar la disponibilidad de espacios.
 - Ajustar precios de los espacios de estacionamiento.
@@ -661,6 +628,8 @@ Este User Journey Mapping describe las etapas que un conductor urbano atraviesa 
 
 Durante todo el recorrido, se identifican puntos de contacto clave como la interfaz de usuario, el sistema de navegación, las notificaciones automáticas y el soporte integrado. También se reconocen problemas comunes como una navegación poco intuitiva, confirmaciones confusas o lentitud en la carga de información. Como oportunidades de mejora se proponen: simplificar la experiencia de reserva, incluir mensajes de confirmación visuales y sonoros, activar alertas de disponibilidad en tiempo real, y permitir guardar espacios frecuentes o favoritos. Estos aspectos son fundamentales para reforzar la usabilidad, confianza y fidelidad del usuario hacia la aplicación.
 
+<p align="center"><em>User Journey: Conductor Urbano</em></p>
+
 
 ![User Journey Mapping s1](Assets/Customer%20journey%20map%202%20Anna.png)
 
@@ -668,8 +637,10 @@ Durante todo el recorrido, se identifican puntos de contacto clave como la inter
 
 Este "User Journey Mapping" para dueños de estacionamientos describe las etapas de uso de una app de gestión, desde encontrar la herramienta adecuada y configurarla, hasta su instalación y seguimiento para optimización. Destaca desafíos en la selección de la app y la comprensión de sus funciones, con oportunidades para mejorar la personalización, la facilidad de uso y el soporte técnico.
 
-![User Journey Mapping s2](Assets/Customer%20journey%20map%201%20Luis.png)
+<p align="center"><em>User Journey Mapping: Conductor Urbano</em></p>
 
+
+![User Journey Mapping s2](Assets/Customer%20journey%20map%201%20Luis.png)
 
 #### 2.3.4. Empathy Mapping
 
@@ -679,14 +650,17 @@ A continuación se pueden apreciar los Empathy Mapping de los segmentos objetivo
 
 Este "Empathy Map" representa a conductores urbanos frecuentes que enfrentan problemas para encontrar estacionamiento. Expresa sus frustraciones por la falta de opciones disponibles y su deseo de contar con herramientas que les brinden información en tiempo real sobre espacios seguros y accesibles.
 
+<p align="center"><em>Empathy Map: Conductor Urbano Frecuente</em></p>
+
 ![Empathy Map](Assets/Empathy_map.png)
 
 ### Segmento objetivo: Dueños de estacionamientos
 
 El mapa de empatía para **Dueños de Estacionamientos** identifica sus necesidades y preocupaciones al gestionar espacios de estacionamiento, destacando oportunidades para optimizar operaciones y mejorar la experiencia del cliente con **PARKINGNOW**.
 
-![alt text](<Assets/uxpressia .png>)
+<p align="center"><em>Empathy Map: Dueños de Estacionamientos</em></p>
 
+![alt text](<Assets/uxpressia .png>)
 
 #### 2.3.5. As-is Scenario Mapping
 
@@ -694,17 +668,17 @@ El As-Is nos proporciona un análisis visual de los escenarios actuales para ide
 
 ### Segmento Conductores Urbanos Frecuentes
 
-
 El "As-is Scenario Mapping" para **Conductores Urbanos Frecuentes** resalta los desafíos y mejoras necesarias en la experiencia de estacionamiento, permitiendo optimizar las soluciones de **PARKINGNOW**.
 
+<p align="center"><em>As-is Scenario Mapping: Conductor Urbano Frecuente</em></p>
+
 ![As is Scenario](./Assets/as_is_segment_1.jpg) 
-
-
 
 ### Segmento Dueños  de estacionamientos
 
 El "As-is Scenario Mapping" para **Dueños  de Estacionamientos** identifica sus desafíos y necesidades, desde la preparación del espacio hasta la gestión post-servicio, ayudando a mejorar la eficiencia y satisfacción en la gestión de sus estacionamientos con PARKINGNOW.
 
+<p align="center"><em>As-is Scenario Mapping: Dueños de Estacionamientos</em></p>
 
 ![As is Scenario](./Assets/as_is_segment_2.jpg)
 
@@ -750,8 +724,6 @@ El "As-is Scenario Mapping" para **Dueños  de Estacionamientos** identifica sus
 
 **Backend:** Infraestructura que aloja y gestiona los datos de la aplicación, incluyendo la disponibilidad de espacios y la información de los usuarios.
 
-
-
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
@@ -759,6 +731,7 @@ El "As-is Scenario Mapping" para **Dueños  de Estacionamientos** identifica sus
 ### Segmento: Conductores Urbanos Frecuentes
 
 El **To-Be Scenario Mapping** para **Conductores Urbanos Frecuentes** describe la experiencia ideal que estos usuarios buscan al utilizar la aplicación **PARKINGNOW**. Esta experiencia parte desde la necesidad de encontrar un estacionamiento rápidamente, pasando por la visualización de espacios disponibles, la comparación de opciones, y la reserva del espacio más conveniente. Incluye también el pago seguro a través de la app y la navegación hacia el estacionamiento. Finalmente, el proceso concluye con la satisfacción del usuario al utilizar el espacio y la posibilidad de dejar una reseña positiva, lo cual ayuda a mantener la calidad del servicio.
+<p align="center"><em>To-Be Scenario Mapping: Conductor Urbano Frecuente</em></p>
 
 ![alt text](<Assets/To be Scenario Mapping 1.png>)
 
@@ -766,16 +739,15 @@ El **To-Be Scenario Mapping** para **Conductores Urbanos Frecuentes** describe l
 
 El **To-Be Scenario Mapping** para **Dueños de Estacionamientos** establece el flujo de actividades esperado para optimizar la gestión de sus espacios con el apoyo de **PARKINGNOW**. Desde el momento en que publican su disponibilidad en la plataforma, los propietarios pueden gestionar reservas, ajustar precios, verificar el uso de los espacios en tiempo real y analizar métricas operativas. Todo esto tiene como finalidad asegurar una administración eficiente, mejorar la experiencia del cliente, y aumentar la rentabilidad del estacionamiento mediante decisiones respaldadas por datos.
 
+<p align="center"><em>To-Be Scenario Mapping: Dueños de Estacionamientos</em></p>
+
 ![alt text](<Assets/To be Scenario Mapping 2.png>)
 
 ### 3.2. User Stories
 
-
 ## 3.3. Impact Mapping
 
-
 ### 3.4. Product Backlog
-
 
 ## Capítulo IV: Solution Software Design
 
