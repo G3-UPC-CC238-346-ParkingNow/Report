@@ -444,6 +444,14 @@ main
 
 **Segmento objetivo \#2: Dueños de playas de estacionamientos**
 
+### Dueña de estacionamientos, Guillermina Asencios
+
+A continuación, se presenta la entrevista realizada a Guillermina Asencios, dueña de estacionamientos, donde comparte sus experiencias y perspectivas sobre la gestión de espacios de estacionamiento.
+
+<video controls width="640" height="360">
+  <source src="Assets/entrevista_playa_estacionamiento.mp4" type="video/mp4">
+  Tu navegador no soporta la reproducción de videos.
+</video>
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -831,7 +839,17 @@ El "As-is Scenario Mapping" para **Dueños de Playas de Estacionamientos** ident
 ## Capítulo III: Requirements Specification
 
 ### 3.1. To-Be Scenario Mapping
+### Segmento Conductores Frecuentes
 
+El "To-Be Scenario Mapping" para **Conductores Urbanos Frecuentes** Muestra los resultados esperados para los conductores urbanos frecuentes que necesitan tener rapido acceso a estacionamientos
+
+![To Be Scenario](./Assets/To%20be%20Scenario%20Mapping%201.png)
+
+### Segmento Dueños de playas de estacionamientos
+
+El "To-Be Scenario Mapping" para **Dueños de Playas de Estacionamientos** muestra los resultados esperados para la gestion de playas de estacionamientos brinadas por  **PARKINGNOW**.
+
+![To Be Scenario](./Assets/To%20be%20Scenario%20Mapping%202.png)
 ### 3.2. User Stories
 
 
