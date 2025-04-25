@@ -267,8 +267,6 @@ ElParking brinda a los usuarios la posibilidad de localizar, reservar y pagar po
 
 Aparcados es una aplicación enfocada en simplificar la búsqueda de estacionamientos urbanos según las necesidades del usuario. Aunque cuenta con versión web, su versión móvil es la más utilizada debido a su interfaz amigable y diseño visual atractivo, lo que la convierte en una herramienta práctica para conductores en movimiento.
 
----
-
 #### 2.1.1. Análisis competitivo
 
 A continuación, se presenta una tabla comparativa de los principales competidores a nivel internacional. Este análisis nos permitirá identificar patrones clave de funcionalidad y experiencia de usuario, con el objetivo de alinear nuestra propuesta a las preferencias reales del público objetivo.
@@ -369,7 +367,7 @@ Incluye la elaboración de preguntas principales y complementarias dirigidas a c
 
 ![alt text](Assets/conductor-balbin.jpg)
 
-Link de la entrevista:
+Link de la entrevista: https://youtu.be/8MtQq3fYY3s
 
 Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su trabajo como desarrollador web en una ONG. Esto lo obliga a buscar estacionamiento constantemente, lo cual puede tomarle entre 10 a 20 minutos, dependiendo del tráfico y la zona. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que una app con información en tiempo real sería muy útil, ya que le ahorraría tiempo y evitaría dar vueltas innecesarias. También le gustaría que la app recomiende rutas según el tráfico, lo cual considera clave para optimizar sus desplazamientos. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre que esto le garantice seguridad y cercanía. Aunque valora la seguridad, prioriza el costo y la proximidad al momento de elegir un estacionamiento. Ha vivido situaciones frustrantes, como perder tiempo en el tráfico, no encontrar espacios libres o que otro conductor le gane el lugar. Por ello, valora la posibilidad de saber en tiempo real si hay espacios disponibles e incluso recibir alertas si ocurre algo sospechoso con su vehículo.
 
@@ -380,7 +378,7 @@ Resumen: Balbín utiliza su auto todos los días para ir a la universidad y a su
 
 ![alt text](Assets/conductor-angel.jpg)
 
-Link de la entrevista: 
+Link de la entrevista: https://youtu.be/rVE1PmHttmg
 
 Resumen: Ángel utiliza su vehículo todos los días, por lo que necesita estacionamiento de forma constante. El tiempo que le toma encontrar un espacio varía según la zona y el tráfico, pudiendo tardar entre 10 a 20 minutos o más en horas punta. Actualmente no usa ninguna aplicación para encontrar estacionamiento, pero considera que sería una herramienta muy útil. Destaca que conocer la disponibilidad de espacios en tiempo real es clave, ya que le permitiría ahorrar tiempo y evitar vueltas innecesarias. Está dispuesto a pagar una tarifa adicional por reservar un espacio, siempre y cuando no sea excesiva. Al elegir un estacionamiento, valora principalmente el costo y la proximidad, dejando la seguridad en un segundo plano aunque también le parece importante. Ángel estaría muy interesado en una aplicación que le recomiende rutas hacia estacionamientos disponibles evitando el tráfico. Ha tenido experiencias frustrantes buscando estacionamiento, como perder espacios a último momento o tener que maniobrar en lugares muy estrechos. Finalmente, sugiere como mejoras la posibilidad de recibir notificaciones en tiempo real cuando se libera un espacio cercano, y también alertas de seguridad en caso de movimientos sospechosos cerca del vehículo.
 
@@ -391,7 +389,7 @@ Resumen: Ángel utiliza su vehículo todos los días, por lo que necesita estaci
 
 ![alt text](<Assets/Rodrigo 1.png>)
 
-Link de la entrevista:
+Link de la entrevista: https://youtu.be/8k2rWLyjIsQ
 
 Resumen: Rodrigo enfrenta a diario la dificultad de encontrar estacionamiento, lo que afecta su trabajo como repartidor. No usa apps especializadas, pero muestra alta disposición a utilizar una que le garantice disponibilidad en tiempo real, reserva segura y rutas optimizadas. Valora la proximidad y la rapidez. Su experiencia indica una gran oportunidad para crear una app práctica, con pagos digitales y geolocalización inteligente.
 
@@ -404,7 +402,7 @@ Resumen: Rodrigo enfrenta a diario la dificultad de encontrar estacionamiento, l
 
 ![alt text](Assets/dueño-playa-carlos.jpg)
 
-Link de la entrevista:
+Link de la entrevista: https://youtu.be/pI_iSFNsPYE
 
 Resumen: Carlos tiene 20 años y vive en La Molina, donde administra una playa de estacionamiento. Se considera organizado, resolutivo y orientado a mantener el orden, aunque admite que en momentos de alta afluencia puede resultar complicado. Respecto a la gestión del espacio, indica que el proceso suele ser sencillo, pero se complica cuando hay mucho movimiento o los conductores no respetan los espacios designados. Por ello, valora mucho contar con información en tiempo real sobre los espacios disponibles, ya que evitaría revisiones físicas constantes y mejoraría la eficiencia. Actualmente no utiliza sistemas de reserva digital, pero acepta pagos a través de Yape y Plin, que considera rápidos y populares entre sus clientes. Cree que automatizar reservas y pagos sería muy beneficioso, ya que permitiría organizar mejor los tiempos de permanencia, agilizar entradas/salidas y mantener mejor control de cobros. Carlos considera que ofrecer opciones de pago seguras y rápidas es crucial, ya que sus clientes buscan un proceso ágil y sin complicaciones. Está convencido de que una app que integre gestión de espacios y pagos le permitiría llevar un control detallado de la ocupación, ingresos diarios y brindar mayor transparencia. Entre los desafíos que enfrenta están la organización en horas pico y el seguimiento manual de pagos. Le gustaría que una app permita a los clientes indicar su tiempo de permanencia, calcule el costo automáticamente y notifique disponibilidad en tiempo real. También está interesado en reportes de ocupación y rotación para tomar mejores decisiones.
 
@@ -415,12 +413,24 @@ Resumen: Carlos tiene 20 años y vive en La Molina, donde administra una playa d
 
 ![alt text](Assets/2.png)
 
-Link de la entrevista:
+Link de la entrevista: https://youtu.be/cuG7FsIUnAQ
 
 **Resumen:**  
 Guillermina es ama de casa y también administra una playa de estacionamiento. Considera que la gestión es sencilla en general, pero se complica cuando los clientes incumplen con los pagos o solicitan descuentos injustificados. Actualmente no utiliza ningún sistema digital, pero le gustaría contar con uno que permita reservas y pagos virtuales anticipados, lo cual considera seguro y eficiente.  
 
 Destaca la importancia de ofrecer métodos de pago rápidos y confiables para evitar tiempos de espera innecesarios y asegurar atención incluso en su ausencia. Los principales desafíos que enfrenta incluyen retrasos de los clientes al recoger sus vehículos y la interferencia que esto genera en el movimiento de otros usuarios. Le gustaría que una aplicación le permita controlar mejor los tiempos de permanencia, recibir pagos por adelantado y manejar todo el proceso de forma automatizada.
+
+**Entrevistada N°3: Alexandra**  
+**Sexo:** Femenino  
+**Edad:** 21  
+**Ubicación en la que vive:** Breña, Lima, Perú  
+
+
+
+Link de la entrevista:
+
+Resumen: Alexandra actualmente se encarga del estacionamiento que antes gestionaba su madre. Aunque no cuenta con experiencia previa en administración, ha demostrado habilidades organizativas y está abierta a implementar soluciones tecnológicas. Considera que gestionar el espacio manualmente puede ser complicado, especialmente en horas pico. Le interesa contar con información en tiempo real y automatizar procesos como reservas y pagos, ya que eso facilitaría su trabajo y mejoraría la experiencia del cliente. No utiliza un sistema digital actualmente, pero está dispuesta a adoptar uno que permita recibir pagos electrónicos y genere reportes sobre ocupación y rotación. Reconoce la importancia de opciones de pago seguras y funcionalidades que le ayuden a mejorar el control y eficiencia del negocio.
+
 
 #### 2.2.3. Análisis de entrevistas
 
