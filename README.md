@@ -224,6 +224,19 @@ A continuación, cada miembro del equipo formula dos objetivos SMART que refleja
 
 ### 1.1.1. Descripción de la Startup
 
+PARKINGNOW constituye una empresa emergente del sector tecnológico orientada al desarrollo de soluciones integrales para la gestión de estacionamientos en tiempo real. Nuestra organización ha implementado una plataforma digital que posibilita a los usuarios la reserva y el pago de espacios de estacionamiento, haciendo uso de tecnologías de geolocalización y sensores infrarrojos, lo que permite una administración eficiente y automatizada de los espacios. El modelo de negocio adoptado por PARKINGNOW se caracteriza por su independencia y sostenibilidad, permitiendo atender tanto a usuarios habituales como esporádicos mediante un sistema transaccional flexible.
+La propuesta innovadora de PARKINGNOW reside en la integración de datos en tiempo real, obtenidos a través de sensores infrarrojos, con el objetivo de asegurar la disponibilidad de espacios y optimizar las rutas hacia los estacionamientos más cercanos. El sensor infrarrojo empleado detecta la presencia de vehículos al identificar la interrupción de su haz de luz; cada vez que un vehículo ocupa o desocupa un espacio, el sensor transmite una señal a la plataforma, actualizando de manera instantánea la disponibilidad, lo que contribuye a incrementar la eficiencia operativa y mejorar la experiencia del usuario.
+
+Misión
+
+Nuestra misión es fungir como nexo entre conductores y propietarios de estacionamientos, optimizando la experiencia de aparcamiento en tiempo real. PARKINGNOW facilita el acceso a espacios mediante la utilización de sensores infrarrojos, promoviendo una gestión automatizada y eficiente que incrementa la rentabilidad para los propietarios y satisface las necesidades de ambos segmentos del mercado.
+
+
+Visión
+
+Aspiramos a consolidarnos, en un horizonte de cinco años, como la plataforma líder en la administración de estacionamientos urbanos, contribuyendo a la mejora de la movilidad en las ciudades a través de soluciones tecnológicas innovadoras y sostenibles, tales como el uso de sensores infrarrojos, en beneficio tanto de los conductores como de los titulares de los espacios de estacionamiento.
+
+
 #### 1.1.2. Perfiles de integrantes del equipo
 | **Integrantes**                                                      | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                     | **Conocimientos**                                                                              |
 | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -234,23 +247,116 @@ A continuación, cada miembro del equipo formula dos objetivos SMART que refleja
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                      |
 
 ### 1.2. Solution Profile
-
+PARKINGNOW representa una propuesta tecnológica de vanguardia orientada a revolucionar la experiencia de estacionamiento en entornos urbanos. La solución consiste en una plataforma digital que posibilita a los usuarios localizar, reservar y efectuar pagos por espacios de estacionamiento en tiempo real, integrando funcionalidades de geolocalización y sensores infrarrojos. Esta tecnología permite la detección automática de la presencia de vehículos mediante la interrupción del haz de luz del sensor, lo que habilita la actualización instantánea de la disponibilidad de espacios y orienta a los conductores hacia los estacionamientos más cercanos, optimizando sus trayectos y disminuyendo el tiempo de búsqueda. De este modo, PARKINGNOW proporciona información precisa y en tiempo real, mejorando sustancialmente la experiencia de los usuarios y ofreciendo una solución integral a los desafíos del estacionamiento urbano, beneficiando tanto a conductores como a propietarios de estacionamientos.
 ### 1.2.1. Antecedentes y problemática
-
+En las ciudades caracterizadas por un elevado flujo vehicular, la ocupación indebida de espacios, la invasión de áreas peatonales y la obstrucción del tránsito son fenómenos recurrentes. Los conductores enfrentan dificultades significativas para encontrar espacios de estacionamiento, especialmente en zonas urbanas congestionadas, donde la demanda supera ampliamente la oferta y la información disponible suele ser insuficiente o desactualizada. La carencia de herramientas que permitan la reserva anticipada de espacios incrementa la frustración y prolonga el tiempo invertido en la búsqueda de estacionamiento, afectando la movilidad y la seguridad urbana.
+Con el objetivo de comprender en profundidad las necesidades de los usuarios y en consonancia con los principios de Lean UX, se realizó un análisis de antecedentes y problemática empleando la metodología de “5W’s & 2H’s”, que facilita la identificación de oportunidades para un diseño centrado en el usuario. A continuación, se sintetizan los hallazgos:
+•	What: El principal desafío que aborda PARKINGNOW es la escasez de espacios de estacionamiento adecuados, situación que induce a los conductores a estacionarse en lugares no permitidos, generando congestión y exponiéndose a sanciones o riesgos de seguridad. La falta de tecnologías avanzadas, como sensores infrarrojos, limita la gestión eficiente y en tiempo real de la disponibilidad de espacios.
+•	When: El problema se agudiza durante las horas de mayor demanda, cuando los conductores requieren espacios disponibles que cumplan con sus expectativas. Los usuarios recurren a PARKINGNOW para consultar la disponibilidad, reservar espacios, comparar tarifas y asegurarse de que el estacionamiento elegido satisfaga sus necesidades, gracias a la información proporcionada en tiempo real.
+•	Where: La problemática se manifiesta principalmente en áreas urbanas densamente pobladas, donde la escasez de estacionamientos y la falta de sistemas automatizados dificultan el acceso a información precisa y oportuna.
+•	Who: Los actores involucrados son, por un lado, los conductores que buscan estacionamientos seguros y asequibles, y por otro, los propietarios de estacionamientos interesados en optimizar la ocupación de sus espacios mediante tecnologías avanzadas como los sensores infrarrojos. El problema afecta a todo tipo de conductores, independientemente de su perfil.
+•	Why: La raíz del problema radica en la ausencia de sistemas tecnológicos avanzados en los estacionamientos tradicionales, lo que impide la comunicación en tiempo real sobre la disponibilidad de espacios y genera un desajuste entre la oferta y la demanda.
+•	How: Los usuarios pueden emplear PARKINGNOW en diversas circunstancias, como al planificar viajes, buscar estacionamientos que se ajusten a sus preferencias o durante eventos de alta concurrencia. La plataforma proporciona información en tiempo real gracias a los sensores infrarrojos, optimizando la experiencia del usuario. La difusión de la solución se realiza mediante campañas en redes sociales, destacando los beneficios de la gestión automatizada y eficiente.
+•	How much: La magnitud del problema es considerable, evidenciada por la frecuencia de robos y sanciones asociadas al estacionamiento indebido. La ausencia de tecnologías de detección, como los sensores infrarrojos, agrava estas dificultades, afectando a un amplio espectro de usuarios.
+En síntesis, PARKINGNOW se posiciona como una respuesta integral y tecnológica a los retos del estacionamiento urbano, facilitando la movilidad, reduciendo la congestión y promoviendo una gestión más eficiente y segura de los espacios disponibles.
 ### 1.2.2. Lean UX Process
+En esta sección se implementará la metodología Lean UX, cuyo alcance incluye la conceptualización del modelo de negocio que sustentará el desarrollo del producto de software propuesto. Este enfoque estratégico permite focalizar los esfuerzos en el diseño de la solución, alineado con las problemáticas identificadas mediante técnicas de design thinking.
 
 #### 1.2.2.1. Lean UX Problem Statements
-
+A continuación, se aplica el marco de Business Opportunity Statements (Gothelf, 2022) para guiar al equipo en la creación de un servicio flexible que evite limitaciones operativas, fomentando la innovación y la adaptabilidad. Esta metodología facilita la priorización de necesidades del cliente, optimizando así la fase de implementación y garantizando un lanzamiento estratégicamente estructurado.
+Plantilla de Declaración de Oportunidad de Negocio:
+•	Estado actual de [dominio]: Se ha caracterizado por un enfoque predominante en [segmentos, puntos críticos, etc.].
+•	Limitaciones de los productos/servicios existentes: No resuelven [brecha identificada].
+•	Propuesta de solución: Nuestra plataforma abordará esta problemática mediante [visión/estrategia].
+•	Segmento objetivo inicial: Implementaremos el modelo en [segmento específico].
+•	Indicadores de éxito: Se medirán mediante [comportamientos observables en la audiencia meta].
+Declaración de Problemas Lean UX para PARKINGNOW:
+•	Estado actual del sector: Los servicios de estacionamiento en entornos urbanos presentan una disponibilidad espacial reducida y carencia de sistemas de reserva anticipada, generando insatisfacción en los conductores y uso ineficiente de las infraestructuras.
+•	Deficiencias de las soluciones actuales: La ausencia de información geolocalizada en tiempo real y la falta de algoritmos para optimización de rutas hacia estacionamientos disponibles.
+•	Innovación propuesta: Una plataforma digital integrada con sensores infrarrojos para monitoreo espacial en tiempo real, combinada con un sistema de navegación inteligente para la gestión eficiente de rutas.
+•	Mercado meta inicial: Conductores en zonas metropolitanas con elevados índices de congestión vehicular, donde la demanda de soluciones innovadoras es prioritaria.
+•	Métricas de desempeño: Incremento cuantificable en reservas procesadas por la plataforma y reducción estadísticamente significativa del tiempo empleado en la búsqueda de estacionamiento.
 #### 1.2.2.2. Lean UX Assumptions
 
-**Users:**
+Usuarios:
+1.	Conductores urbanos: Individuos que requieren localizar estacionamientos disponibles en tiempo real en zonas metropolitanas con alta densidad vehicular.
+2.	Propietarios de estacionamientos: Gestores de infraestructuras de parqueo que buscan maximizar la ocupación de sus espacios mediante tecnologías de monitoreo y mejorar la interacción con clientes a través de sensores infrarrojos.
+3.	Empresas de transporte: Organizaciones que demandan soluciones logísticas eficientes para la gestión de flotas vehiculares en entornos urbanos.
+      Resultados Esperados por Usuario:
+      Segmento Conductores:
+      •	Acceso a plataforma digital: Interface intuitiva que permite identificar y reservar espacios disponibles mediante datos geolocalizados en tiempo real, respaldados por tecnología de sensores infrarrojos.
+      •	Optimización de rutas: Sistema de navegación integrado que reduce el tiempo de desplazamiento hacia estacionamientos disponibles.
+      •	Transparencia operativa: Visualización previa de disponibilidad espacial y estructura tarifaria antes de llegar al destino.
+      Segmento Propietarios:
+      •	Ampliación de audiencia: Herramientas de marketing digital integradas para captar mayor volumen de conductores.
+      •	Centralización de operaciones: Plataforma unificada para administrar reservas, comunicaciones y análisis de ocupación mediante sensores inteligentes.
+      •	Eficiencia operacional: Módulos analíticos predictivos para optimizar la tasa de utilización de espacios.
+      Supuestos de Negocio:
+1.	Demanda validada: Existencia de una necesidad creciente en entornos urbanos por soluciones tecnológicas que optimicen la gestión de estacionamientos.
+2.	Propuesta de valor diferenciada: Desarrollo de una plataforma competitiva basada en datos en tiempo real y sensórica avanzada, mejorando la experiencia dual (conductores-propietarios).
+3.	Atributos priorizados: Los usuarios valorarán la eficiencia operativa, transparencia en la información y reducción de fricciones en el proceso de estacionamiento.
+      Supuestos de Usuarios:
+1.	Perfil de usuarios:
+      •	Conductores: Individuos que priorizan seguridad, conveniencia y ahorro temporal en su movilidad urbana.
+      •	Propietarios: Actores económicos enfocados en maximizar rentabilidad mediante tecnologías de gestión moderna.
+2.	Integración en rutinas: Adopción de la plataforma como herramienta habitual para resolver necesidades críticas de estacionamiento, minimizando tiempos muertos.
+3.	Problemáticas abordadas:
+      •	Falta de información actualizada sobre disponibilidad de espacios.
+      •	Ineficiencias en la planificación de rutas hacia estacionamientos.
+4.	Posicionamiento deseado: Proyectar una imagen de innovación tecnológica, confiabilidad operativa y liderazgo en soluciones de movilidad urbana.
+5.	Propósito central: Simplificar los procesos de búsqueda, reserva y administración de espacios de estacionamiento mediante herramientas digitales especializadas.
+6.	Funcionalidades clave:
+      •	Búsqueda georeferenciada con actualización en tiempo real.
+      •	Sistema de reservas instantáneas con confirmación automatizada.
+      •	Algoritmos de optimización de rutas y análisis predictivos para gestores.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+Para la formulación de hipótesis se empleó el marco Lean UX estructurado en tres componentes: [Creemos que], [Esto logrará] y [Lo validaremos cuando].
+Hipótesis 1:
+Supuesto base: Al optimizar el proceso de búsqueda y reserva de estacionamientos mediante sensores infrarrojos, anticipamos un incremento del 30 % en la tasa de usuarios recurrentes durante los primeros seis meses postimplementación.
+Métrica de validación: Aumento cuantificable del 30 % en reservas realizadas por usuarios recurrentes dentro del mismo período.
+Hipótesis 2:
+Supuesto base: La implementación de un sistema de notificaciones en tiempo real basado en sensores infrarrojos reducirá en un 20% el tiempo promedio destinado a la búsqueda de estacionamiento.
+Métrica de validación: Disminución estadísticamente significativa del 20% en el tiempo invertido por los usuarios en dicha actividad.
+Hipótesis 3:
+Supuesto base: La introducción de descuentos exclusivos para usuarios frecuentes generará una conversión del 25% de usuarios ocasionales a regulares en los primeros seis meses.
+Métrica de validación: Incremento del 25% en usuarios que utilizan la plataforma con frecuencia mensual recurrente.
+Hipótesis 4:
+Supuesto base: La mejora en los algoritmos de optimización de rutas, alimentados por datos de sensores infrarrojos, elevará los índices de satisfacción y reducirá la frustración asociada al proceso de búsqueda.
+Métrica de validación: Ascenso en las puntuaciones de satisfacción en encuestas y disminución de reclamos relacionados con esta problemática.
+Hipótesis 5:
+Supuesto base: Un programa de fidelización con incentivos por uso continuo aumentará la retención de clientes en un 30% y potenciará el crecimiento orgánico mediante referidos.
+Métrica de validación: Crecimiento del 30 % en retención y aumento cuantificable en adquisiciones derivadas de recomendaciones.
 
 ##### 1.2.2.4. Lean UX Canvas
+El Lean UX Canvas de PARKINGNOW identifica problemáticas críticas:
+•	Para conductores: Dificultades en localización de espacios disponibles.
+•	Para propietarios: Subutilización de infraestructuras y gestión operativa ineficiente.
+Soluciones propuestas:
+•	Tecnología de sensores infrarrojos para monitoreo en tiempo real.
+•	Sistema de reservas anticipadas con integración geolocalizada.
+•	Métricas de validación: Indicadores cuantitativos (ocupación, tiempo de búsqueda) y cualitativos (satisfacción).
 
+![canvas](Assets/canvas.png)
+Fuente: Metodologías Lean UX (Gothelf, 2022).
 ### 1.3. Segmentos objetivo
-
+1.3.1. Conductores Urbanos Frecuentes
+•	Demografía:
+•	Género: Masculino y femenino.
+•	Grupos etarios: Jóvenes adultos (18-34 años), adultos medios (35-54 años), adultos mayores (55+ años).
+•	Nivel socioeconómico: Clases B, C y D (media-alta, media, baja).
+•	Beneficios clave:
+•	Reducción de tiempo y estrés mediante reservas en tiempo real.
+•	Seguridad vehicular garantizada por sensores de monitoreo.
+1.3.2. Propietarios de Estacionamientos
+•	Demografía:
+•	Género: Masculino y femenino.
+•	Grupos etarios: Jóvenes adultos (18-34 años), adultos medios (35-54 años), adultos mayores (55+ años).
+•	Nivel socioeconómico: Clases B y C (media-alta y media).
+•	Beneficios clave:
+•	Gestión de datos: Herramientas analíticas para optimizar ocupación y precios.
+•	Automatización: Simplificación de procesos de pago y asignación de espacios.
+•	Formalización: Digitalización de operaciones para reducir prácticas informales.
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
