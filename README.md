@@ -878,48 +878,44 @@ En esta sección se aborda el diseño táctico de ParkingNow, desglosando las ca
 #### 4.2.1. Bounded Context: Parking Space Management Context
 
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario, explicando para cada una su nombre, propósito y la documentación de atributos y métodos considerados, junto con las relaciones entre ellas.
+
 #### 4.2.1.1. Domain Layer
 El núcleo de este Bounded Context (BC) gira en torno al Aggregate Espacio.
 
 - **Aggregates:** 
   - `espacioId` (identidad)      
-  - `camaraId`, `localId` (referencias)
+  - `sensorId`, `localId` (referencias)
     
   - `descripcion`, `ubicacion` (detalles)
         
   - `estadoEspacio` (estado actual)
         
 - **Métodos:**  
-    `ocupar()`, `liberar()`, `marcarReservado()`, `marcarDisponible()`, `ponerEnMantenimiento()`, `actualizarEstadoPorCamara()`
+    `ocupar()`, `liberar()`, `marcarReservado()`, `marcarDisponible()`, `ponerEnMantenimiento()`, `actualizarEstadoPorSensor()`
+
 
 - **Value Objects:** 
-  - `EspacioId`, `CamaraId`, `LocalId`
+- `EspacioId`, `SensorId`, `LocalId`
     
-  - `EstadoEspacio`: Disponible, Ocupado, Reservado, EnMantenimiento
+- `EstadoEspacio`: Disponible, Ocupado, Reservado, EnMantenimiento
     
-  - `UbicacionEspacio`: Detalles de ubicación
+- `UbicacionEspacio`: Detalles de ubicación
+    
+- **Domain Services:** `VerificacionEstadoActualService` contiene la lógica para consultar el estado consolidado de uno o más espacios, útil para capas superiores o read models.
 
-- **Domain Services:** 
-  - `VerificacionEstadoActualService` contiene la lógica para consultar el estado consolidado de uno o más espacios, útil para capas superiores o read models.
-
-- **Repositories:** 
-  - `IEspacioRepository` (interfaz) define cómo se guardan y recuperan los Aggregates `Espacio`.
+- **Repositories:** `IEspacioRepository` (interfaz) define cómo se guardan y recuperan los Aggregates `Espacio`.
 
 #### 4.2.1.2. Interface Layer
 
 Esta capa permite la interacción externa con el Bounded Context.
-
 - **Controller:**  
-    - `EspacioController` expone endpoints REST (ej. `GET /espacios/{id}`, `PUT /espacios/{id}/ocupar`)
-
+    `EspacioController` expone endpoints REST (ej. `GET /espacios/{id}`, `PUT /espacios/{id}/ocupar`)
+    
 - **Event Consumers:**  
-    - Escuchan eventos externos como actualizaciones desde cámaras o cancelaciones de reserva.
-
+    Escuchan eventos externos como actualizaciones desde sensores o cancelaciones de reserva.
+    
 - **Event Producers:**  
-    - Publican eventos cuando el estado de un espacio cambia (ej. `EspacioOcupadoEvent`).
-
-- **External Adapters:**
-    - `CamaraIntegrationService`: Comunicación con cámaras.
+    Publican eventos cuando el estado de un espacio cambia (ej. `EspacioOcupadoEvent`).
 
 #### 4.2.1.3. Application Layer
 
@@ -956,16 +952,19 @@ Esta capa permite la interacción externa con el Bounded Context.
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 
-Este diagrama representa **cómo está compuesto internamente un container**, en este caso el container `Parking Space Management Context`.
+Este diagrama representa cómo está compuesto internamente un container, en este caso el container del contexto **Parking Space Monitoring**.
 
-- Los **components principales** (capas: interfaz, aplicación, dominio, infraestructura).
-    
-- Las **interacciones entre ellos**.
-    
-- Las **responsabilidades** de cada uno.
+Incluye:
 
-![ParkingSpaceManagementContext-level-Diagrams](Assets/chapter-4/structurizr-Component-bc1.png)
+- **Componentes principales:** Interface Layer, Application Layer, Domain Layer, Infrastructure Layer.
+- **Interacciones internas** entre capas, donde cada una cumple una función especializada dentro del flujo de ejecución.
+- **Responsabilidades de cada capa:**
+  - **Interface Layer:** expone endpoints REST y consume/produce eventos externos.
+  - **Application Layer:** coordina la ejecución de casos de uso mediante comandos, eventos y consultas.
+  - **Domain Layer:** contiene las reglas de negocio, entidades, agregados, servicios de dominio y value objects.
+  - **Infrastructure Layer:** conecta con sistemas externos como bases de datos, message brokers y servicios visuales de monitoreo por cámaras.
 
+![alt text](Assets/w1.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -975,13 +974,13 @@ Esta seccion se presenta las implementaciones de componentes y explica las secci
 
 Aquí se muestra el diseño de clases del Domain Layer, centrado en el agregado Espacio, sus Value Objects, servicios de dominio y repositorio.
 
-![ParkingSpaceManagementContext-LayerClassDiagrams](Assets/chapter-4/class-diagram-bc1.png)
+![alt text](Assets/w2.png)
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 Representación del modelo relacional para la persistencia del agregado Espacio.
 
-![ParkingSpaceManagementContext-DatabaseDesignDiagram](Assets/chapter-4/espacios-aggregate.png)
+![alt text](Assets/w3.png)
 
 #### 4.2.2. Bounded Context: Reservation Management Context
 
@@ -1027,7 +1026,7 @@ Esta capa contiene los elementos principales del dominio:
 
 El presente diagrama representa la descomposición a nivel de componentes del Reservation Management Context, respetando los principios de Domain-Driven Design. Cada container ha sido dividido en componentes con responsabilidades claras y cohesionadas, permitiendo identificar cómo interactúan entre sí dentro de la arquitectura hexagonal. Este enfoque permite separar los flujos de comando, consulta y eventos, facilitando el mantenimiento, evolución e integración del sistema con otros bounded contexts como ParkingSpace y Payment.
 
-![ReservationManagementContext-ComponentLevelDiagrams](Assets/chapter-4/structurizr-Component-bc2.png)
+![alt text](Assets/w4.png)
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1037,14 +1036,13 @@ En esta sección se presentan los diagramas detallados a nivel de implementació
 
 A continuación, se describe el diagrama de clases UML para el Domain Layer del contexto de gestión de reservas:
 
-![ReservationManagementContext-DomainLayerClassDiagrams](Assets/chapter-4/class-diagram-bc2.png)
+![alt text](Assets/w5.png)
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 El siguiente diagrama representa el modelo relacional utilizado para la persistencia de información del contexto de reservas.
 
-![ReservationManagementContext-DatabaseDesignDiagram](Assets/chapter-4/reservas-aggregate.png)
-
+![alt text](Assets/w6.png)
 
 ### 4.2.3. Bounded Context: User Management Context
 
@@ -1157,7 +1155,7 @@ Esta capa contiene los conceptos esenciales del dominio de usuarios:
 
 En esta sección se presentan los Component Diagrams del Modelo C4 para el Container User Management API, el cual forma parte del Bounded Context User Management Context. Este Container es responsable de manejar las operaciones relacionadas con la autenticación, registro, gestión de roles, perfiles de usuario y asociación de vehículos o estacionamientos.
 
-![UserManagement-ComponentLevelDiagrams](Assets/chapter-4/structurizr-Component-bc3.png)
+![alt text](Assets/w7.png)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1167,13 +1165,13 @@ Esta sección detalla la implementación de los componentes principales del User
 
 Este diagrama representa la estructura del Domain Layer, mostrando las entidades, objetos de valor, agregados, servicios de dominio, interfaces de repositorio, y otras clases relevantes con sus atributos, métodos, visibilidades y relaciones.
 
-![UserManagement-LayerClassDiagrams](Assets/chapter-4/domainLayer-User-bc3.png)
+![alt text](Assets/w8.png)
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 
 Este diagrama representa la estructura de la base de datos relacional para este contexto. Se definen las tablas, columnas, tipos de datos, claves primarias/foráneas y relaciones.
 
-![UserManagement-LayerClassDiagrams](Assets/chapter-4/user-db.png)
+![alt text](Assets/w9.png)
 
 #### 4.2.4. Bounded Context: Local Context
 
@@ -1220,7 +1218,7 @@ En esta sección se describen las clases clave que conforman la lógica del cont
 
 En esta sección se presenta el Component Diagram para el Bounded Context: Local Context, utilizando el C4 Model. Este diagrama muestra la descomposición del Container de gestión de locales en componentes clave, sus responsabilidades y las interacciones entre ellos. El diagrama refleja cómo los diferentes componentes trabajan juntos dentro del contexto de locales, incluyendo el manejo de tarifas, promociones, opiniones y más.
 
-![LocalContext-ComponentLevelDiagrams](Assets/chapter-4/structurizr-Component-bc4.png)
+![alt text](Assets/w10.png)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1230,13 +1228,13 @@ En esta sección, se presentan y explican los diagramas que muestran un mayor ni
 
 En esta sección se presenta el Class Diagram en UML para las clases del Domain Layer dentro del Bounded Context: Local Context. El diagrama incluirá las clases clave, interfaces, enumeraciones, atributos, métodos y sus relaciones, detallando también el scope de cada miembro (public, private, protected) y la multiplicidad de las relaciones. Este diagrama describe con precisión la estructura de las entidades y objetos de valor que componen el modelo de dominio, así como los servicios de dominio involucrados.
 
-![LocalContext-ComponentLevelDiagrams](Assets/chapter-4/domainLayer-local-bc4.png)
+![alt text](Assets/w11.png)
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
 En esta sección, se presenta el Database Diagram que detalla los objetos de base de datos para la persistencia de la información en el contexto de locales. El diagrama incluirá las tablas y columnas relevantes, así como las constraints (como claves primarias y foráneas), y mostrará las relaciones entre las tablas que permiten almacenar los datos de los Local, Tarifa, Promocion, Opinion, entre otros.
 
-![LocalContext-DatabaseDesignDiagram](Assets/chapter-4/db-local.png)
+![alt text](Assets/w12.png)
 
 #### 4.2.5. Bounded Context: Security Context
 
@@ -1278,8 +1276,7 @@ En esta sección se describen las clases clave que conforman la lógica del cont
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-![SecurityContext-ComponentLevelDiagrams](Assets/chapter-4/structurizr-Component-bc5.png)
-
+![alt text](Assets/w13.png)
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
 En esta sección, se presentan y explican los diagramas que muestran un mayor nivel de detalle sobre la implementación de los componentes dentro del Bounded Context: Security Context. Estos diagramas proporcionan una visión más técnica y detallada de cómo se implementan los componentes en el código, con énfasis en las clases del Domain Layer y la estructura de la base de datos.
@@ -1288,14 +1285,14 @@ En esta sección, se presentan y explican los diagramas que muestran un mayor ni
 
 Este diagrama representa las principales clases del Domain Layer del Security Context. Incluye entidades, objetos de valor, servicios de dominio e interfaces de repositorio, y muestra sus relaciones, métodos y atributos clave. Este nivel de modelado facilita entender cómo se organiza la lógica del negocio centrada en la gestión de políticas de seguridad, eventos de auditoría y control de acceso.
 
-![SecurityContext-DomainLayerClassDiagrams](Assets/chapter-4/domainLayer-Seguridad.png)
+![alt text](Assets/w14.png)
 
 
 #### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 El siguiente diagrama describe el esquema de base de datos relacional para el Security Context. Se enfoca en las tablas que almacenan políticas de seguridad y registros de eventos de auditoría, con detalles como claves primarias, tipos de datos, y relaciones entre las entidades. Este modelo garantiza una estructura persistente coherente con las necesidades del dominio.
 
-![SecurityContext-DatabaseDesignDiagram](Assets/chapter-4/security-db-diagram.png)
+![alt text](Assets/w15.png)
 
 #### 4.2.6. Bounded Context: Support Context
 
@@ -1340,7 +1337,7 @@ En esta sección se describen las clases clave relacionadas con el servicio de s
 
 El diagrama de componentes del Support Context muestra cómo está estructurado internamente el contenedor encargado de gestionar las asesorías y solicitudes de soporte. Se identifican componentes de entrada (como controladores REST), servicios de aplicación para gestión y consulta de asesorías, lógica de dominio como la asignación de asesores, e integración con infraestructura (repositorios, adaptadores y eventos). Este desglose facilita la comprensión de responsabilidades, dependencias y puntos de integración con otros bounded contexts o sistemas externos.
 
-![SupportContext-ComponentLevelDiagrams](Assets/chapter-4/structurizr-Component-bc6.png)
+![alt text](Assets/w16.png)
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1350,13 +1347,13 @@ Esta sección presenta una descripción detallada de la implementación interna 
 
 El siguiente diagrama de clases representa la estructura del Domain Layer del Support Context. Aquí se modelan las clases, interfaces y objetos de valor que encapsulan la lógica de negocio, así como sus relaciones, atributos y métodos. Esta capa es fundamental para mantener la lógica independiente de frameworks o tecnologías externas.
 
-![SupportContext-DomainLayerClassDiagrams](Assets/chapter-4/dominLayer-Support.png)
+![alt text](Assets/w17.png)
 
 #### 4.2.6.6.2. Bounded Context Database Design Diagram
 
 Este diagrama muestra la representación de las entidades persistidas en base de datos para el Support Context. Define las tablas, columnas, claves primarias, claves foráneas y relaciones, modelando la estructura relacional necesaria para almacenar asesorías y datos de asesores.
 
-![SupportContext-DatabaseDesignDiagram](Assets/chapter-4/asesoria-db.png)
+![alt text](Assets/w18.png)
 
 #### 4.2.7. Bounded Context: Notification Context
 
@@ -1400,7 +1397,7 @@ En esta sección se describen las clases clave relacionadas con la gestión de n
 
 El siguiente diagrama muestra la descomposición del container Notification Context, que es responsable de gestionar el envío de notificaciones y alertas en el sistema. Este contexto incluye componentes de control, servicios de aplicación, servicios de dominio y adaptadores de infraestructura. El diagrama refleja cómo interactúan estos componentes para procesar solicitudes, generar eventos y distribuir notificaciones en tiempo real a través de diferentes canales como email o notificaciones push.
 
-![NotificationContext-ComponentLevelDiagrams](Assets/chapter-4/structurizr-Component-bc7.png)
+![alt text](Assets/w19.png)
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1408,13 +1405,14 @@ El siguiente diagrama muestra la descomposición del container Notification Cont
 
 Este diagrama representa las clases, interfaces, value objects y servicios del Domain Layer del Notification Context. El objetivo es mostrar cómo se organiza el modelo de dominio alrededor de los aggregate roots Notificacion y Alerta, los servicios de dominio asociados, y cómo se estructuran las entidades e interfaces de repositorio. Se incluyen atributos, métodos, relaciones, visibilidad, y multiplicidades conforme al estándar de UML.
 
-![NotificationContext-DomainLayerClassDiagrams](Assets/chapter-4/domainLayer-Notification.png)
+![alt text](Assets/w20.png)
 
 #### 4.2.7.6.2. Bounded Context Database Design Diagram
 
 El siguiente diagrama de base de datos representa las tablas que sustentan la persistencia del Notification Context. Cada entidad del modelo de dominio tiene una tabla asociada, con claves primarias y foráneas que mantienen la integridad referencial entre notificaciones, alertas y destinatarios. Se describe la estructura de columnas y constraints principales de la base de datos relacional utilizada.
 
-![NotificationContext-DatabaseDesignDiagram](Assets/chapter-4/notification-db.png)
+![alt text](Assets/w21.png)
+
 
 
 ### Conclusiones y recomendaciones
