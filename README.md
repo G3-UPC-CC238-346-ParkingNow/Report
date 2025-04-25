@@ -763,15 +763,28 @@ El **To-Be Scenario Mapping** para **Dueños de Estacionamientos** establece el 
 
 ### 4.1. Strategic-Level Domain-Driven Design
 
+Esta sección describe el proceso de diseño estratégico aplicado al dominio del sistema, con el fin de identificar los límites naturales de los subsistemas que forman parte de la solución. A través de herramientas como EventStorming, Bounded Context Canvas y Context Mapping, se busca descomponer el sistema en áreas coherentes y bien delimitadas, facilitando una arquitectura modular y orientada al negocio.
+
 #### 4.1.1. EventStorming
+
+EventStorming es una técnica colaborativa utilizada para explorar y comprender el dominio del problema mediante la identificación de eventos clave, acciones del sistema (comandos), actores externos y entidades centrales (aggregates). En esta sección se presentan los resultados de la sesión de EventStorming, la cual permitió mapear los flujos de interacción entre usuarios y sistemas, y sentar las bases para el diseño de los Bounded Contexts en etapas posteriores del proyecto.
+
+
+<p align="center"><em>EventStorming - Paso 1: Domain Events</em></p>
 
 ![alt text](Assets/event1.png)
 
+<p align="center"><em>EventStorming - Paso 2: Commands</em></p>
+
 ![alt text](Assets/event2.png)
+
+<p align="center"><em>EventStorming - Paso 3: Aggregates</em></p>
 
 ![alt text](Assets/event3.png)
 
-![alt text](Assets/event4.png)
+<p align="center"><em>EventStorming - Paso 0: External Systems</em></p>
+
+![alt text](Assets/camaras.png)
 
 ##### 4.1.1.1. Candidate Context Discovery
 ##### 4.1.1.2. Domain Message Flows Modeling
