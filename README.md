@@ -796,6 +796,12 @@ Se utilizó la técnica de Event Storming para descubrir separaciones naturales 
 Aquí se modelaron los flujos de mensajes entre los bounded contexts detectados.  
 Se aplicó Domain Storytelling para visualizar los eventos críticos como la actualización del estado de espacios, la confirmación de reservas y la notificación de disponibilidad a los usuarios.
 
+![alt text](Assets/11.png)
+
+![alt text](Assets/111.png)
+
+![alt text](Assets/1111.png)
+
 ##### 4.1.1.3. Bounded Context Canvases
 
 En esta sección se presentan los Bounded Context Canvases desarrollados para ParkingNow.  
@@ -960,192 +966,332 @@ Aquí se muestra el diseño de clases del Domain Layer, centrado en el agregado 
 Representación del modelo relacional para la persistencia del agregado Espacio.
 
 ![alt text](Assets/espacio.png)
-
-### 4.2.2. Bounded Context: Reservation Management Context
-
-En esta sección se describen las clases clave que conforman la lógica del contexto de Reservas, su propósito, atributos, métodos y relaciones.
-
-#### 4.2.2.1. Domain Layer
-
-Aggregate Root: **Reserva**, gestiona las reglas del negocio en torno al flujo de estados de la reserva y coordina entidades hijas.  
-Entities: **RegistroTiempo**, se utiliza para registrar los hitos temporales relevantes.  
-Value Objects: **ReservaId, PeriodoReserva, EstadoReserva, EspacioId, VehiculoId, UsuarioId, MultaExceso**.  
-Domain Services: **ValidacionDisponibilidadPeriodoService** (verifica disponibilidad de espacios);  
-**CalculoTiempoUsoService** y **DeterminacionMultaService** (manejan lógica temporal y penalidades).  
-Repository Interfaces: **IReservaRepository**, contrato para persistencia y recuperación de Reserva.
-
-#### 4.2.2.2. Interface Layer
-
-REST Controller: **ReservaController**, expone endpoints para manejar reservas (crear, consultar, cancelar, check-in/out).  
-Event Listeners: Responden a eventos como **EspacioDisponibleEvent, PagoCompletadoEvent**, etc.  
-Event Publishers: Publican eventos del dominio como **ReservaConfirmadaEvent, CheckOutRegistradoEvent**.
-
-#### 4.2.2.3. Application Layer
-
-Command Services: **GestionReservaCommandService**, orquesta flujos a partir de comandos como **CrearReservaCommand**.  
-Query Services: **ConsultaReservasQueryService**, consultas optimizadas sobre historial o estado actual.
-
-#### 4.2.2.4. Infrastructure Layer
-
-Repository Implementations: **ReservaJpaRepository**, implementación concreta para IReservaRepository.  
-Messaging: **Brokers** para emitir y consumir eventos.  
-Adapters (ACL): Adaptación hacia otros BCs como **ParkingSpaceServiceAdapter**, **PaymentServiceAdapter**, garantizando acoplamiento bajo.
-
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams
-
-El diagrama representa la descomposición a nivel de componentes del Reservation Management Context según el modelo hexagonal.
-
-`ReservationManagementContext-ComponentLevelDiagrams`
-
-#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
-
-##### 4.2.2.6.1. Domain Layer Class Diagrams
-
-`ReservationManagementContext-DomainLayerClassDiagrams`
-
-##### 4.2.2.6.2. Database Design Diagram
-
-`ReservationManagementContext-DatabaseDesignDiagram`
-
----
-
 ### 4.2.3. Bounded Context: User Management Context
 
-Se describe la estructura del User Management Context centrado en la gestión de usuarios.
+En esta sección se describe la estructura del User Management Context del sistema ParkingNow, centrado en la gestión de los usuarios: Conductores y Locales. Se detallan las clases principales, servicios, eventos y capas de arquitectura involucradas.
 
 #### 4.2.3.1. Domain Layer
 
-Aggregate Root: **Usuario**, representa a un usuario del sistema.  
-Entities: **Perfil**, **Credenciales**, **Vehiculo**, **Estacionamiento**, **Rol**.  
-Value Objects: **UsuarioId**, **Email**, **Password**, **NombreCompleto**, **Telefono**, **Direccion**, **RolUsuario**.  
-Domain Services: **AutenticacionDomainService**, **AutorizacionDomainService**.  
-Repository Interfaces: **IUsuarioRepository**
+Esta capa contiene los conceptos esenciales del dominio de usuarios:
+
+- **Aggregate Root**:  
+  - Usuario: Representa a un usuario del sistema, ya sea conductor o dueño del local. Gestiona su identidad, credenciales, rol, perfil y relaciones con vehículos o locales.
+
+- **Entities**:  
+  - Perfil: Datos personales del usuario (nombre, correo, teléfono, dirección).
+  - Credenciales: Información de inicio de sesión (email y contraseña).
+  - Vehiculo: Asociado a conductores (marca, modelo, tipo y placa).
+  - Local: Asociado a dueños de estacionamiento (ubicación, capacidad y disponibilidad).
+  - Rol: Tipo de usuario (Conductor o Dueño del Local).
+
+- **Value Objects**:  
+  - UsuarioId, Email, Password, NombreCompleto, Telefono, Direccion, RolUsuario.
+
+- **Domain Services**:  
+  - AutenticacionDomainService: Lógica de autenticación de usuarios.
+  - AutorizacionDomainService: Control de permisos de usuarios.
+
+- **Repository Interfaces**:  
+  - IUsuarioRepository: Persistencia del aggregate Usuario.
 
 #### 4.2.3.2. Interface Layer
 
-REST Controller: **UsuarioController**  
-Event Listeners: **EstacionamientoRegistradoEventListener**, **VehiculoRegistradoEventListener**  
-Event Publishers: **UsuarioRegistradoEvent**, **VehiculoAsociadoEvent**, **EstacionamientoAsociadoEvent**
+- **REST Controller**:  
+  - UsuarioController: Registro, login, modificación de perfil, gestión de roles, asociación de vehículos o locales.
+
+- **Event Listeners**:  
+  - EstacionamientoRegistradoEventListener.
+  - VehiculoRegistradoEventListener.
+
+- **Event Publishers**:  
+  - UsuarioRegistradoEvent, VehiculoAsociadoEvent, EstacionamientoAsociadoEvent.
 
 #### 4.2.3.3. Application Layer
 
-Command Services: **GestionUsuarioCommandService**  
-Query Services: **ConsultaUsuarioQueryService**  
-Event Handlers: **UsuarioEventHandler**
+- **Command Services**:  
+  - GestionUsuarioCommandService (RegistrarUsuarioCommand, AsociarVehiculoCommand, AsociarEstacionamientoCommand, CambiarRolCommand).
+
+- **Query Services**:  
+  - ConsultaUsuarioQueryService.
+
+- **Event Handlers**:  
+  - UsuarioEventHandler.
 
 #### 4.2.3.4. Infrastructure Layer
 
-Repository Implementations: **UsuarioJpaRepository**  
-Messaging: **Kafka**, **RabbitMQ**  
-Adapters (ACL): **TokenService**, **HashingService**, **ParkingServiceAdapter**, **VehicleServiceAdapter**
+- **Repository Implementations**:  
+  - UsuarioJpaRepository (JPA/ORM).
+
+- **Messaging**:  
+  - Kafka, RabbitMQ.
+
+- **Adapters (ACL)**:  
+  - TokenService, HashingService, ParkingServiceAdapter, VehicleServiceAdapter.
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams
 
-`UserManagement-ComponentLevelDiagrams`
+UserManagement-ComponentLevelDiagrams.
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.3.6.1. Domain Layer Class Diagrams
+- **Bounded Context Domain Layer Class Diagrams**:  
+  - UserManagement-LayerClassDiagrams.
 
-`UserManagement-LayerClassDiagrams`
-
-##### 4.2.3.6.2. Database Design Diagram
-
-`UserManagement-LayerClassDiagrams`
-
----
+- **Bounded Context Database Design Diagram**:  
+  - UserManagement-LayerClassDiagrams.
 
 ### 4.2.4. Bounded Context: Local Context
 
-Este contexto gestiona la lógica de locales, tarifas y promociones.
+En esta sección se describen las clases clave que conforman la lógica del contexto de Locales.
 
 #### 4.2.4.1. Domain Layer
 
-Aggregate Root: **Local**  
-Entities: **Tarifa**, **Promocion**, **Opinion**  
-Value Objects: **LocalId**, **UbicacionFisica**  
-Domain Services: **CalculoTarifaAplicableService**, **CalculoCalificacionPromedioService**  
-Repository Interfaces: **ILocalRepository**
+- **Aggregate Root**:  
+  - Local.
+
+- **Entities**:  
+  - Tarifa, Promocion, Opinion.
+
+- **Value Objects**:  
+  - LocalId, UbicacionFisica.
+
+- **Domain Services**:  
+  - CalculoTarifaAplicableService, CalculoCalificacionPromedioService.
+
+- **Repository Interfaces**:  
+  - ILocalRepository.
 
 #### 4.2.4.2. Interface Layer
 
-REST Controller: **LocalController**  
-Event Listeners: **UsuarioRegistradoEvent**  
-Event Publishers: **LocalRegistradoEvent**, **PromocionActivaEvent**
+- **REST Controller**:  
+  - LocalController.
+
+- **Event Listeners**:  
+  - UsuarioRegistradoEventListener.
+
+- **Event Publishers**:  
+  - LocalRegistradoEvent, PromocionActivaEvent.
 
 #### 4.2.4.3. Application Layer
 
-Command Services: **GestionLocalCommandService**  
-Query Services: **ConsultaLocalQueryService**
+- **Command Services**:  
+  - GestionLocalCommandService.
+
+- **Query Services**:  
+  - ConsultaLocalQueryService.
 
 #### 4.2.4.4. Infrastructure Layer
 
-Repository Implementations: **LocalJpaRepository**  
-Messaging: Brokers  
-Adapters (ACL): **GeoServiceAdapter**, **UserServiceAdapter**
+- **Repository Implementations**:  
+  - LocalJpaRepository.
+
+- **Messaging**:  
+  - Brokers de eventos.
+
+- **Adapters (ACL)**:  
+  - GeoServiceAdapter, UserServiceAdapter.
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams
 
-`LocalContext-ComponentLevelDiagrams`
+LocalContext-ComponentLevelDiagrams.
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.4.6.1. Domain Layer Class Diagrams
+- **Bounded Context Domain Layer Class Diagrams**:  
+  - LocalContext-ComponentLevelDiagrams.
 
-`LocalContext-ComponentLevelDiagrams`
-
-##### 4.2.4.6.2. Database Design Diagram
-
-`LocalContext-DatabaseDesignDiagram`
-
----
+- **Bounded Context Database Design Diagram**:  
+  - LocalContext-DatabaseDesignDiagram.
 
 ### 4.2.5. Bounded Context: Security Context
 
-Gestión de políticas, niveles de seguridad y auditoría.
+En esta sección se describen las clases clave relacionadas con la lógica de seguridad.
 
 #### 4.2.5.1. Domain Layer
 
-Aggregate Root: **Seguridad**  
-Entities: **RegistroSeguridad**  
-Value Objects: **SecurityType**, **SecurityLevel**, **DatosAuditoria**  
-Domain Services: **AuthorizationService**, **AuditingService**  
-Repository Interfaces: **ISecurityPolicyRepository**, **ISecurityLogRepository**
+- **Aggregate Root**:  
+  - Seguridad.
+
+- **Entities**:  
+  - RegistroSeguridad.
+
+- **Value Objects**:  
+  - SecurityType, SecurityLevel, DatosAuditoria.
+
+- **Domain Services**:  
+  - AuthorizationService, AuditingService.
+
+- **Repository Interfaces**:  
+  - ISecurityPolicyRepository, ISecurityLogRepository.
 
 #### 4.2.5.2. Interface Layer
 
-REST Controller: APIs de configuración de políticas  
-Event Listeners: **AccessDeniedEvent**, **SecurityEventLoggedEvent**  
-Event Publishers: **SecurityEventLoggedEvent**, **AccessDeniedEvent**
+- **REST Controller**:  
+  - APIs de configuración de políticas y auditoría.
+
+- **Event Listeners**:  
+  - AccessDeniedEventListener, SecurityEventLoggedListener.
+
+- **Event Publishers**:  
+  - SecurityEventLoggedEvent, AccessDeniedEvent.
 
 #### 4.2.5.3. Application Layer
 
-Command Services: **SecurityPolicyCommandService**  
-Query Services: **SecurityLogQueryService**
+- **Command Services**:  
+  - SecurityPolicyCommandService.
+
+- **Query Services**:  
+  - SecurityLogQueryService.
 
 #### 4.2.5.4. Infrastructure Layer
 
-Repository Implementations: JPA  
-Messaging: Brokers  
-Adapters (ACL): Servicios de integración con sistemas externos de monitoreo
+- **Repository Implementations**:  
+  - Repositorios JPA para seguridad.
+
+- **Messaging**:  
+  - Brokers de eventos.
+
+- **Adapters (ACL)**:  
+  - Sistemas de logging y monitoreo.
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
-`SecurityContext-ComponentLevelDiagrams`
+SecurityContext-ComponentLevelDiagrams.
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
-##### 4.2.5.6.1. Domain Layer Class Diagrams
+- **Bounded Context Domain Layer Class Diagrams**:  
+  - SecurityContext-DomainLayerClassDiagrams.
 
-`SecurityContext-DomainLayerClassDiagrams`
+- **Bounded Context Database Design Diagram**:  
+  - SecurityContext-DatabaseDesignDiagram.
 
-##### 4.2.5.6.2. Database Design Diagram
+### 4.2.6. Bounded Context: Support Context
 
-`SecurityContext-DatabaseDesignDiagram`
+En esta sección se describen las clases clave relacionadas con la atención al cliente y asesorías.
 
----
+#### 4.2.6.1. Domain Layer
 
-¿Quieres que te pase también los puntos `4.2.6` (Support) y `4.2.7` (Notification) en el mismo formato para seguir completándolo?
+- **Aggregate Root**:  
+  - Asesoria.
+
+- **Entities**:  
+  - Asesor.
+
+- **Value Objects**:  
+  - AsesoriaId, RazonAsesoria, PeriodoAsesoria, EstadoAsesoria, AsesorId, UsuarioId.
+
+- **Domain Services**:  
+  - AsignacionAsesorService.
+
+- **Repository Interfaces**:  
+  - IAsesoriaRepository, IAsesorRepository.
+
+#### 4.2.6.2. Interface Layer
+
+- **REST Controller**:  
+  - AsesoriaController.
+
+- **Event Listeners**:  
+  - AsesoriaSolicitadaEventListener.
+
+- **Event Publishers**:  
+  - AsesoriaSolicitadaEvent.
+
+#### 4.2.6.3. Application Layer
+
+- **Command Services**:  
+  - GestionAsesoriaCommandService.
+
+- **Query Services**:  
+  - ConsultaAsesoriaQueryService.
+
+#### 4.2.6.4. Infrastructure Layer
+
+- **Repository Implementations**:  
+  - AsesoriaJpaRepository, AsesorJpaRepository.
+
+- **Messaging**:  
+  - Brokers de eventos.
+
+- **Adapters (ACL)**:  
+  - UserServiceAdapter, NotificationServiceAdapter.
+
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams
+
+SupportContext-ComponentLevelDiagrams.
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
+
+- **Bounded Context Domain Layer Class Diagrams**:  
+  - SupportContext-DomainLayerClassDiagrams.
+
+- **Bounded Context Database Design Diagram**:  
+  - SupportContext-DatabaseDesignDiagram.
+
+### 4.2.7. Bounded Context: Notification Context
+
+En esta sección se describen las clases clave relacionadas con la gestión de notificaciones y alertas.
+
+#### 4.2.7.1. Domain Layer
+
+- **Aggregates**:  
+  - Notificacion, Alerta.
+
+- **Entities**:  
+  - DestinatarioNotificacion.
+
+- **Value Objects**:  
+  - NotificacionId, ContenidoNotificacion, FechaHoraNotificacion, PrioridadNotificacion, AlertaId, EstadoAlerta.
+
+- **Domain Services**:  
+  - DistribucionNotificacionesService, GestorAlertasService.
+
+- **Repository Interfaces**:  
+  - INotificacionRepository, IAlertaRepository.
+
+#### 4.2.7.2. Interface Layer
+
+- **REST Controller**:  
+  - NotificacionController.
+
+- **Event Listeners**:  
+  - Consumers de eventos externos.
+
+- **Event Publishers**:  
+  - NotificacionEnviadaEvent, AlertaActivadaEvent.
+
+#### 4.2.7.3. Application Layer
+
+- **Command Services**:  
+  - GestionNotificacionCommandService, GestionAlertaCommandService.
+
+- **Query Services**:  
+  - ConsultaNotificacionQueryService, ConsultaAlertaQueryService.
+
+#### 4.2.7.4. Infrastructure Layer
+
+- **Repository Implementations**:  
+  - Repositorios JPA de notificaciones y alertas.
+
+- **Messaging**:  
+  - Brokers de eventos.
+
+- **Adapters (ACL)**:  
+  - EmailGateway, PushNotificationGateway, UserServiceAdapter.
+
+#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams
+
+NotificationContext-ComponentLevelDiagrams.
+
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
+
+- **Bounded Context Domain Layer Class Diagrams**:  
+  - NotificationContext-DomainLayerClassDiagrams.
+
+- **Bounded Context Database Design Diagram**:  
+  - NotificationContext-DatabaseDesignDiagram.
+
 
 
 ### Conclusiones y recomendaciones
