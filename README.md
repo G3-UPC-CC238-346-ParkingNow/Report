@@ -619,25 +619,17 @@ Guillermina es ama de casa y también administra una playa de estacionamiento. C
 
 Destaca la importancia de ofrecer métodos de pago rápidos y confiables para evitar tiempos de espera innecesarios y asegurar atención incluso en su ausencia. Los principales desafíos que enfrenta incluyen retrasos de los clientes al recoger sus vehículos y la interferencia que esto genera en el movimiento de otros usuarios. Le gustaría que una aplicación le permita controlar mejor los tiempos de permanencia, recibir pagos por adelantado y manejar todo el proceso de forma automatizada.
 
-**Entrevistada N°3: Alexandra**  
+**Entrevistada N°3: Alexandra Yamile Teves Salas**  
 **Sexo:** Femenino  
 **Edad:** 21  
 **Ubicación en la que vive:** Breña, Lima, Perú  
 
+![alt text](Assets/Alexandra.png)
 
 
-Link de la entrevista:
+Link de la entrevista: https://youtu.be/Cut8KMDgN6A
 
 Resumen: Alexandra actualmente se encarga del estacionamiento que antes gestionaba su madre. Aunque no cuenta con experiencia previa en administración, ha demostrado habilidades organizativas y está abierta a implementar soluciones tecnológicas. Considera que gestionar el espacio manualmente puede ser complicado, especialmente en horas pico. Le interesa contar con información en tiempo real y automatizar procesos como reservas y pagos, ya que eso facilitaría su trabajo y mejoraría la experiencia del cliente. No utiliza un sistema digital actualmente, pero está dispuesta a adoptar uno que permita recibir pagos electrónicos y genere reportes sobre ocupación y rotación. Reconoce la importancia de opciones de pago seguras y funcionalidades que le ayuden a mejorar el control y eficiencia del negocio.
-
-### Dueña de estacionamientos, Guillermina Asencios
-
-A continuación, se presenta la entrevista realizada a Guillermina Asencios, dueña de estacionamientos, donde comparte sus experiencias y perspectivas sobre la gestión de espacios de estacionamiento.
-
-<video controls width="640" height="360">
-  <source src="Assets/entrevista_playa_estacionamiento.mp4" type="video/mp4">
-  Tu navegador no soporta la reproducción de videos.
-</video>
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -677,7 +669,7 @@ Ambos segmentos coinciden en que una aplicación móvil que integre información
 
 **Entrevista completa:**
 
-Link de las entrevistas completas: 
+Link de las entrevistas completas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=UaqlvS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Análisis por medio de herramientas estadísticas:**
 
