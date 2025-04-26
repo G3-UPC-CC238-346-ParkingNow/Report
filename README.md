@@ -421,7 +421,7 @@ El Lean UX Canvas desarrollado para **PARKINGNOW** permite identificar los princ
 
 ### 1.3. Segmentos objetivo
 
-#### 1.3.1. Conductores Urbanos Frecuentes
+####  Conductores Urbanos Frecuentes
 
 **Demografía:**
 
@@ -435,7 +435,7 @@ El Lean UX Canvas desarrollado para **PARKINGNOW** permite identificar los princ
 - Mayor seguridad para el vehículo mediante el monitoreo continuo a través de cámaras instaladas en los espacios de estacionamiento.  
 - Facilidad para comparar precios, localizar espacios y acceder a información desde una sola aplicación.
 
-#### 1.3.2. Propietarios de Estacionamientos
+#### Propietarios de Estacionamientos
 
 **Demografía:**
 
