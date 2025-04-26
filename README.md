@@ -469,7 +469,6 @@ Aparcados es una aplicación enfocada en simplificar la búsqueda de estacionami
 #### 2.1.1. Análisis competitivo
 
 A continuación, se presenta una tabla comparativa de los principales competidores a nivel internacional. Este análisis nos permitirá identificar patrones clave de funcionalidad y experiencia de usuario, con el objetivo de alinear nuestra propuesta a las preferencias reales del público objetivo.
-
 | **Competitive Analysis Landscape**                              |                                                                                                                              |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | **¿Por qué llevar a cabo este análisis?**                       | **Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.**                                    |
@@ -477,18 +476,19 @@ A continuación, se presenta una tabla comparativa de los principales competidor
 
 | ***Competidor***          || ParkingNow| Parkimeter| ElParking| Aparcados|
 | ------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ***Logo***| |![ParkingNow](Assets/ParkingNowlogo.png) |![PaKimeter](Assets/Parkimeter.jpeg) |![ElParking](Assets/ElParking.png)|![Aparcados](Assets/Aparcados.jpg)
-| ***Perfil***| Overview| Es una aplicacion web que brinda la posibilidad de reservar espacios de estacionamiento en múltiples ciudades ademas que brinda la conexion entre los consumidores y dueños de estacionamientos| Es una aplicacion web y movil que ofrece servicios de reserva de plazas de aparcamiento en  diversas ciudades de Europa y América Latina| Es una aplicacion web y movil que ofrece servicios de reserva de plazas de aparcamiento en  diversas ciudades de Europa y América Latina| Es una aplicacion web y movil que ofrece servicios de reserva de plazas de aparcamiento en diversas ciudades de España principalmente, pero expandiéndose alrededor del mundo|
-|| ***Ventaja competitiva ¿Qué valor ofrece a los clientes?*** | Cancelación gratuita hasta con 24 horas de antelación de la reserva, inclusion de un sensor para el automovil y ser el puente entre los consumidores y dueños de playas de estacionamientos en zonas urbanas| Ofrece descuentos de hasta el 70% y no cobra gastos de gestión | Permite más que solo pagar estacionamientos, sino gestionar multas y pagar parquímetros| La app incluye geolocalización y ofrece notificaciones a tiempo real|
-| ***Perfil de Marketing*** | ***Mercado objetivo***| Personas que buscaban soluciones de estacionamiento en áreas urbanas congestionadas y personas dueñas de estacionamientos de playas.| Personas que buscaban soluciones de estacionamiento en áreas urbanas congestionadas| Personas que buscaban soluciones de estacionamiento en áreas urbanas congestionadas| Personas que buscaban soluciones de estacionamiento en áreas urbanas congestionadas|
-|| ***Estrategias de marketing***| Utiliza publicidad en línea a través de plataformas y redes sociales| Utiliza publicidad en línea a través de plataformas y redes sociales |Utiliza publicidad en línea, redes sociales y reciben promociones de influencers| Utiliza publicidad en línea a través de plataformas y redes sociales  |
-| ***Perfil de Producto*** | ***Productos & Servicios***| Ofrece una serie de servicios relacionados con la reserva de plazas de aparcamiento en áreas urbanas y otros destinos. |Realizar servicios de parking en todo el territorio español y otras grandes ciudades del mundo | Ofrece una serie de servicios relacionados con la reserva de plazas de aparcamiento en ciudades concurridas, seguimiento de multas y pagos sencillos. | Ofrece una serie de servicios relacionados con la reserva de plazas de aparcamiento en áreas urbanas y otros destinos |
-|| ***Precios & Costos***| La plataforma es gratuita, pero se debe pagar las tarifas de estacionamiento correspondientes |La plataforma es gratuita, pero se debe pagar las tarifas de estacionamiento correspondientes y las suscripciones VIP. | La plataforma es gratuita pero se debe pagar las tarifas de estacionamiento, además de la existencia de tarifas especiales o descuentos | La plataforma es gratuita, pero se debe pagar las tarifas de estacionamiento correspondientes. |
-|| ***Canales de distribución (Web y/o Móvil)***| Web| Web/Móvil| Web/Móvil| Web/Movil|
-| ***Análisis SWOT***       | ***Fortalezas***| Implementa sensores de estacionamiento en los estacionamientos asociados, un objetivo más amplio que otras aplicaciones y soporte en tiempo real para los consumidores| Parkimeter opera en múltiples ciudades de Europa y América Latina |ElParking implementa seguimiento de multas y pagos a parte de los estacionamientos | Aparcados opera en múltiples ciudades de Europa y Asia|
-|| ***Debilidades***| La industria de reserva de estacionamientos en línea es muy competitiva . | Varias empresas que proporcionan servicios similares | La industria de reserva de estacionamientos en línea es muy competitiva. | Varias empresas que proporcionan servicios similares. |
-|| ***Oportunidades***| A medida que las ciudades sigan creciendo, la demanda de servicios de reserva podría aumentar |La congestión del tráfico se vuelve más común, eso provocaría una alta demanda en la reserva de estacionamientos | En su país de origen, España, las personas en zonas urbanas van a tener que aprender más acerca de la app para poder vivir en comodidad. | Tiene grandes posibilidades de expandir su mercado aun enfocándose en la reserva de estacionamientos en América Latina |
-|| ***Amenazas***| Cambios en las políticas de movilidad urbana.|Nuevas startups compitiendo por la misma base de usuarios.|Nuevas startups compitiendo por la misma base de usuarios. | Nuevas startups compitiendo por la misma base de usuarios. |
+| ***Logo***| |![ParkingNow](Assets/ParkingNowlogo.png) |![Parkimeter](Assets/Parkimeter.jpeg) |![ElParking](Assets/ElParking.png)|![Aparcados](Assets/Aparcados.jpg)|
+| ***Perfil***| Overview| Es una aplicación web que brinda la posibilidad de reservar espacios de estacionamiento en múltiples ciudades, además de conectar a consumidores con propietarios de estacionamientos urbanos. | Es una aplicación web y móvil que ofrece servicios de reserva de plazas de aparcamiento en diversas ciudades de Europa y América Latina. | Es una aplicación web y móvil que ofrece servicios de reserva de plazas de aparcamiento en diversas ciudades de Europa y América Latina. | Es una aplicación web y móvil que ofrece servicios de reserva de plazas de aparcamiento en diversas ciudades de España principalmente, pero expandiéndose alrededor del mundo. |
+|| ***Ventaja competitiva ¿Qué valor ofrece a los clientes?*** | Cancelación gratuita hasta con 24 horas de antelación de la reserva, inclusión de monitoreo por cámaras para los vehículos y conexión directa entre consumidores y propietarios de estacionamientos urbanos. | Ofrece descuentos de hasta el 70% y no cobra gastos de gestión. | Permite más que solo pagar estacionamientos, sino gestionar multas y pagar parquímetros. | La app incluye geolocalización y ofrece notificaciones en tiempo real. |
+| ***Perfil de Marketing*** | ***Mercado objetivo***| Personas que buscan soluciones de estacionamiento en áreas urbanas congestionadas y propietarios de estacionamientos urbanos. | Personas que buscan soluciones de estacionamiento en áreas urbanas congestionadas. | Personas que buscan soluciones de estacionamiento en áreas urbanas congestionadas. | Personas que buscan soluciones de estacionamiento en áreas urbanas congestionadas. |
+|| ***Estrategias de marketing***| Utiliza publicidad en línea a través de plataformas y redes sociales. | Utiliza publicidad en línea a través de plataformas y redes sociales. | Utiliza publicidad en línea, redes sociales y reciben promociones de influencers. | Utiliza publicidad en línea a través de plataformas y redes sociales. |
+| ***Perfil de Producto*** | ***Productos & Servicios***| Ofrece una serie de servicios relacionados con la reserva de plazas de aparcamiento en áreas urbanas y otros destinos. | Realizar servicios de parking en todo el territorio español y otras grandes ciudades del mundo. | Ofrece una serie de servicios relacionados con la reserva de plazas de aparcamiento en ciudades concurridas, seguimiento de multas y pagos sencillos. | Ofrece una serie de servicios relacionados con la reserva de plazas de aparcamiento en áreas urbanas y otros destinos. |
+|| ***Precios & Costos***| La plataforma es gratuita, pero se debe pagar las tarifas de estacionamiento correspondientes. | La plataforma es gratuita, pero se deben pagar las tarifas de estacionamiento correspondientes y las suscripciones VIP. | La plataforma es gratuita, pero se deben pagar las tarifas de estacionamiento, además de la existencia de tarifas especiales o descuentos. | La plataforma es gratuita, pero se debe pagar las tarifas de estacionamiento correspondientes. |
+|| ***Canales de distribución (Web y/o Móvil)***| Web | Web/Móvil | Web/Móvil | Web/Móvil |
+| ***Análisis SWOT***       | ***Fortalezas***| Implementa monitoreo visual mediante cámaras en los estacionamientos asociados, ofreciendo un objetivo más amplio que otras aplicaciones y soporte en tiempo real para los consumidores. | Parkimeter opera en múltiples ciudades de Europa y América Latina. | ElParking implementa seguimiento de multas y pagos aparte de los estacionamientos. | Aparcados opera en múltiples ciudades de Europa y Asia. |
+|| ***Debilidades***| La industria de reserva de estacionamientos en línea es muy competitiva. | Varias empresas que proporcionan servicios similares. | La industria de reserva de estacionamientos en línea es muy competitiva. | Varias empresas que proporcionan servicios similares. |
+|| ***Oportunidades***| A medida que las ciudades sigan creciendo, la demanda de servicios de reserva podría aumentar. | La congestión del tráfico se vuelve más común, provocando una alta demanda en la reserva de estacionamientos. | En su país de origen, España, las personas en zonas urbanas deberán aprender más acerca de la app para vivir en comodidad. | Tiene grandes posibilidades de expandir su mercado, enfocándose en la reserva de estacionamientos en América Latina. |
+|| ***Amenazas***| Cambios en las políticas de movilidad urbana. | Nuevas startups compitiendo por la misma base de usuarios. | Nuevas startups compitiendo por la misma base de usuarios. | Nuevas startups compitiendo por la misma base de usuarios. |
+
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -603,7 +603,10 @@ Resumen: Rodrigo enfrenta a diario la dificultad de encontrar estacionamiento, l
 
 Link de la entrevista: https://youtu.be/pI_iSFNsPYE
 
-Resumen: Carlos tiene 20 años y vive en La Molina, donde administra una playa de estacionamiento. Se considera organizado, resolutivo y orientado a mantener el orden, aunque admite que en momentos de alta afluencia puede resultar complicado. Respecto a la gestión del espacio, indica que el proceso suele ser sencillo, pero se complica cuando hay mucho movimiento o los conductores no respetan los espacios designados. Por ello, valora mucho contar con información en tiempo real sobre los espacios disponibles, ya que evitaría revisiones físicas constantes y mejoraría la eficiencia. Actualmente no utiliza sistemas de reserva digital, pero acepta pagos a través de Yape y Plin, que considera rápidos y populares entre sus clientes. Cree que automatizar reservas y pagos sería muy beneficioso, ya que permitiría organizar mejor los tiempos de permanencia, agilizar entradas/salidas y mantener mejor control de cobros. Carlos considera que ofrecer opciones de pago seguras y rápidas es crucial, ya que sus clientes buscan un proceso ágil y sin complicaciones. Está convencido de que una app que integre gestión de espacios y pagos le permitiría llevar un control detallado de la ocupación, ingresos diarios y brindar mayor transparencia. Entre los desafíos que enfrenta están la organización en horas pico y el seguimiento manual de pagos. Le gustaría que una app permita a los clientes indicar su tiempo de permanencia, calcule el costo automáticamente y notifique disponibilidad en tiempo real. También está interesado en reportes de ocupación y rotación para tomar mejores decisiones.
+Resumen: Carlos tiene 20 años y vive en La Molina, donde administra un estacionamiento. Se considera una persona organizada, resolutiva y orientada a mantener el orden, aunque reconoce que durante momentos de alta afluencia la gestión puede volverse complicada. Respecto al control de los espacios, menciona que usualmente es sencillo, pero se dificulta cuando hay gran movimiento o los conductores no respetan los espacios asignados. Por esta razón, valora la posibilidad de contar con información en tiempo real sobre la disponibilidad, lo cual evitaría revisiones físicas continuas y mejoraría la eficiencia operativa. Actualmente no utiliza sistemas digitales de reservas, pero acepta pagos mediante Yape y Plin, métodos que considera ágiles y populares entre sus clientes. 
+
+Carlos considera que la automatización de reservas y pagos sería altamente beneficiosa, ya que permitiría organizar mejor los tiempos de permanencia, agilizar los ingresos y salidas, y llevar un control más preciso de los cobros. Resalta la importancia de ofrecer métodos de pago seguros y rápidos para mejorar la experiencia del cliente. Además, está convencido de que una aplicación que integre la gestión de espacios, reservas y pagos facilitaría el control detallado de la ocupación, ingresos diarios y aumentaría la transparencia en su administración. Entre los principales desafíos que enfrenta señala la organización en horarios de alta demanda y el seguimiento manual de los pagos. Finalmente, le gustaría que una app permita a los clientes registrar su tiempo de permanencia, calcule automáticamente el costo, notifique la disponibilidad en tiempo real y genere reportes de ocupación y rotación para tomar decisiones más estratégicas.
+
 
 **Entrevistado N°2: Guillermina Asencio Sarrazar**  
 **Sexo:** Femenino  
@@ -615,9 +618,9 @@ Resumen: Carlos tiene 20 años y vive en La Molina, donde administra una playa d
 Link de la entrevista: https://youtu.be/cuG7FsIUnAQ
 
 **Resumen:**  
-Guillermina es ama de casa y también administra una playa de estacionamiento. Considera que la gestión es sencilla en general, pero se complica cuando los clientes incumplen con los pagos o solicitan descuentos injustificados. Actualmente no utiliza ningún sistema digital, pero le gustaría contar con uno que permita reservas y pagos virtuales anticipados, lo cual considera seguro y eficiente.  
+Guillermina es ama de casa y también administra un estacionamiento. Considera que la gestión, en general, es sencilla, aunque se complica cuando los clientes incumplen con los pagos o solicitan descuentos injustificados. Actualmente no utiliza ningún sistema digital de gestión, pero le gustaría contar con una plataforma que permita realizar reservas y pagos virtuales anticipados, lo cual considera seguro y eficiente.
 
-Destaca la importancia de ofrecer métodos de pago rápidos y confiables para evitar tiempos de espera innecesarios y asegurar atención incluso en su ausencia. Los principales desafíos que enfrenta incluyen retrasos de los clientes al recoger sus vehículos y la interferencia que esto genera en el movimiento de otros usuarios. Le gustaría que una aplicación le permita controlar mejor los tiempos de permanencia, recibir pagos por adelantado y manejar todo el proceso de forma automatizada.
+Resalta la importancia de ofrecer métodos de pago rápidos y confiables para evitar tiempos de espera innecesarios y garantizar la atención a los usuarios incluso en su ausencia. Entre los principales desafíos que enfrenta se encuentran los retrasos de los clientes al recoger sus vehículos, lo que genera inconvenientes en el flujo de otros usuarios. Guillermina manifiesta su interés en contar con una aplicación que le permita controlar mejor los tiempos de permanencia, recibir pagos anticipados y automatizar todo el proceso de administración de su estacionamiento.
 
 **Entrevistada N°3: Alexandra Yamile Teves Salas**  
 **Sexo:** Femenino  
@@ -938,11 +941,17 @@ El "As-is Scenario Mapping" para **Dueños  de Estacionamientos** identifica sus
 
 El "To-Be Scenario Mapping" para **Conductores Urbanos Frecuentes** Muestra los resultados esperados para los conductores urbanos frecuentes que necesitan tener rapido acceso a estacionamientos
 
+<p style="text-align: center;"><em>Escenario ideal para usuarios frecuentes que buscan estacionar sin complicaciones.</em></p>
+
+
 ![To Be Scenario](./Assets/To%20be%20Scenario%20Mapping%201.png)
 
 ### Segmento Dueños de playas de estacionamientos
 
-El "To-Be Scenario Mapping" para **Dueños de Playas de Estacionamientos** muestra los resultados esperados para la gestion de playas de estacionamientos brinadas por  **PARKINGNOW**.
+El "To-Be Scenario Mapping" para **Dueños de Estacionamientos** muestra los resultados esperados para la gestion de playas de estacionamientos brinadas por  **PARKINGNOW**.
+
+<p style="text-align: center;"><em>Escenario ideal para usuarios frecuentes que buscan estacionar sin complicaciones.</em></p>
+
 
 ![To Be Scenario](./Assets/To%20be%20Scenario%20Mapping%202.png)
 
@@ -974,8 +983,6 @@ Las **epics** definidas para el proyecto PARKINGNOW están diseñadas para abord
 | **EP18**            | Administración de Reservas en Backend   | **Como** developer, **deseo** gestionar las reservas en el backend **para** asegurar que los datos de reserva sean consistentes y actualizados en la plataforma.            |
 | **EP19**            | Gestión de Pagos y Transacciones        | **Como** visitante, **deseo** realizar pagos seguros y gestionar mis transacciones en la app **para** completar el proceso de reserva de manera confiable.                  |
 
----
-
 ### User Stories
 
 Las **historias de usuario** para el proyecto PARKINGNOW están orientadas a mejorar la experiencia del usuario final y facilitar las tareas del equipo de desarrollo. Estas historias cubren múltiples aspectos de la plataforma, incluyendo la **landing page**, la integración y mejora del **backend**, el desarrollo de interfaces de usuario eficientes en el **frontend**, y la implementación de servicios robustos a través de **mobile aplication**. Cada historia está diseñada para ser fácilmente comprensible y directamente aplicable, con criterios de aceptación específicos que guían el desarrollo y aseguran que las funcionalidades implementadas satisfagan los requisitos del negocio y las expectativas del usuario final.
@@ -985,7 +992,7 @@ Las **historias de usuario** para el proyecto PARKINGNOW están orientadas a mej
 | **US01**            | Navegación Intuitiva en la Landing Page                  | **Como** visitante de PARKINGNOW, **deseo** que la landing page tenga una barra de navegación clara y accesible **para** encontrar fácilmente las secciones importantes.                                                      | **Escenario 01**: **Given** que estoy en la landing page, **When** hago clic en el menú de navegación, **Then** debería ver opciones claras como "Inicio", "Características", "Reservar Espacio" y "Contáctenos". `<br>` **Escenario 02**: **Given** que navego por la página, **When** paso el mouse por los elementos del menú, **Then** deberían resaltarse para indicar que son interactivos.                                                          | **EP01**                      |
 | **US02**            | Visualización de Ciudades con Servicio                   | **Como** visitante, **deseo** ver en la landing page las ciudades donde PARKINGNOW está disponible **para** saber si puedo utilizar el servicio en mi ubicación.                                                              | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia la sección de ciudades, **Then** debería ver información sobre las ciudades como Lima, Arequipa y Cusco. `<br>` **Escenario 02**: **Given** que selecciono una ciudad, **When** hago clic en la información de la ciudad, **Then** debería ver detalles adicionales de esa ubicación.                                                                                      | **EP04**                      |
 | **US03**            | Promociones Destacadas                                    | **Como** visitante, **deseo** ver promociones destacadas en la landing page **para** aprovechar descuentos y beneficios en las ciudades disponibles.                                                                            | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia la sección de promociones, **Then** debería ver promociones específicas como "Promoción en Lima" y "Promoción en Cusco". `<br>` **Escenario 02**: **Given** que hago clic en una promoción, **When** selecciono una promoción específica, **Then** debería llevarme a una página de detalles de la promoción.                                                         | **EP05**                      |
-| **US04**            | Beneficios para Conductores y Dueños de Playas           | **Como** visitante, **deseo** ver una sección en la landing page que me explique los beneficios de usar PARKINGNOW **para** entender las ventajas que ofrece.                                                                  | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia la sección de beneficios, **Then** debería ver información sobre beneficios para conductores y dueños de playas de estacionamiento. `<br>` **Escenario 02**: **Given** que quiero más detalles, **When** hago clic en un beneficio específico, **Then** debería expandirse con más información.                                                                         | **EP04**                      |
+| **US04**            | Beneficios para Conductores y Dueños de estacionamiento           | **Como** visitante, **deseo** ver una sección en la landing page que me explique los beneficios de usar PARKINGNOW **para** entender las ventajas que ofrece.                                                                  | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia la sección de beneficios, **Then** debería ver información sobre beneficios para conductores y dueños de estacionamiento. `<br>` **Escenario 02**: **Given** que quiero más detalles, **When** hago clic en un beneficio específico, **Then** debería expandirse con más información.                                                                         | **EP04**                      |
 | **US05**            | Visualización de Misión de la Empresa                   | **Como** visitante, **deseo** ver la misión de PARKINGNOW en la landing page **para** entender los objetivos de la empresa.                                                                                                    | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia la sección de "Misión", **Then** debería ver una breve descripción de la misión de la empresa. `<br>` **Escenario 02**: **Given** que estoy en la sección de misión, **When** hago clic en "Leer más", **Then** debería abrirse una ventana con información detallada sobre la misión.                                                                                | **EP06**                      |
 | **US06**            | Visualización de Visión de la Empresa                   | **Como** visitante, **deseo** ver la visión de PARKINGNOW en la landing page **para** conocer sus metas futuras y crecimiento.                                                                                                 | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia la sección de "Visión", **Then** debería ver una breve descripción de la visión de la empresa. `<br>` **Escenario 02**: **Given** que quiero conocer más detalles, **When** hago clic en "Leer más" en la sección de visión, **Then** debería ver una descripción completa de los objetivos futuros.                                                                  | **EP06**                      |
 | **US07**            | Visualización del Equipo                                 | **Como** visitante, **deseo** ver una sección que muestre a los miembros del equipo de PARKINGNOW **para** conocer quiénes están detrás del proyecto.                                                                       | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia la sección "Our Team", **Then** debería ver fotos y descripciones de cada miembro del equipo. `<br>` **Escenario 02**: **Given** que estoy en la sección del equipo, **When** hago clic en la imagen de un miembro, **Then** debería ver información detallada sobre sus roles y experiencia.                                                                               | **EP04**                      |
@@ -998,7 +1005,7 @@ Las **historias de usuario** para el proyecto PARKINGNOW están orientadas a mej
 | **US14**            | Acceso a Información Legal                               | **Como** visitante, **deseo** ver enlaces a la información legal y políticas de privacidad en la landing page **para** revisar los términos de uso y la protección de mis datos.                                            | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia el pie de página, **Then** debería ver enlaces a las políticas de privacidad y términos de servicio. `<br>` **Escenario 02**: **Given** que hago clic en el enlace de política de privacidad, **When** se abre el documento, **Then** debería ver la información completa de privacidad en una nueva página o ventana.                                                   | **EP13**                      |
 | **US15**            | Inicio de Sesión para Conductores                        | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar la funcionalidad de inicio de sesión para conductores **para** que puedan acceder a sus cuentas de manera segura.                                | **Escenario 01**: **Given** que el conductor ingresa su correo y contraseña, **When** hace clic en "Iniciar sesión", **Then** debe acceder a su dashboard de conductor si las credenciales son correctas. `<br>` **Escenario 02**: **Given** que el conductor ingresa credenciales incorrectas, **When** intenta iniciar sesión, **Then** debe mostrarse un mensaje de error indicando que las credenciales son inválidas.                                     | **EP11**                      |
 | **US16**            | Registro de Conductores                                   | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el registro de conductores **para** que puedan crear una cuenta en la plataforma.                                                                 | **Escenario 01**: **Given** que un nuevo usuario quiere registrarse, **When** ingresa los datos necesarios y hace clic en "Registrarse", **Then** debe recibir un mensaje de confirmación de cuenta creada. `<br>` **Escenario 02**: **Given** que el usuario intenta registrarse sin llenar los campos requeridos, **When** intenta completar el registro, **Then** debe mostrarse un mensaje de error solicitando los datos faltantes.                          | **EP02**                      |
-| **US17**            | Registro de Dueños de Playa                              | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el registro de dueños de playa **para** que puedan crear una cuenta y gestionar su estacionamiento.                                              | **Escenario 01**: **Given** que un dueño de playa quiere registrarse, **When** llena el formulario de registro y hace clic en "Registrarse", **Then** debe recibir un mensaje de confirmación de cuenta creada. `<br>` **Escenario 02**: **Given** que el formulario no está completo, **When** intenta registrarse, **Then** debe mostrarse un mensaje de error indicando los campos faltantes.                                                                | **EP02**                      |
+| **US17**            | Registro de Dueños de estacionamiento                             | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el registro de dueños de playa **para** que puedan crear una cuenta y gestionar su estacionamiento.                                              | **Escenario 01**: **Given** que un dueño de estacionamiento quiere registrarse, **When** llena el formulario de registro y hace clic en "Registrarse", **Then** debe recibir un mensaje de confirmación de cuenta creada. `<br>` **Escenario 02**: **Given** que el formulario no está completo, **When** intenta registrarse, **Then** debe mostrarse un mensaje de error indicando los campos faltantes.                                                                | **EP02**                      |
 | **US18**            | Búsqueda de Reservas para Conductores                    | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar la búsqueda de reservas **para** que los conductores puedan ver sus reservas activas y pasadas.                                                  | **Escenario 01**: **Given** que el conductor quiere ver sus reservas, **When** ingresa al menú de reservas, **Then** debe ver una lista de todas sus reservas activas y completadas. `<br>` **Escenario 02**: **Given** que el conductor busca una reserva específica, **When** ingresa un criterio de búsqueda, **Then** debe mostrarse la reserva correspondiente si existe.                                                                                  | **EP04**                      |
 | **US19**            | Pago de Reservas por Transacción                         | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el pago por transacción **para** que los conductores puedan completar sus reservas.                                                              | **Escenario 01**: **Given** que el conductor realiza una reserva, **When** selecciona "Pagar", **Then** debe ser dirigido a la pasarela de pago para completar la transacción. `<br>` **Escenario 02**: **Given** que el pago es exitoso, **When** se procesa el pago, **Then** debe recibir una confirmación de reserva y recibo de pago.                                                                                                                       | **EP12**                      |
 | **US20**            | Confirmación de Reserva Registrada                       | **Como** developer de mobile Application de PARKINGNOW, **necesito** que se muestre una pantalla de confirmación **para** asegurar que el usuario sepa que su reserva fue registrada correctamente.                               | **Escenario 01**: **Given** que el usuario completa una reserva, **When** el sistema confirma la transacción, **Then** debe ver una pantalla indicando que su reserva fue registrada con éxito. `<br>` **Escenario 02**: **Given** que el sistema no puede confirmar la reserva, **When** se produce un error en el pago, **Then** debe mostrarse un mensaje solicitando un nuevo intento de pago.                                                               | **EP12**                      |
@@ -1018,7 +1025,7 @@ Las **historias de usuario** para el proyecto PARKINGNOW están orientadas a mej
 | **US34**            | Gestión de Clientes en Servicio al Cliente               | **Como** developer de mobile services, **necesito** crear un endpoint para gestionar consultas y solicitudes de servicio al cliente **para** permitir soporte eficaz a los usuarios.                                               | **Escenario 01**: **Given** que se recibe una consulta de un cliente, **When** el administrador accede al endpoint `/api/client-service`, **Then** debería ver todas las solicitudes pendientes con detalles. `<br>` **Escenario 02**: **Given** que un cliente envía una nueva solicitud, **When** se crea una nueva consulta en el endpoint, **Then** debería notificarse al equipo de servicio al cliente.                                                 | **EP07**                      |
 | **US35**            | Notificación de Cambios en la Disponibilidad de Espacios | **Como** developer de mobile services, **necesito** implementar un endpoint que envíe notificaciones automáticas cuando un espacio cambie de estado **para** mantener a los usuarios informados en tiempo real.                  | **Escenario 01**: **Given** que un espacio de estacionamiento se desocupa, **When** el sistema detecta el cambio en el endpoint `/api/space-notifications`, **Then** debería enviar una notificación a los usuarios interesados. `<br>` **Escenario 02**: **Given** que un usuario tiene una reserva, **When** su espacio cambia de estado, **Then** debería recibir una notificación push y por correo electrónico.                                        | **EP09**                      |
 | **US36**            | Historial de Transacciones para Usuarios                  | **Como** developer de mobile services, **necesito** desarrollar un endpoint para consultar el historial de transacciones de cada usuario **para** permitir la revisión de pagos y reservas anteriores.                            | **Escenario 01**: **Given** que un usuario desea ver su historial de transacciones, **When** accede al endpoint `/api/user-transactions`, **Then** debería ver una lista de todas sus transacciones ordenadas por fecha. `<br>` **Escenario 02**: **Given** que el administrador necesita revisar las transacciones de un usuario específico, **When** ingresa el ID del usuario en el endpoint, **Then** debería obtener el historial detallado del usuario. | **EP13**                      |
-| **US37**            | Gestión de Ocupación de Espacios en Tiempo Real         | **Como** developer de mobile services, **necesito** implementar un endpoint para actualizar automáticamente la disponibilidad de espacios **para** reflejar cambios en tiempo real según los sensores.                           | **Escenario 01**: **Given** que un espacio cambia de estado, **When** el sensor envía la actualización al endpoint `/api/space-occupancy`, **Then** el sistema debería reflejar el estado actualizado en tiempo real. `<br>` **Escenario 02**: **Given** que se ocupa un espacio sin reserva, **When** el sensor detecta la ocupación, **Then** el sistema debería generar una alerta automática al administrador.                                         | **EP09**                      |
+| **US37** | Gestión de Ocupación de Espacios en Tiempo Real | **Como** developer de mobile services, **necesito** implementar un endpoint para actualizar automáticamente la disponibilidad de espacios **para** reflejar cambios en tiempo real según las cámaras de monitoreo visual. | **Escenario 01**: **Given** que un espacio cambia de estado, **When** el sistema detecta el cambio mediante las cámaras de monitoreo visual en el endpoint `/api/space-occupancy`, **Then** el sistema debería reflejar el estado actualizado en tiempo real. `<br>` **Escenario 02**: **Given** que se ocupa un espacio sin reserva, **When** las cámaras detectan la ocupación, **Then** el sistema debería generar una alerta automática al administrador. | **EP09** |
 | **US38**            | Configuración de Alertas de Seguridad                    | **Como** developer de mobile services, **necesito** implementar un endpoint para que los administradores configuren alertas de seguridad **para** responder rápidamente a eventos sospechosos en los espacios de estacionamiento. | **Escenario 01**: **Given** que un administrador configura alertas, **When** ingresa criterios de alerta en el endpoint `/api/security-alerts`, **Then** debería poder definir parámetros específicos como hora, ubicación y tipo de alerta. `<br>` **Escenario 02**: **Given** que se detecta un evento de seguridad, **When** se activa una alerta, **Then** el sistema debe enviar notificaciones automáticas a los responsables.                        | **EP13**                      |
 | **US39**            | Administración de Tarifas por Ubicación                 | **Como** developer de mobile services, **necesito** implementar un endpoint para configurar tarifas de estacionamiento basadas en la ubicación **para** que los administradores ajusten precios según la demanda.                | **Escenario 01**: **Given** que un administrador necesita ajustar tarifas, **When** accede al endpoint `/api/parking-rates`, **Then** debería poder configurar tarifas por ciudad o zona. `<br>` **Escenario 02**: **Given** que una tarifa es modificada, **When** se actualiza en el sistema, **Then** todos los precios de los espacios correspondientes deberían reflejar el cambio automáticamente.                                                      | **EP12**                      |
 | **US40**            | Registro de Alertas de Seguridad                          | **Como** developer de mobile services, **necesito** un endpoint para registrar todas las alertas de seguridad detectadas en los estacionamientos **para** que los administradores revisen incidentes pasados.                      | **Escenario 01**: **Given** que ocurre un incidente de seguridad, **When** el sistema lo registra en el endpoint `/api/security-log`, **Then** debería almacenar la fecha, hora, ubicación y tipo de incidente. `<br>` **Escenario 02**: **Given** que un administrador revisa el historial de alertas, **When** solicita los registros, **Then** debería ver una lista cronológica de los eventos de seguridad.                                             | **EP13**                      |
@@ -1037,19 +1044,22 @@ Las **historias de usuario** para el proyecto PARKINGNOW están orientadas a mej
 
 **Descripción del Impact Map: Conductor Urbano Frecuente para PARKINGNOW**
 
-Este Impact Map de PARKINGNOW se enfoca en aumentar el número de conductores urbanos frecuentes que siguen utilizando el servicio, mejorando la seguridad y accesibilidad en los estacionamientos de zonas urbanas. El objetivo es aumentar el uso del servicio en un 30%, proponiendo soluciones como sistemas de navegación más eficientes, sensores para monitoreo en tiempo real y notificaciones sobre espacios disponibles. Las historias de usuario se centran en mejorar las rutas, garantizar la seguridad y gestionar las alertas, ofreciendo una mejor experiencia a los conductores.
+Este Impact Map de PARKINGNOW se enfoca en aumentar el número de conductores urbanos frecuentes que siguen utilizando el servicio, mejorando la seguridad y accesibilidad en los estacionamientos de zonas urbanas. El objetivo es aumentar el uso del servicio en un 30%, proponiendo soluciones como sistemas de navegación más eficientes, cámaras de monitoreo visual para actualización en tiempo real y notificaciones sobre espacios disponibles. Las historias de usuario se centran en mejorar las rutas, garantizar la seguridad y gestionar las alertas, ofreciendo una mejor experiencia a los conductores.
+
+<p style="text-align: center;"><em>Mejorando rutas y seguridad para el conductor urbano.</em></p>
 
 <p align="center">
   <img src="Assets/IMPACT%20MAP_%20Impact_map_conductor.png" alt="IMPACT MAP: Impact_map_conductor" width="600"/>
 </p>
 
-**Descripción del Impact Map: Dueño de Playa de Estacionamiento para PARKINGNOW**
+**Descripción del Impact Map: Dueño de Estacionamiento para PARKINGNOW**
 
-El Impact Map para los dueños de playas de estacionamientos está diseñado para optimizar la gestión de sus espacios y aumentar la satisfacción de los clientes en un 30% durante los próximos seis meses. Las soluciones propuestas incluyen un sistema de reservas en tiempo real, sensores para ver la disponibilidad de espacios y herramientas para obtener opiniones de los usuarios. Estas funciones ayudan a los propietarios a maximizar el uso de los espacios, reducir tiempos de espera y mejorar la calidad del servicio basado en el feedback directo de los clientes.
+El Impact Map para los dueños de estacionamientos está diseñado para optimizar la gestión de sus espacios y aumentar la satisfacción de los clientes en un 30% durante los próximos seis meses. Las soluciones propuestas incluyen un sistema de reservas en tiempo real, herramientas visuales para monitorear la disponibilidad de espacios en tiempo real mediante cámaras, y funcionalidades para obtener opiniones de los usuarios. Estas funciones ayudan a los propietarios a maximizar el uso de los espacios, reducir tiempos de espera y mejorar la calidad del servicio basado en el feedback directo de los clientes.
 
-<p align="center">
-  <img src="Assets/IMPACT%20MAP_%20Dueño%20de%20Playa%20de%20Estacionamiento.png" alt="IMPACT MAP: Dueño de Playa de Estacionamiento" width="600"/>
-</p>
+<p style="text-align: center;"><em>Gestión optimizada para administradores de espacios.</em></p>
+
+
+![alt text](Assets/3.png)
 
 ### 3.4. Product Backlog
 
@@ -1060,7 +1070,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 | 1                 | US01                    | Navegación Intuitiva en la Landing Page                  | Como visitante de PARKINGNOW, deseo que la landing page tenga una barra de navegación clara y accesible para encontrar fácilmente las secciones importantes.                                                      | 5                                  |
 | 2                 | US02                    | Visualización de Ciudades con Servicio                   | Como visitante, deseo ver en la landing page las ciudades donde PARKINGNOW está disponible para saber si puedo utilizar el servicio en mi ubicación.                                                              | 3                                  |
 | 3                 | US03                    | Promociones Destacadas                                    | Como visitante, deseo ver promociones destacadas en la landing page para aprovechar descuentos y beneficios en las ciudades disponibles.                                                                            | 5                                  |
-| 4                 | US04                    | Beneficios para Conductores y Dueños de Playas           | Como visitante, deseo ver una sección en la landing page que me explique los beneficios de usar PARKINGNOW para entender las ventajas que ofrece.                                                                  | 3                                  |
+| 4                 | US04                    | Beneficios para Conductores y Dueños de Estacionamiento           | Como visitante, deseo ver una sección en la landing page que me explique los beneficios de usar PARKINGNOW para entender las ventajas que ofrece.                                                                  | 3                                  |
 | 5                 | US05                    | Visualización de Misión de la Empresa                   | Como visitante, deseo ver la misión de PARKINGNOW en la landing page para entender los objetivos de la empresa.                                                                                                    | 2                                  |
 | 6                 | US06                    | Visualización de Visión de la Empresa                   | Como visitante, deseo ver la visión de PARKINGNOW en la landing page para conocer sus metas futuras y crecimiento.                                                                                                 | 2                                  |
 | 7                 | US07                    | Visualización del Equipo                                 | Como visitante, deseo ver una sección que muestre a los miembros del equipo de PARKINGNOW para conocer quiénes están detrás del proyecto.                                                                       | 3                                  |
@@ -1073,7 +1083,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 | 14                | US14                    | Acceso a Información Legal                               | Como visitante, deseo ver enlaces a la información legal y políticas de privacidad en la landing page para revisar los términos de uso y la protección de mis datos.                                            | 3                                  |
 | 15                | US15                    | Inicio de Sesión para Conductores                        | Como developer de mobile Application de PARKINGNOW, necesito implementar la funcionalidad de inicio de sesión para conductores para que puedan acceder a sus cuentas de manera segura.                                | 5                                  |
 | 16                | US16                    | Registro de Conductores                                   | Como developer de mobile Application de PARKINGNOW, necesito implementar el registro de conductores para que puedan crear una cuenta en la plataforma.                                                                 | 5                                  |
-| 17                | US17                    | Registro de Dueños de Playa                              | Como developer de mobile Application de PARKINGNOW, necesito implementar el registro de dueños de playa para que puedan crear una cuenta y gestionar su estacionamiento.                                              | 5                                  |
+| 17                | US17                    | Registro de Dueños de Estacionamiento                              | Como developer de mobile Application de PARKINGNOW, necesito implementar el registro de dueños de estacionamiento para que puedan crear una cuenta y gestionar su estacionamiento.                                              | 5                                  |
 | 18                | US18                    | Búsqueda de Reservas para Conductores                    | Como developer de mobile Application de PARKINGNOW, necesito implementar la búsqueda de reservas para que los conductores puedan ver sus reservas activas y pasadas.                                                  | 3                                  |
 | 19                | US19                    | Pago de Reservas por Transacción                         | Como developer de mobile Application de PARKINGNOW, necesito implementar el pago por transacción para que los conductores puedan completar sus reservas.                                                              | 5                                  |
 | 20                | US20                    | Confirmación de Reserva Registrada                       | Como developer de mobile Application de PARKINGNOW, necesito que se muestre una pantalla de confirmación para asegurar que el usuario sepa que su reserva fue registrada correctamente.                               | 3                                  |
@@ -1093,7 +1103,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points.
 | 34                | US34                    | Gestión de Clientes en Servicio al Cliente               | Como developer de mobile services, necesito crear un endpoint para gestionar consultas y solicitudes de servicio al cliente para permitir soporte eficaz a los usuarios.                                               | 3                                  |
 | 35                | US35                    | Notificación de Cambios en la Disponibilidad de Espacios | Como developer de mobile services, necesito implementar un endpoint que envíe notificaciones automáticas cuando un espacio cambie de estado para mantener a los usuarios informados en tiempo real.                  | 5                                  |
 | 36                | US36                    | Historial de Transacciones para Usuarios                  | Como developer de mobile services, necesito desarrollar un endpoint para consultar el historial de transacciones de cada usuario para permitir la revisión de pagos y reservas anteriores.                            | 3                                  |
-| 37                | US37                    | Gestión de Ocupación de Espacios en Tiempo Real         | Como developer de mobile services, necesito implementar un endpoint para actualizar automáticamente la disponibilidad de espacios para reflejar cambios en tiempo real según los sensores.                           | 5                                  |
+| 37                | US37                    | Gestión de Ocupación de Espacios en Tiempo Real         | Como developer de mobile services, necesito implementar un endpoint para reflejar cambios en tiempo real según las cámaras de monitoreo visual                           | 5                                  |
 | 38                | US38                    | Configuración de Alertas de Seguridad                    | Como developer de mobile services, necesito implementar un endpoint para que los administradores configuren alertas de seguridad para responder rápidamente a eventos sospechosos en los espacios de estacionamiento. | 5                                  |
 | 39                | US39                    | Administración de Tarifas por Ubicación                 | Como developer de mobile services, necesito implementar un endpoint para configurar tarifas de estacionamiento basadas en la ubicación para que los administradores ajusten precios según la demanda.                | 5                                  |
 | 40                | US40                    | Registro de Alertas de Seguridad                          | Como developer de mobile services, necesito un endpoint para registrar todas las alertas de seguridad detectadas en los estacionamientos para que los administradores revisen incidentes pasados.                      | 3                                  |
@@ -1191,6 +1201,9 @@ Cada canvas detalla el propósito del contexto, sus comunicaciones inbound y out
 Esta sección muestra cómo los bounded contexts de ParkingNow se relacionan entre sí.  
 Se elaboraron context maps aplicando patrones como Customer/Supplier y Anti-Corruption Layer, para definir las dependencias y responsabilidades entre contextos.
 
+<p style="text-align: center;"><em>Relación entre módulos funcionales de ParkingNow.</em></p>
+
+
 ![alt text](Assets/ContextMapping.png)
 
 #### 4.1.3. Software Architecture
@@ -1202,11 +1215,17 @@ Se explican los niveles Contexto, Contenedor y Despliegue, asegurando una visió
 
 Se presenta el diagrama de nivel de contexto, mostrando ParkingNow en el centro y sus interacciones principales con usuarios, otros sistemas internos y servicios externos.
 
+<p style="text-align: center;"><em>Interacción de ParkingNow con usuarios y servicios externos.</em></p>
+
+
 ![alt text](Assets/diagrama1.png)
 
 ##### 4.1.3.2. Software Architecture Container Level Diagrams
 
 Esta sección incluye el diagrama de nivel de contenedor, detallando los principales componentes de software como la aplicación móvil, el backend API y la base de datos.
+
+<p style="text-align: center;"><em>Componentes principales de la arquitectura de ParkingNow.</em></p>
+
 
 ![alt text](Assets/diagrama2.png)
 
@@ -1214,9 +1233,18 @@ Esta sección incluye el diagrama de nivel de contenedor, detallando los princip
 
 Se presenta el diagrama de despliegue, visualizando la infraestructura necesaria para soportar ParkingNow, incluyendo servidores, servicios cloud y dispositivos móviles.
 
+<p style="text-align: center;"><em>Despliegue del sistema de gestión de estacionamientos.</em></p>
+
+
 ![alt text](Assets/diagrama3.png)
 
+<p style="text-align: center;"><em>Despliegue del sistema de reservas.</em></p>
+
+
 ![alt text](Assets/diagrama4.png)
+
+<p style="text-align: center;"><em>Despliegue del sistema de ubicación en tiempo real.</em></p>
+
 
 ![alt text](<Assets/diagrama 4.png>)
 
@@ -1227,44 +1255,41 @@ En esta sección se aborda el diseño táctico de ParkingNow, desglosando las ca
 #### 4.2.1. Bounded Context: Parking Space Management Context
 
 En esta sección, el equipo presenta las clases identificadas y las detalla a manera de diccionario, explicando para cada una su nombre, propósito y la documentación de atributos y métodos considerados, junto con las relaciones entre ellas.
-
 #### 4.2.1.1. Domain Layer
-El núcleo de este Bounded Context (BC) gira en torno al Aggregate Espacio.
+El núcleo de este Bounded Context (BC) gira en torno al Aggregate **Espacio**.
 
 - **Aggregates:** 
   - `espacioId` (identidad)      
-  - `sensorId`, `localId` (referencias)
-    
+  - `camaraId`, `localId` (referencias)
   - `descripcion`, `ubicacion` (detalles)
-        
   - `estadoEspacio` (estado actual)
-        
+
 - **Métodos:**  
-    `ocupar()`, `liberar()`, `marcarReservado()`, `marcarDisponible()`, `ponerEnMantenimiento()`, `actualizarEstadoPorSensor()`
+  `ocupar()`, `liberar()`, `marcarReservado()`, `marcarDisponible()`, `ponerEnMantenimiento()`, `actualizarEstadoPorCamara()`
 
+- **Value Objects:**  
+  - `EspacioId`, `CamaraId`, `LocalId`
+  - `EstadoEspacio`: Disponible, Ocupado, Reservado, EnMantenimiento
+  - `UbicacionEspacio`: Detalles de ubicación
 
-- **Value Objects:** 
-- `EspacioId`, `SensorId`, `LocalId`
-    
-- `EstadoEspacio`: Disponible, Ocupado, Reservado, EnMantenimiento
-    
-- `UbicacionEspacio`: Detalles de ubicación
-    
-- **Domain Services:** `VerificacionEstadoActualService` contiene la lógica para consultar el estado consolidado de uno o más espacios, útil para capas superiores o read models.
+- **Domain Services:**  
+  `VerificacionEstadoActualService` contiene la lógica para consultar el estado consolidado de uno o más espacios, útil para capas superiores o read models.
 
-- **Repositories:** `IEspacioRepository` (interfaz) define cómo se guardan y recuperan los Aggregates `Espacio`.
+- **Repositories:**  
+  `IEspacioRepository` (interfaz) define cómo se guardan y recuperan los Aggregates `Espacio`.
 
 #### 4.2.1.2. Interface Layer
-
 Esta capa permite la interacción externa con el Bounded Context.
+
 - **Controller:**  
-    `EspacioController` expone endpoints REST (ej. `GET /espacios/{id}`, `PUT /espacios/{id}/ocupar`)
-    
+  `EspacioController` expone endpoints REST (ej. `GET /espacios/{id}`, `PUT /espacios/{id}/ocupar`)
+
 - **Event Consumers:**  
-    Escuchan eventos externos como actualizaciones desde sensores o cancelaciones de reserva.
-    
+  Escuchan eventos externos como actualizaciones desde **cámaras de monitoreo visual** o cancelaciones de reserva.
+
 - **Event Producers:**  
-    Publican eventos cuando el estado de un espacio cambia (ej. `EspacioOcupadoEvent`).
+  Publican eventos cuando el estado de un espacio cambia (ej. `EspacioOcupadoEvent`).
+
 
 #### 4.2.1.3. Application Layer
 
@@ -1313,6 +1338,9 @@ Incluye:
   - **Domain Layer:** contiene las reglas de negocio, entidades, agregados, servicios de dominio y value objects.
   - **Infrastructure Layer:** conecta con sistemas externos como bases de datos, message brokers y servicios visuales de monitoreo por cámaras.
 
+<p align="center"><em>Diagrama de componentes del módulo de gestión de espacios</em></p>
+
+
 ![alt text](Assets/w1.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1323,11 +1351,17 @@ Esta seccion se presenta las implementaciones de componentes y explica las secci
 
 Aquí se muestra el diseño de clases del Domain Layer, centrado en el agregado Espacio, sus Value Objects, servicios de dominio y repositorio.
 
+<p align="center"><em>Diagrama de clases del Domain Layer - Gestión de espacios</em></p>
+
+
 ![alt text](Assets/w2.png)
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram
 
 Representación del modelo relacional para la persistencia del agregado Espacio.
+
+<p align="center"><em>Modelo de base de datos relacional del agregado Espacio</em></p>
+
 
 ![alt text](Assets/w3.png)
 
@@ -1375,6 +1409,9 @@ Esta capa contiene los elementos principales del dominio:
 
 El presente diagrama representa la descomposición a nivel de componentes del Reservation Management Context, respetando los principios de Domain-Driven Design. Cada container ha sido dividido en componentes con responsabilidades claras y cohesionadas, permitiendo identificar cómo interactúan entre sí dentro de la arquitectura hexagonal. Este enfoque permite separar los flujos de comando, consulta y eventos, facilitando el mantenimiento, evolución e integración del sistema con otros bounded contexts como ParkingSpace y Payment.
 
+<p align="center"><em>Diagrama de componentes - Gestión de reservas</em></p>
+
+
 ![alt text](Assets/w4.png)
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1385,11 +1422,17 @@ En esta sección se presentan los diagramas detallados a nivel de implementació
 
 A continuación, se describe el diagrama de clases UML para el Domain Layer del contexto de gestión de reservas:
 
+<p align="center"><em>Diagrama de clases - Domain Layer del contexto de reservas</em></p>
+
+
 ![alt text](Assets/w5.png)
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram
 
 El siguiente diagrama representa el modelo relacional utilizado para la persistencia de información del contexto de reservas.
+
+<p align="center"><em>Modelo relacional - Base de datos del contexto de reservas</em></p>
+
 
 ![alt text](Assets/w6.png)
 
@@ -1504,6 +1547,9 @@ Esta capa contiene los conceptos esenciales del dominio de usuarios:
 
 En esta sección se presentan los Component Diagrams del Modelo C4 para el Container User Management API, el cual forma parte del Bounded Context User Management Context. Este Container es responsable de manejar las operaciones relacionadas con la autenticación, registro, gestión de roles, perfiles de usuario y asociación de vehículos o estacionamientos.
 
+<p align="center"><em>Component Diagram – User Management Context</em></p>
+
+
 ![alt text](Assets/w7.png)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1514,11 +1560,16 @@ Esta sección detalla la implementación de los componentes principales del User
 
 Este diagrama representa la estructura del Domain Layer, mostrando las entidades, objetos de valor, agregados, servicios de dominio, interfaces de repositorio, y otras clases relevantes con sus atributos, métodos, visibilidades y relaciones.
 
+<p align="center"><em>Domain Layer – User Management Context</em></p>
+
 ![alt text](Assets/w8.png)
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram
 
-Este diagrama representa la estructura de la base de datos relacional para este contexto. Se definen las tablas, columnas, tipos de datos, claves primarias/foráneas y relaciones.
+Este diagrama representa la estructura de la base de datos relacional para este contexto. Se definen las tablas, columnas, tipos de datos, 
+claves primarias/foráneas y relaciones.
+
+<p align="center"><em>Database Design – User Management Context</em></p>
 
 ![alt text](Assets/w9.png)
 
@@ -1567,6 +1618,9 @@ En esta sección se describen las clases clave que conforman la lógica del cont
 
 En esta sección se presenta el Component Diagram para el Bounded Context: Local Context, utilizando el C4 Model. Este diagrama muestra la descomposición del Container de gestión de locales en componentes clave, sus responsabilidades y las interacciones entre ellos. El diagrama refleja cómo los diferentes componentes trabajan juntos dentro del contexto de locales, incluyendo el manejo de tarifas, promociones, opiniones y más.
 
+<p align="center"><em>Component Diagram – Local Context</em></p>
+
+
 ![alt text](Assets/w10.png)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1577,11 +1631,17 @@ En esta sección, se presentan y explican los diagramas que muestran un mayor ni
 
 En esta sección se presenta el Class Diagram en UML para las clases del Domain Layer dentro del Bounded Context: Local Context. El diagrama incluirá las clases clave, interfaces, enumeraciones, atributos, métodos y sus relaciones, detallando también el scope de cada miembro (public, private, protected) y la multiplicidad de las relaciones. Este diagrama describe con precisión la estructura de las entidades y objetos de valor que componen el modelo de dominio, así como los servicios de dominio involucrados.
 
+<p align="center"><em>Class Diagram – Local Context Domain Layer</em></p>
+
+
 ![alt text](Assets/w11.png)
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram
 
 En esta sección, se presenta el Database Diagram que detalla los objetos de base de datos para la persistencia de la información en el contexto de locales. El diagrama incluirá las tablas y columnas relevantes, así como las constraints (como claves primarias y foráneas), y mostrará las relaciones entre las tablas que permiten almacenar los datos de los Local, Tarifa, Promocion, Opinion, entre otros.
+
+<p align="center"><em>Database Design Diagram – Local Context</em></p>
+
 
 ![alt text](Assets/w12.png)
 
@@ -1625,6 +1685,12 @@ En esta sección se describen las clases clave que conforman la lógica del cont
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams
 
+
+Este diagrama muestra los principales componentes del contexto de seguridad en PARKINGNOW, encargados de la autorización, auditoría y validación de políticas. Destacan servicios como `AuthorizationService`, `AuditLogService` y repositorios de políticas, integrados mediante adaptadores de mensajería y eventos.
+
+<p align="center"><em>Componentes del contexto de seguridad en ParkingNow</em></p>
+
+
 ![alt text](Assets/w13.png)
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams
 
@@ -1634,12 +1700,18 @@ En esta sección, se presentan y explican los diagramas que muestran un mayor ni
 
 Este diagrama representa las principales clases del Domain Layer del Security Context. Incluye entidades, objetos de valor, servicios de dominio e interfaces de repositorio, y muestra sus relaciones, métodos y atributos clave. Este nivel de modelado facilita entender cómo se organiza la lógica del negocio centrada en la gestión de políticas de seguridad, eventos de auditoría y control de acceso.
 
+<p align="center"><em>Estructura de clases del contexto de seguridad</em></p>
+
+
 ![alt text](Assets/w14.png)
 
 
 #### 4.2.5.6.2. Bounded Context Database Design Diagram
 
 El siguiente diagrama describe el esquema de base de datos relacional para el Security Context. Se enfoca en las tablas que almacenan políticas de seguridad y registros de eventos de auditoría, con detalles como claves primarias, tipos de datos, y relaciones entre las entidades. Este modelo garantiza una estructura persistente coherente con las necesidades del dominio.
+
+<p align="center"><em>Modelo relacional del contexto de seguridad</em></p>
+
 
 ![alt text](Assets/w15.png)
 
@@ -1686,6 +1758,9 @@ En esta sección se describen las clases clave relacionadas con el servicio de s
 
 El diagrama de componentes del Support Context muestra cómo está estructurado internamente el contenedor encargado de gestionar las asesorías y solicitudes de soporte. Se identifican componentes de entrada (como controladores REST), servicios de aplicación para gestión y consulta de asesorías, lógica de dominio como la asignación de asesores, e integración con infraestructura (repositorios, adaptadores y eventos). Este desglose facilita la comprensión de responsabilidades, dependencias y puntos de integración con otros bounded contexts o sistemas externos.
 
+<p align="center"><em>Componentes del contexto de soporte y asesorías</em></p>
+
+
 ![alt text](Assets/w16.png)
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams
@@ -1696,11 +1771,17 @@ Esta sección presenta una descripción detallada de la implementación interna 
 
 El siguiente diagrama de clases representa la estructura del Domain Layer del Support Context. Aquí se modelan las clases, interfaces y objetos de valor que encapsulan la lógica de negocio, así como sus relaciones, atributos y métodos. Esta capa es fundamental para mantener la lógica independiente de frameworks o tecnologías externas.
 
+<p align="center"><em>Diagrama de clases del dominio de asesorías y asignación</em></p>
+
+
 ![alt text](Assets/w17.png)
 
 #### 4.2.6.6.2. Bounded Context Database Design Diagram
 
 Este diagrama muestra la representación de las entidades persistidas en base de datos para el Support Context. Define las tablas, columnas, claves primarias, claves foráneas y relaciones, modelando la estructura relacional necesaria para almacenar asesorías y datos de asesores.
+
+<p align="center"><em>Modelo relacional de asesorías y asesores</em></p>
+
 
 ![alt text](Assets/w18.png)
 
@@ -1746,13 +1827,21 @@ En esta sección se describen las clases clave relacionadas con la gestión de n
 
 El siguiente diagrama muestra la descomposición del container Notification Context, que es responsable de gestionar el envío de notificaciones y alertas en el sistema. Este contexto incluye componentes de control, servicios de aplicación, servicios de dominio y adaptadores de infraestructura. El diagrama refleja cómo interactúan estos componentes para procesar solicitudes, generar eventos y distribuir notificaciones en tiempo real a través de diferentes canales como email o notificaciones push.
 
+<p align="center"><em>Diagrama de componentes del sistema de notificaciones</em></p>
+
 ![alt text](Assets/w19.png)
 
 #### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams
 
+El siguiente apartado presenta los diagramas de nivel de código del Notification Context, los cuales permiten visualizar con mayor detalle la estructura interna del dominio. Se muestran las clases, interfaces, objetos de valor y servicios utilizados para organizar la lógica del negocio centrada en la gestión de notificaciones y alertas. Esta representación facilita el entendimiento técnico del diseño del sistema, promoviendo su mantenibilidad y escalabilidad.
+
+
 #### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams
 
 Este diagrama representa las clases, interfaces, value objects y servicios del Domain Layer del Notification Context. El objetivo es mostrar cómo se organiza el modelo de dominio alrededor de los aggregate roots Notificacion y Alerta, los servicios de dominio asociados, y cómo se estructuran las entidades e interfaces de repositorio. Se incluyen atributos, métodos, relaciones, visibilidad, y multiplicidades conforme al estándar de UML.
+
+<p align="center"><em>Modelo de clases del dominio de notificaciones y alertas</em></p>
+
 
 ![alt text](Assets/w20.png)
 
@@ -1760,25 +1849,37 @@ Este diagrama representa las clases, interfaces, value objects y servicios del D
 
 El siguiente diagrama de base de datos representa las tablas que sustentan la persistencia del Notification Context. Cada entidad del modelo de dominio tiene una tabla asociada, con claves primarias y foráneas que mantienen la integridad referencial entre notificaciones, alertas y destinatarios. Se describe la estructura de columnas y constraints principales de la base de datos relacional utilizada.
 
-![alt text](Assets/w21.png)
+<p align="center"><em>Diagrama de base de datos relacional del Notification Context</em></p>
 
+
+![alt text](Assets/w21.png)
 
 
 ### Conclusiones y recomendaciones
 
-El proyecto PARKINGNOW ha alcanzado avances significativos en la creación de una solución tecnológica integral para resolver los problemas de estacionamiento en las ciudades. Al combinar sensores infrarrojos de detección en tiempo real con una plataforma intuitiva para los usuarios, PARKINGNOW no solo optimiza la ocupación de los espacios de estacionamiento, sino que también facilita el día a día de los conductores urbanos. Esta solución ha demostrado ser eficaz tanto en la reducción de tiempos de búsqueda como en la mejora de la rentabilidad para los dueños de playas de estacionamiento, mostrando un balance ideal entre tecnología y experiencia del usuario.
+El proyecto PARKINGNOW ha logrado avances significativos en el desarrollo de una solución tecnológica integral para resolver los problemas de estacionamiento en entornos urbanos. Al integrar cámaras de monitoreo visual en tiempo real con una plataforma intuitiva, PARKINGNOW optimiza la ocupación de los espacios disponibles y facilita el acceso a estacionamiento para los conductores urbanos. Esta solución ha demostrado ser eficaz en la reducción de tiempos de búsqueda y en la mejora de la rentabilidad para los administradores de espacios de estacionamiento, mostrando un balance adecuado entre tecnología y experiencia del usuario.
 
-A lo largo del desarrollo, se ha priorizado un enfoque en la automatización, lo que ha permitido la integración fluida con los sistemas de gestión de estacionamientos ya existentes. Las entrevistas de validación con usuarios y pruebas de campo han confirmado que la solución no solo cumple con las expectativas iniciales, sino que supera las necesidades de los principales actores involucrados. La aplicación no solo resuelve el problema de encontrar estacionamiento, sino que contribuye al alivio del tráfico urbano y a una gestión más eficiente de los recursos, alineándose con los objetivos de sostenibilidad a largo plazo.
+Durante su desarrollo, se priorizó un enfoque de automatización e integración fluida con sistemas existentes de gestión de estacionamientos. Las entrevistas de validación con usuarios y las pruebas de campo confirmaron que la solución no solo cumple con las expectativas iniciales, sino que también supera las necesidades de los principales actores involucrados. La aplicación no solo resuelve la dificultad de encontrar estacionamiento, sino que también contribuye a la reducción del tráfico urbano y a una gestión más eficiente de los recursos, alineándose con los objetivos de sostenibilidad a largo plazo.
 
-PARKINGNOW tiene el potencial de consolidarse como un referente en la gestión de estacionamientos urbanos, especialmente en grandes ciudades donde los problemas de tráfico y la falta de espacios de estacionamiento representan un desafío diario. La plataforma ha mostrado una capacidad destacada para escalar y adaptarse a diferentes contextos, tanto en términos geográficos como en la evolución tecnológica.
+PARKINGNOW tiene el potencial de consolidarse como un referente en la gestión de estacionamientos urbanos, especialmente en ciudades donde el tráfico y la falta de espacios representan un desafío diario. La plataforma ha demostrado capacidad de escalabilidad y adaptación tanto en diferentes contextos geográficos como tecnológicos.
+
 
 **Recomendaciones:**
 
-1. **Expansión de funcionalidades:** Se recomienda que PARKINGNOW continúe invirtiendo en el desarrollo de nuevas características que agreguen valor para los usuarios y propietarios de estacionamientos. Esto podría incluir la integración de sistemas de pago automatizados, alertas en tiempo real sobre disponibilidad de espacios y la mejora en la personalización de la experiencia del usuario a través de análisis predictivos de patrones de uso. Además, el uso de tecnología avanzada, como inteligencia artificial para pronósticos de ocupación, podría posicionar aún más a PARKINGNOW como un líder en la industria.
-2. **Expansión geográfica y sectorial:** Con el éxito demostrado en los primeros mercados, PARKINGNOW debería buscar expandirse a otras ciudades con alta demanda de estacionamiento y problemas recurrentes de tráfico. Además, explorar nuevas oportunidades en sectores específicos, como aeropuertos, centros comerciales y eventos masivos, podría ampliar aún más el mercado objetivo de la plataforma.
-3. **Estrategia de marketing y educación:** Para aumentar la adopción de la plataforma, es clave diseñar una campaña de marketing digital dirigida tanto a conductores como a dueños de estacionamientos. El uso de testimonios de usuarios satisfechos y estudios de caso concretos que demuestren la reducción de tiempo y costos puede ser una herramienta eficaz para atraer nuevos usuarios. También es importante educar al público objetivo sobre el impacto positivo que tiene el uso de PARKINGNOW en la mejora del tráfico y la sostenibilidad urbana.
-4. **Monitoreo y análisis continuo:** A medida que la plataforma crece, es esencial implementar sistemas de análisis continuo de los datos generados por los usuarios y los espacios de estacionamiento. El análisis de grandes volúmenes de datos permitirá la identificación temprana de problemas y la adaptación rápida a las necesidades cambiantes del mercado. Además, este enfoque de mejora continua garantizará que la experiencia del usuario siga siendo óptima y que el servicio mantenga su competitividad en el tiempo.
-5. **Sostenibilidad y responsabilidad social:** A medida que el impacto de PARKINGNOW crece, es recomendable enfocarse aún más en su papel dentro del ecosistema de movilidad sostenible. Iniciativas como reducir la huella de carbono de los conductores mediante la disminución de tiempo en busca de estacionamiento y la colaboración con proyectos de ciudades inteligentes posicionarán a PARKINGNOW no solo como una empresa rentable, sino también como un agente clave en la sostenibilidad urbana.
+- **Expansión de funcionalidades:**  
+Se recomienda continuar con el desarrollo de nuevas funcionalidades que agreguen valor a los usuarios y administradores, como la integración de sistemas de pago automatizados, alertas de disponibilidad en tiempo real y mejoras en la personalización mediante análisis predictivo. La incorporación de inteligencia artificial para pronosticar ocupación sería una ventaja competitiva.
+
+- **Expansión geográfica y sectorial:**  
+Tras el éxito inicial, PARKINGNOW debería expandirse a nuevas ciudades con alta demanda de estacionamiento y explorar oportunidades en sectores como aeropuertos, centros comerciales y eventos masivos.
+
+- **Estrategia de marketing y educación:**  
+Es esencial diseñar una campaña de marketing digital enfocada en conductores y administradores de estacionamientos. El uso de testimonios reales y estudios de caso sobre mejoras en tiempos de búsqueda puede aumentar significativamente la adopción. Además, se debe educar al público sobre los beneficios en sostenibilidad urbana.
+
+- **Monitoreo y análisis continuo:**  
+Se debe implementar el análisis constante de datos de uso y ocupación de espacios para anticipar necesidades del mercado y corregir posibles deficiencias, asegurando una mejora continua de la experiencia del usuario.
+
+- **Sostenibilidad y responsabilidad social:**  
+PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviendo iniciativas que reduzcan la huella de carbono y colaborando con proyectos de ciudades inteligentes, para posicionarse no solo como una plataforma tecnológica, sino también como un actor clave en la sostenibilidad urbana.
 
 # Bibliografía
 
@@ -1791,30 +1892,13 @@ PARKINGNOW tiene el potencial de consolidarse como un referente en la gestión d
 7. **Propuesta País**. (2023, 22 de julio). *La necesidad de una política de estacionamiento vehicular en Lima Metropolitana*. Propuesta País. Recuperado el 6 de septiembre de 2024, de [https://propuestapais.pe/noticia/la-necesidad-de-una-politica-de-estacionamiento-vehicular-en-lima-metropolitana/](https://propuestapais.pe/noticia/la-necesidad-de-una-politica-de-estacionamiento-vehicular-en-lima-metropolitana/)
 8. **Intertraffic**. (2023, 28 de junio). *Revolucionando las experiencias de estacionamiento: Las últimas soluciones inteligentes para un estacionamiento eficiente*. Intertraffic. Recuperado el 6 de septiembre de 2024, de [https://www.intertraffic.com/news/espanol/revolucionando-las-experiencias-de-estacionamiento](https://www.intertraffic.com/news/espanol/revolucionando-las-experiencias-de-estacionamiento)
 
-### Video About-the-Team
-
-Esta sección incluye un video que resume el proceso de trabajo de nuestro equipo, destacando la retrospectiva del grupo y los testimonios de cada miembro. El video será subido a Microsoft Stream y YouTube, y se incrustará en una sección del Landing Page, según las especificaciones proporcionadas.
-
-![alt text](Assets/teams.png)
-
-Link de Streams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/ERG_A1Mf0t5EoGRzU_XUo8QBZJT99rE8sX_XHatsv_G1mQ?e=9MiQih&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-Link de Youtube: https://youtu.be/qoJ8mDAEmEM
-
 ## Anexos
-
 | Sección                                                     | Enlace                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Lean UX Canvas                                               | https://www.canva.com/design/DAGOyaW6z7E/ub8lVBXsKH3Em5YVQb223g/edit?utm_content=DAGOyaW6z7E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton                                                                                                                                                                                                                                                                                          |
-| To be Scenario Mapping - Dueños de playa de estacionamiento | https://miro.com/app/board/uXjVKmNkzqc=/?share_link_id=307784420338                                                                                                                                                                                                                                                                                                                                                                                    |
-| To be Scenario Mapping - Conductores Urbanos Frecuentes      | https://miro.com/app/board/uXjVKmOWBhk=/?share_link_id=425124811159                                                                                                                                                                                                                                                                                                                                                                                    |
-| Dueños de playas de estacionamientos                        | https://miro.com/app/board/uXjVKwEdZl=/?share_link_id=724391040067                                                                                                                                                                                                                                                                                                                                                                                     |
-| Conductores Urbanos Frecuentes                               | https://miro.com/app/board/uXjVKIATTNc=/?share_link_id=958948485500                                                                                                                                                                                                                                                                                                                                                                                    |
-| Figma                                                        | https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=32cD1vUOTgXzKlv9-1                                                                                                                                                                                                                                                                                                                                                       |
-| Vertabelo                                                    | https://my.vertabelo.com/doc/pYDPCowUTtVaVuDmakCr4QlOKjdT1o1o                                                                                                                                                                                                                                                                                                                                                                                          |
-| Entrevistas en general - Segmento 1 y 2                      | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223990_upc_edu_pe/EbIvmu-9HRFItJu_A2zbRx0BPfLCx2uRJnBarh-nlbO95A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=jlmpb3                                                                                                                                 |
-| Link de video de exposición                                 | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/EWKHzhsfxolEvJLdJNUX07sBGrxabKWvXX_kvqdSpUFZTA?e=MpiEeE                                                                                                                                                                                                                                                                                                                        |
-| Link del Trello - Sprint 2                                   | https://trello.com/invite/b/66e9b5b8f40799cfcf6b00d3/ATTIa96971e39f8a6c5827fd4d56f290181a384AD640/sprint-backlog-2                                                                                                                                                                                                                                                                                                                                     |
-| Link del Trello - Sprint 3                                   | https://trello.com/invite/b/6724d8fb0429d3b504591841/ATTIa159b1edae603492dcfd8a0b4b6e79fa96226B0D/sprint-backlog-3                                                                                                                                                                                                                                                                                                                                     |
-| Link del Trello - Sprint 1                                   | https://trello.com/invite/b/66e8592fa7463897e6009305/ATTI40cdd58c92843377c1bb36efe058ba4f83EFDA35/open-source-parkingnow                                                                                                                                                                                                                                                                                                                               |
-| Link de video de exposición - TB2                           | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/EWKHzhsfxolEvJLdJNUX07sBGrxabKWvXX_kvqdSpUFZTA?e=MpiEeE](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/ETI9k7e8ZGFIn6wXMz3eS2EBFgRlxKhWHuoe3WQMqMHqZg?e=E2kvBP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Lean UX Canvas                                               | [https://www.canva.com/design/DAGOyaW6z7E/ub8lVBXsKH3Em5YVQb223g/edit](https://www.canva.com/design/DAGOyaW6z7E/ub8lVBXsKH3Em5YVQb223g/edit) |
+| To be Scenario Mapping - Dueños de Estacionamiento           | [https://miro.com/app/board/uXjVKmNkzqc=/?share_link_id=307784420338](https://miro.com/app/board/uXjVKmNkzqc=/?share_link_id=307784420338) |
+| To be Scenario Mapping - Conductores Urbanos Frecuentes      | [https://miro.com/app/board/uXjVKmOWBhk=/?share_link_id=425124811159](https://miro.com/app/board/uXjVKmOWBhk=/?share_link_id=425124811159) |
+| Entrevistas en general - Segmento 1 y 2                      | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=B1S994&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=B1S994&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| Event Storming                                               | [https://miro.com/welcomeonboard/VTBYK0pNaFZXMHdaZkJJVklrQTJlbkVVK1hua3I3SGxZS0tJWDlrdkdSKzBCMStzODVJdnRCYUVhNUlXWnZuVkROSlFUSThIRUpqYnhGTXFwVEhSNDhHaE55VE00RUtjTGZpdVdXVHZSZlJURGVVcHp1Nm9xYSsraFMrWS9QaUN0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=139548661674](https://miro.com/welcomeonboard/VTBYK0pNaFZXMHdaZkJJVklrQTJlbkVVK1hua3I3SGxZS0tJWDlrdkdSKzBCMStzODVJdnRCYUVhNUlXWnZuVkROSlFUSThIRUpqYnhGTXFwVEhSNDhHaE55VE00RUtjTGZpdVdXVHZSZlJURGVVcHp1Nm9xYSsraFMrWS9QaUN0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=139548661674) |
+| Bounded Context Canvas                                       | [https://miro.com/welcomeonboard/cGZuTUVpS2dKQmNEMyttdnVVNmRwMHJjSHNZWnFXYW0wanRFSzJwbXJPZCtJZXVudE9mNUdwMUNIeG1IWWhiV241SDVhdFhGcjJQM1VPQW5LbGtXY3NHaE55VE00RUtjTGZpdVdXVHZSZlJRK1Y5YlUxeDhOV2RGTnpZNnBsWGNnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=702863708662](https://miro.com/welcomeonboard/cGZuTUVpS2dKQmNEMyttdnVVNmRwMHJjSHNZWnFXYW0wanRFSzJwbXJPZCtJZXVudE9mNUdwMUNIeG1IWWhiV241SDVhdFhGcjJQM1VPQW5LbGtXY3NHaE55VE00RUtjTGZpdVdXVHZSZlJRK1Y5YlUxeDhOV2RGTnpZNnBsWGNnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=702863708662) |
+| Link de video de exposición                                 | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/EWKHzhsfxolEvJLdJNUX07sBGrxabKWvXX_kvqdSpUFZTA?e=MpiEeE](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/EWKHzhsfxolEvJLdJNUX07sBGrxabKWvXX_kvqdSpUFZTA?e=MpiEeE) |
