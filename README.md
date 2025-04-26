@@ -281,9 +281,6 @@ Con el objetivo de comprender en profundidad las necesidades reales de los usuar
   La magnitud del problema es considerable. Se refleja en el alto número de infracciones, incidentes y robos asociados al estacionamiento informal o indebido. La falta de sistemas de detección visual, como **cámaras**, agrava la situación y afecta a una amplia variedad de usuarios.
 
 En síntesis, **PARKINGNOW** se posiciona como una **solución integral y tecnológica** frente a los desafíos del estacionamiento urbano. Su implementación contribuye a **facilitar la movilidad**, **reducir la congestión** y **mejorar la seguridad**, mediante un sistema de gestión de espacios que responde a las necesidades tanto de los conductores como de los administradores.
-### 1.2.2. Lean UX Process
-
-En esta sección se implementa la metodología **Lean UX**, cuyo alcance abarca la **conceptualización del modelo de negocio** que respaldará el desarrollo del producto de software propuesto. Este enfoque estratégico permite enfocar los esfuerzos del equipo en el **diseño centrado en el usuario**, alineado con las problemáticas detectadas mediante técnicas de **Design Thinking**.
 
 ### 1.2.2. Lean UX Process
 
