@@ -416,7 +416,7 @@ El Lean UX Canvas desarrollado para **PARKINGNOW** permite identificar los princ
 <p align="center"><em>Figura 1. Lean UX Canvas aplicado al proyecto PARKINGNOW</em></p>
 
 
-![canvas](Assets/canvas.png)  
+![alt text](Assets/ca.png)
 
 
 ### 1.3. Segmentos objetivo
