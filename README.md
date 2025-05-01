@@ -1858,6 +1858,27 @@ El siguiente diagrama de base de datos representa las tablas que sustentan la pe
 ![alt text](Assets/w21.png)
 
 
+## Capítulo V: Solution UI/UX Desing 
+
+## Product Design
+
+### Style Guidelines
+
+#### General Style Guidelines
+
+### Information Architecture
+
+#### Organization Systems  
+#### Labelling Systems  
+#### SEO Tags and Meta Tags  
+#### Searching Systems  
+#### Navigation Systems
+
+### Landing Page UI Design
+
+#### Landing Page Wireframe  
+#### Landing Page Mock-up
+
 ### Conclusiones y recomendaciones
 
 El proyecto PARKINGNOW ha logrado avances significativos en el desarrollo de una solución tecnológica integral para resolver los problemas de estacionamiento en entornos urbanos. Al integrar cámaras de monitoreo visual en tiempo real con una plataforma intuitiva, PARKINGNOW optimiza la ocupación de los espacios disponibles y facilita el acceso a estacionamiento para los conductores urbanos. Esta solución ha demostrado ser eficaz en la reducción de tiempos de búsqueda y en la mejora de la rentabilidad para los administradores de espacios de estacionamiento, mostrando un balance adecuado entre tecnología y experiencia del usuario.
