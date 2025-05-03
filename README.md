@@ -1860,24 +1860,265 @@ El siguiente diagrama de base de datos representa las tablas que sustentan la pe
 
 ## Capítulo V: Solution UI/UX Desing 
 
-## Product Design
+## 5.1 Product Design
 
-### Style Guidelines
+En esta sección se describe el diseño general del producto digital, considerando tanto la aplicación móvil como el landing page. Se definen los lineamientos visuales, de interacción y estructura de contenido, enfocados en ofrecer una experiencia clara, accesible y coherente para el usuario. Los subapartados detallan los componentes clave del diseño UI/UX propuesto.
 
-#### General Style Guidelines
+### 5.1.1 Style Guidelines
 
-### Information Architecture
 
-#### Organization Systems  
-#### Labelling Systems  
-#### SEO Tags and Meta Tags  
-#### Searching Systems  
-#### Navigation Systems
+Esta sección define las guías visuales que aseguran coherencia y uniformidad en toda la solución de ParkingNow. Establece los elementos gráficos esenciales que se aplicarán tanto en la aplicación móvil como en el landing page, permitiendo una experiencia visual clara, accesible y alineada con la identidad del producto.
 
-### Landing Page UI Design
+#### 5.1.1.1. General Style Guidelines
 
-#### Landing Page Wireframe  
-#### Landing Page Mock-up
+
+#### Brand Overview
+
+En diversas ciudades, encontrar un espacio de estacionamiento disponible puede ser una tarea difícil, principalmente por la falta de información en tiempo real y la ausencia de herramientas para realizar reservas anticipadas. Esta situación genera estacionamientos indebidos, mayor congestión vehicular y una experiencia negativa para los conductores.
+
+**ParkingNow** surge como una solución a estos problemas, ofreciendo una plataforma que conecta a los conductores con espacios de estacionamiento disponibles de manera inmediata. A través del uso de tecnología moderna, como cámaras de monitoreo y geolocalización, la plataforma permite no solo ubicar y reservar espacios fácilmente, sino también mejorar el flujo vehicular urbano, beneficiando tanto a conductores como a propietarios de playas de estacionamiento.
+
+#### Brand Name
+
+El nombre de nuestra solución, **ParkingNow**, representa con claridad su propósito: brindar una herramienta ágil y efectiva para ubicar y gestionar espacios de estacionamiento. El término "Parking" hace referencia directa al servicio principal, mientras que "Now" destaca la rapidez e inmediatez de la plataforma. Se eligió un nombre en inglés por su carácter universal y su facilidad para conectar con un público amplio en un entorno digital globalizado.
+
+A continuación, se presenta el **logo**:
+
+![alt text](Assets/ParkingNowlogo.png)
+
+### Typography
+
+La tipografía en *ParkingNow* cumple un rol esencial en la claridad visual y la usabilidad de la aplicación móvil. Se eligieron fuentes modernas, limpias y altamente legibles que permiten a los usuarios identificar rápidamente la información clave, mejorando así la experiencia general de navegación.
+
+La estructura tipográfica se organiza en cuatro niveles jerárquicos: **headings** (títulos), **body** (texto principal), **buttons** (botones) y **links** (enlaces), garantizando uniformidad visual en toda la interfaz.
+
+
+![alt text](<Assets/tipografia .png>)
+
+### Colors
+
+La selección de colores desempeña un rol clave en el diseño visual de *ParkingNow*, ya que influye directamente en la percepción del usuario y en la navegación dentro de la aplicación móvil. Por ello, se eligieron cuidadosamente tonos que reflejan la identidad de la marca y mejoran la experiencia del usuario.
+
+El color principal definido es el **azul noche**, el cual transmite tecnología y seguridad, atributos esenciales para una plataforma confiable de estacionamiento. Este tono proporciona una sensación de tranquilidad y confianza durante el uso.
+
+Además, se incorporaron colores secundarios como el **amarillo**, el **gris**, el **blanco** y el **negro**, los cuales aportan energía, equilibrio visual, limpieza y contraste respectivamente. Estos colores complementan la interfaz y permiten destacar elementos interactivos, zonas informativas y botones clave en la app.
+
+A continuación, se presenta la paleta de colores utilizada en *ParkingNow* junto con sus respectivos códigos hexadecimales.
+
+#### 🎨 Color Primario – Azul Noche (`#2D333F`)
+
+El color principal seleccionado para la aplicación móvil *ParkingNow* es el **azul noche**, una tonalidad moderna que proyecta tecnología y seguridad, pilares clave en la experiencia de estacionamiento que brinda nuestra app. Este color transmite calma y confianza, creando una interfaz amigable y profesional para los usuarios que navegan desde sus dispositivos móviles.
+
+Esta tonalidad se ha aplicado especialmente en fondos, encabezados y componentes clave de navegación, manteniendo la consistencia visual en toda la aplicación. Además, se ha utilizado una escala de variaciones del azul noche para manejar estados, sombras y jerarquías de elementos.
+
+
+![alt text](Assets/Azul.png)
+
+#### 🎨 Color Secundario – Amarillo (`#FFF500`)
+
+El color **amarillo vibrante** fue elegido como tonalidad secundaria para la app móvil *ParkingNow*, debido a su capacidad para captar rápidamente la atención del usuario. Este tono resalta elementos clave de interacción dentro de la interfaz, como botones de acción, alertas destacadas o secciones prioritarias del flujo de uso.
+
+Además de aportar un contraste dinámico con el color primario, el amarillo refuerza la percepción de eficiencia, visibilidad y rapidez del servicio de estacionamiento inteligente. Su presencia estratégica en la interfaz ayuda a guiar al usuario de forma intuitiva en su experiencia diaria.
+
+![alt text](Assets/Amarrillo.png)
+
+#### 🩶 Color Secundario – Gris (`#828282`)
+
+El color **gris** ha sido incorporado como una tonalidad secundaria que aporta balance visual y profesionalismo a la interfaz de *ParkingNow*. Su neutralidad permite destacar los elementos primarios sin competir con ellos, ayudando a mantener una estética limpia y moderna en todo el diseño mobile.
+
+Este tono se utiliza estratégicamente en componentes de menor jerarquía como bordes, divisores, placeholders o textos secundarios, brindando un contraste elegante y sutil que mejora la legibilidad y la claridad visual de la app.
+
+![alt text](Assets/BN.png)
+
+#### 🤍 Color Secundario – Blanco (`#FFFFFF`)
+
+El blanco cumple un rol esencial dentro de la interfaz de *ParkingNow*, al aportar una sensación de limpieza, orden y simplicidad visual. Esta tonalidad se utiliza como fondo principal en muchas pantallas para mejorar la legibilidad de los textos y resaltar los elementos clave.
+
+Gracias a su neutralidad, el blanco permite que los colores primarios y secundarios se destaquen adecuadamente, facilitando una experiencia de usuario clara, accesible y organizada en toda la aplicación.
+
+![alt text](Assets/BN2.png)
+
+#### ⚪ Color Secundario – Gris Claro (`#F2F2F2`)
+
+El tono `#F2F2F2` utilizado en *ParkingNow* pertenece a una escala gris clara que ofrece una sensación de **neutralidad y limpieza visual**. Este color se emplea principalmente como fondo en componentes secundarios o tarjetas, permitiendo que los elementos clave —como botones o textos— resalten con mayor claridad.
+
+Su suavidad mejora la legibilidad y brinda un equilibrio visual elegante, siendo especialmente útil en interfaces móviles donde se busca evitar el uso excesivo de blanco puro, pero manteniendo una estética moderna y profesional.
+
+
+![alt text](Assets/BN3.png)
+
+### 5.1.2. Information Architecture
+
+La arquitectura de información en *ParkingNow* ha sido diseñada siguiendo un enfoque mobile-first, con el objetivo de facilitar la navegación y el acceso rápido a las funcionalidades clave desde dispositivos móviles. La estructura de la app se organiza de forma jerárquica, priorizando flujos simples y directos como buscar estacionamiento, reservar un espacio, gestionar pagos y consultar el historial.
+
+Se emplean etiquetas claras y concisas para los menús y botones, acompañadas de una navegación principal mediante una barra inferior que permite moverse entre las secciones más utilizadas. Además, se considera un sistema de búsqueda para ubicar rápidamente estacionamientos disponibles, mejorando así la eficiencia del recorrido del usuario dentro de la aplicación. Esta organización permite una experiencia ordenada, intuitiva y centrada en las necesidades reales del usuario móvil.
+
+#### 5.1.2.1. Organization Systems  
+
+
+Para estructurar la arquitectura de la información de *ParkingNow*, se ha adoptado un sistema de organización **jerárquico**, tanto en la aplicación móvil como en la landing page. Esta decisión permite ofrecer una navegación intuitiva y eficiente, en la que los usuarios pueden encontrar rápidamente la información o funcionalidad que necesitan según su perfil.
+
+##### 📱 Aplicación Móvil
+
+La aplicación está dividida en flujos personalizados para dos tipos de usuarios: **conductores urbanos frecuentes** y **propietarios de estacionamientos**. Cada flujo prioriza las tareas más comunes de cada perfil para reducir pasos innecesarios y mejorar la experiencia desde dispositivos móviles.
+
+- **Para Conductores Urbanos Frecuentes**:
+  - **Inicio**: Vista general de reservas activas y accesos directos a funcionalidades clave.
+  - **Buscar Estacionamiento**: Búsqueda y visualización de estacionamientos disponibles en tiempo real mediante cámaras de monitoreo, con filtros por ubicación, precio y horario.
+  - **Favoritos**: Listado de estacionamientos guardados para acceso rápido.
+  - **Historial**: Registro de reservas pasadas que permite revisar actividad reciente.
+
+- **Para Propietarios de Estacionamientos**:
+  - **Inicio**: Panel con resumen de ocupación y notificaciones relevantes.
+  - **Monitoreo**: Gestión en tiempo real de la ocupación mediante cámaras de vigilancia conectadas.
+  - **Reservas**: Sección para aprobar o rechazar solicitudes de reserva.
+  - **Estadísticas**: Panel con gráficos sobre uso, disponibilidad e ingresos, ayudando a tomar decisiones operativas.
+
+Este enfoque jerárquico permite separar de forma clara las funcionalidades principales según el tipo de usuario, minimizando la carga cognitiva y facilitando una experiencia centrada en tareas.
+
+##### 🌐 Landing Page
+
+La página informativa (Landing Page) también sigue una estructura jerárquica, priorizando la información más relevante y guiando al usuario hacia la acción deseada (registro o inicio de sesión). Su diseño está optimizado para móviles y se compone de las siguientes secciones:
+
+- **Barra de navegación superior** con enlaces directos a:
+  - **Inicio**: Visión general de la app y botones principales para registrarse o iniciar sesión.
+  - **Servicios**: Descripción de los beneficios que *ParkingNow* ofrece tanto a conductores como a propietarios.
+  - **Planes**: Detalles de las opciones de transacción, condiciones y beneficios.
+  - **Contáctanos**: Formulario y enlaces a redes sociales para contacto directo.
+  - **Nosotros**: Información sobre la misión, visión y el equipo del proyecto.
+
+- **Estructura de contenido clara**:
+  - Uso de **encabezados jerárquicos** y **subsecciones** para organizar el texto.
+  - **Botones de llamado a la acción (CTA)** colocados estratégicamente para guiar al usuario.
+
+- **Pie de página (footer)**:
+  - Contiene enlaces complementarios como políticas de privacidad, términos de uso y redes sociales, ofreciendo navegación adicional.
+
+Este sistema de organización refuerza la facilidad de uso en plataformas móviles, mejora la localización de contenidos y guía al usuario a través de rutas claras de interacción.
+
+#### 5.1.2.2. Labelling Systems  
+
+Los sistemas de etiquetado implementados en *ParkingNow* han sido diseñados para garantizar una navegación clara, accesible y rápida dentro de la aplicación móvil. El objetivo principal es que los usuarios identifiquen de inmediato el propósito de cada sección, función o acción, sin ambigüedades. Para ello, se utilizaron etiquetas consistentes, directas y visualmente reconocibles, divididas en tres tipos: textuales, de encabezado e icónicas.
+
+##### 🏷️ Etiquetas de Encabezado (Headings)
+
+En la landing page informativa y en la app móvil, se emplean encabezados jerárquicos que organizan visualmente el contenido y ayudan al usuario a ubicar las secciones principales. Estas etiquetas están adaptadas para pantallas pequeñas, con textos breves y descriptivos:
+
+- **Inicio (Home)**: Encabezado de bienvenida en la pantalla principal, acompañado de un banner e información general.
+- **Servicios (Services)**: Describe las funcionalidades disponibles tanto para conductores como para propietarios de estacionamientos.
+- **Planes y Precios (Plans)**: Presenta las diferentes modalidades de uso y transacción.
+- **Contáctanos (Contact Us)**: Sección de contacto con el equipo mediante formulario y redes sociales.
+- **Sobre Nosotros (About Us)**: Informa sobre la misión, visión y propósito del proyecto.
+
+##### 🧾 Etiquetas Textuales (Text Labels)
+
+Las etiquetas textuales guían al usuario durante la interacción, principalmente en botones, formularios y menús. Se priorizó el uso de verbos de acción claros y sustantivos reconocibles, optimizados para la comprensión rápida en entornos móviles:
+
+- **Buscar Estacionamiento (Find Parking)**: Campo de búsqueda que permite ingresar una ubicación para encontrar espacios disponibles.
+- **Reservar (Reserve)**: Botón principal para confirmar la solicitud de estacionamiento.
+- **Historial (History)**: Acceso a la lista de reservas pasadas del usuario.
+- **Favoritos (Favorites)**: Sección donde se almacenan los estacionamientos preferidos.
+- **Configuraciones (Settings)**: Área donde el usuario puede modificar sus preferencias y datos personales.
+
+##### 🖼️ Etiquetas Icónicas (Iconic Labels)
+
+Complementando las etiquetas textuales, se utilizaron íconos visuales que refuerzan la comprensión y optimizan la navegación en dispositivos táctiles. Estos íconos son reconocibles a nivel universal y están alineados con las funciones clave de la app:
+
+- **🔍 Lupa**: Representa la acción de búsqueda de estacionamientos.
+- **📅 Calendario**: Utilizado para seleccionar fecha y hora en las reservas.
+- **⭐ Estrella**: Indica un estacionamiento marcado como favorito.
+- **🚗 Coche**: Identifica funciones relacionadas con la ubicación o seguimiento del vehículo.
+- **🔔 Campana**: Notifica al usuario sobre alertas, recordatorios o actualizaciones relevantes.
+
+Estos sistemas de etiquetado, combinando texto e iconografía, permiten que la navegación en *ParkingNow* sea clara, intuitiva y rápida, especialmente en el contexto de uso móvil donde la eficiencia y la comprensión inmediata son esenciales.
+
+#### 5.1.2.3. SEO Tags and Meta Tags  
+
+Para mejorar la visibilidad de la landing page de *ParkingNow* en los motores de búsqueda y garantizar una correcta visualización en distintos dispositivos, se han definido etiquetas SEO (Search Engine Optimization) y metaetiquetas (Meta Tags) esenciales. Estas optimizan el posicionamiento de la página y mejoran la experiencia de usuario al acceder desde navegadores móviles.
+
+A continuación, se detallan las etiquetas implementadas:
+
+
+    <!-- Título de la página -->
+    <title>ParkingNow – Reserva tu estacionamiento fácilmente</title>
+
+    <!-- Descripción del sitio -->
+    <meta name="description" content="ParkingNow es una aplicación móvil que te permite encontrar y reservar estacionamientos de forma rápida, segura y eficiente desde tu smartphone.">
+
+    <!-- Palabras clave -->
+    <meta name="keywords" content="ParkingNow, estacionamiento, app de parqueo, reserva de parqueo, movilidad urbana, aplicación móvil, estacionamiento inteligente">
+
+    <!-- Configuración responsive para móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Autoría -->
+    <meta name="author" content="Equipo ParkingNow – © 2025. Todos los derechos reservados.">
+
+Estas etiquetas SEO mejoran la visibilidad del proyecto en plataformas de búsqueda y garantizan una experiencia de usuario óptima desde cualquier dispositivo móvil.
+
+#### 5.1.2.4. Searching Systems  
+
+La aplicación móvil *ParkingNow* incorpora un sistema de búsqueda eficiente e intuitivo, diseñado para que los usuarios encuentren estacionamientos de manera rápida desde cualquier ubicación. Este sistema mejora la usabilidad al reducir el tiempo de búsqueda y permitir diferentes formas de explorar opciones, adaptadas al contexto urbano y a la experiencia en dispositivos móviles.
+
+Se han implementado las siguientes modalidades de búsqueda:
+
+- **🔤 Búsqueda por texto**: El usuario puede ingresar directamente el nombre del estacionamiento o del propietario para filtrar resultados específicos.
+
+- **📍 Búsqueda por ubicación**: Utiliza la geolocalización del dispositivo móvil para mostrar automáticamente los estacionamientos más cercanos disponibles.
+
+- **🗺️ Búsqueda por mapa interactivo**: Mediante un mapa integrado, el usuario puede explorar visualmente los espacios disponibles en distintas zonas, tanto cercanas como alejadas. El mapa incluye marcadores, detalles en tiempo real y opciones de reserva directa desde la vista geográfica.
+
+Estas funcionalidades están optimizadas para pantallas móviles, permitiendo búsquedas ágiles con pocos toques, mejorando la experiencia del usuario en situaciones de movilidad.
+
+#### 5.1.2.5. Navigation Systems
+
+La navegación en *ParkingNow* ha sido diseñada para ser simple e intuitiva, permitiendo a los usuarios realizar acciones como iniciar sesión, registrarse, buscar estacionamientos o hacer reservas de forma rápida. La app utiliza una barra de navegación inferior que da acceso directo a las secciones principales, adaptándose a los hábitos de uso en dispositivos móviles. El diseño busca minimizar los pasos y guiar al usuario de manera fluida a través de cada funcionalidad.
+
+### 5.1.3.Landing Page UI Design
+
+
+Se diseñó una landing page con enfoque mobile-first, utilizando un fondo gris claro (#F1F5F9) y acentos en amarillo para los botones principales. El diseño es simple y directo, con el logo en la parte superior, un mensaje claro y un botón de acción visible. Todo fue estructurado para facilitar la navegación desde dispositivos móviles.
+
+#### 5.1.3.1. Landing Page Wireframe  
+
+Se elaboró un wireframe de la landing page con enfoque mobile-first, priorizando una estructura vertical clara, botones visibles y secciones informativas. El diseño sirve como base para el desarrollo visual e implementación posterior de la página.
+
+##### 🟥 Wireframe 1: Encabezado y bienvenida
+
+![alt text](<Assets/mobile 1.png>)
+
+##### 🟥 Wireframe 2: Acción y zonas disponibles
+
+![alt text](<Assets/mobile 2.png>)
+
+##### 🟥 Wireframe 3: Qué es ParkingNow y beneficios
+
+![alt text](<Assets/mobile 3.png>)
+
+##### 🟥 Wireframe 4: Contacto y pie de página
+
+![alt text](<Assets/mobile 4 .png>)
+
+#### 5.1.3.2. Landing Page Mock-up
+
+
+Se desarrolló el mock-up visual de la landing page aplicando la identidad gráfica de ParkingNow. Se incorporaron imágenes reales, íconos representativos, colores de marca como el amarillo para el botón principal y un diseño limpio enfocado en la experiencia móvil. Este mock-up representa cómo se verá la página final al implementarla.
+
+ 🟨 Mock-up 1: Encabezado visual y CTA
+
+![alt text](<Assets/mobile 5.png>)
+
+🟨 Mock-up 2: Ciudades con cobertura
+
+![alt text](<Assets/mobile 6.png>)
+
+🟨 Mock-up 3: Descripción y beneficios
+
+![alt text](<Assets/mobile 7.png>)
+
+ 🟨 Mock-up 4: Contacto y redes sociales
+
+![alt text](<Assets/mobile 8.png>)
 
 ### Conclusiones y recomendaciones
 
