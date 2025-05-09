@@ -2120,6 +2120,9 @@ Se desarrolló el mock-up visual de la landing page aplicando la identidad gráf
 
 ![alt text](<Assets/mobile 8.png>)
 
+
+
+
 ### Conclusiones y recomendaciones
 
 El proyecto PARKINGNOW ha logrado avances significativos en el desarrollo de una solución tecnológica integral para resolver los problemas de estacionamiento en entornos urbanos. Al integrar cámaras de monitoreo visual en tiempo real con una plataforma intuitiva, PARKINGNOW optimiza la ocupación de los espacios disponibles y facilita el acceso a estacionamiento para los conductores urbanos. Esta solución ha demostrado ser eficaz en la reducción de tiempos de búsqueda y en la mejora de la rentabilidad para los administradores de espacios de estacionamiento, mostrando un balance adecuado entre tecnología y experiencia del usuario.
@@ -2128,6 +2131,150 @@ Durante su desarrollo, se priorizó un enfoque de automatización e integración
 
 PARKINGNOW tiene el potencial de consolidarse como un referente en la gestión de estacionamientos urbanos, especialmente en ciudades donde el tráfico y la falta de espacios representan un desafío diario. La plataforma ha demostrado capacidad de escalabilidad y adaptación tanto en diferentes contextos geográficos como tecnológicos.
 
+### 5.1.4. Mobile Applications UX/UI Design
+
+link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=ia65tQyBRcSvMzMD-1
+
+En esta sección se detalla el proceso de diseño UX/UI aplicado al aplicativo móvil de *ParkingNow*. El objetivo es garantizar una experiencia de usuario fluida e intuitiva, considerando las necesidades específicas de los usuarios al buscar, reservar y gestionar espacios de estacionamiento. Se abordarán aspectos clave como wireframes, diagramas de flujo, mock-ups visuales y prototipos interactivos que guían el desarrollo coherente de la interfaz móvil.
+
+#### 5.1.4.1. Mobile Applications Wireframes  
+
+La imagen presenta los wireframes de alta fidelidad que representan el flujo principal de autenticación del aplicativo móvil *ParkingNow*. Se incluyen pantallas clave como la bienvenida, inicio de sesión, recuperación de contraseña, verificación mediante código y cambio de clave. Estas vistas permiten visualizar de forma clara y estructurada la secuencia de interacción que seguirá el usuario al acceder a su cuenta, garantizando una experiencia intuitiva, accesible y alineada con los principios de diseño centrado en el usuario.
+
+<p align="center"><strong><em>Wireframes del flujo de autenticación</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 1.14.13 a. m..png>)
+
+Estas pantallas muestran el flujo de selección de rol y registro personalizado según el tipo de usuario en la aplicación *ParkingNow*. El usuario puede elegir entre registrarse como **Conductor**, para acceder a información de estacionamientos disponibles en la ciudad, o como **Dueño de estacionamiento**, para gestionar sus espacios, agilizar pagos y tener control operativo. Cada opción conduce a un formulario adaptado, con campos específicos como RUC y nombre del establecimiento para dueños, o placa y DNI para conductores, asegurando un registro adecuado y enfocado en las necesidades de cada perfil.
+
+<p align="center"><strong><em>Wireframes del registro por tipo de usuario</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-08 a la(s) 11.55.34 p. m..png>)
+
+Estas pantallas corresponden a los dashboards principales y menús laterales tanto para conductores como para dueños de estacionamientos dentro del aplicativo *ParkingNow*. El **dashboard del conductor** permite acceder rápidamente a lugares favoritos, ofertas y reservas activas, con integración visual mediante mapas. Por otro lado, el **dashboard del dueño de estacionamiento** facilita la gestión de espacios y la organización de reservas programadas. Ambos roles cuentan con un menú lateral personalizado que centraliza las funcionalidades según su tipo de usuario, mejorando la navegación y eficiencia de uso.
+
+<p align="center"><strong><em>Wireframes de dashboards y navegación por rol</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-08 a la(s) 11.56.27 p. m..png>)
+
+
+Estas pantallas representan funcionalidades complementarias del rol de conductor en la aplicación *ParkingNow*, enfocadas en brindar soporte, seguimiento, configuración y control de notificaciones. La sección de **Reservas** permite gestionar espacios ya agendados, mientras que el módulo de **Soporte** ofrece ayuda rápida ante incidencias. **Seguimiento** facilita visualizar el estado del estacionamiento reservado, y **Opciones** centraliza configuraciones como privacidad o seguridad. También se incluye la vista de **Notificaciones** relevantes para el usuario y una interfaz de **pago**, optimizada para procesar transacciones de manera segura y sencilla.
+
+<p align="center"><strong><em>Wireframes de funcionalidades complementarias para conductores</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.31.24 a. m..png>)
+
+Estas pantallas corresponden a las funcionalidades específicas para el rol de **dueño de estacionamiento** en la app *ParkingNow*. El módulo de **Registro de locales** permite dar de alta nuevos espacios con información clave como ubicación, seguridad y capacidad. Además, se incluyen vistas para **notificaciones** relacionadas con la actividad del local, así como una sección de **configuración** con opciones de perfil, soporte y seguridad. Esta última incluye el control de accesos y validación de entradas, aportando control y confianza en la gestión operativa del estacionamiento.
+
+<p align="center"><strong><em>Wireframes de gestión para dueños de estacionamiento</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-08 a la(s) 11.56.50 p. m..png>)
+
+
+#### 5.1.4.2. Mobile Applications Wireflow Diagrams  
+
+**User goal: Completar el registro e iniciar sesión en ParkingNow como conductor o dueño de estacionamiento.**
+
+<p align="center"><strong><em>Wireflow del proceso de registro e inicio de sesión</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.06.12 a. m..png>)
+
+**User goal: Acceder al dashboard correspondiente luego de iniciar  sesión.**
+
+<p align="center"><strong><em>Wireflow de acceso a dashboard según tipo de usuario</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.09.57 a. m..png>)
+
+**User goal: Navegar por el dashboard del conductor y completar una reserva de estacionamiento.**
+
+<p align="center"><strong><em>Wireflow de navegación del conductor y flujo completo de reserva</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.13.48 a. m..png>)
+
+**User goal: Navegar por las opciones administrativas del menú lateral como dueño de estacionamiento.**
+
+<p align="center"><strong><em>Wireflow de navegación y gestión para dueños de estacionamiento</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.15.12 a. m..png>)
+
+#### 5.1.4.3. Mobile Applications Mock-ups  
+
+Estas pantallas representan una versión visualmente refinada del flujo de autenticación del aplicativo móvil *ParkingNow*, aplicando principios modernos de diseño UI. Incluyen vistas clave como la bienvenida, inicio de sesión, recuperación de contraseña, verificación por código y cambio de clave. El estilo visual, basado en colores suaves, elementos geométricos y una disposición limpia, refuerza la identidad gráfica de la aplicación y mejora la experiencia del usuario desde el primer contacto.
+
+<p align="center"><strong><em>Mockups estilizados del flujo de autenticación</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 1.13.01 a. m..png>)
+
+Estas pantallas muestran el flujo de selección de rol y registro personalizado para los usuarios de *ParkingNow*. El usuario puede elegir entre registrarse como **Conductor**, con acceso a todos los estacionamientos disponibles, o como **Dueño de estacionamiento**, con un formulario específico para registrar su espacio. Cada formulario incluye campos validados y adaptados a las necesidades del perfil, garantizando claridad, segmentación de funcionalidades y eficiencia desde el ingreso inicial.
+
+<p align="center"><strong><em>Mockups del registro por tipo de usuario</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.25.29 a. m..png>)
+
+Estas vistas reflejan los dashboards iniciales y menús laterales disponibles para los diferentes tipos de usuario. El **Dueño de estacionamiento** accede a herramientas de gestión de locales, mientras que el **Conductor** puede visualizar y reservar espacios rápidamente. Los menús incluyen accesos directos a secciones como soporte, seguimiento, seguridad, configuración y notificaciones, facilitando la experiencia de navegación desde el primer acceso.
+
+<p align="center"><strong><em>Mockups de dashboards y navegación lateral</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.25.55 a. m..png>)
+
+Esta sección agrupa las funcionalidades específicas para el rol de **Conductor** dentro de *ParkingNow*. Incluye soporte técnico, seguimiento de reservas activas, ajustes personales y visualización de notificaciones relevantes. También se muestra el proceso completo de **reserva y pago**, desde la selección del espacio hasta la confirmación final con emisión de ticket. Todo el flujo mantiene una estética clara, jerarquía visual coherente y accesibilidad móvil.
+
+<p align="center"><strong><em>Mockups de funcionalidades y reservas para conductores</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.26.21 a. m..png>)
+
+Aquí se visualizan las herramientas internas para los **Dueños de estacionamiento**, pensadas para facilitar la gestión eficiente de sus locales. Se incluyen vistas para registrar espacios, revisar notificaciones administrativas, configurar parámetros de operación, y validar aspectos de seguridad. Estas pantallas fortalecen el control del negocio dentro del ecosistema *ParkingNow*, asegurando trazabilidad y facilidad de uso en tareas frecuentes.
+
+<p align="center"><strong><em>Mockups de gestión operativa para dueños de estacionamiento</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.26.51 a. m..png>)
+
+
+
+#### 5.1.4.4. Mobile Applications User Flow Diagrams  
+
+**User goal: Completar el registro y autenticación para acceder a la aplicación según el tipo de usuario.**
+
+Este wireflow representa el recorrido del usuario desde el landing page hasta su ingreso efectivo a la aplicación *ParkingNow*. Luego de iniciar desde la vista principal, el usuario accede a la pantalla de bienvenida, seguido de login, selección de rol y formularios de registro específicos para conductores o dueños de estacionamiento. Se contempla además la verificación por código y el flujo de recuperación de contraseña, asegurando una experiencia guiada y segmentada según el perfil.
+
+<p align="center"><strong><em>Wireflow del proceso completo de registro y autenticación</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.33.00 a. m..png>)
+
+**User goal: Redirigir al usuario al dashboard correspondiente luego de validar su código.**
+
+Este diagrama muestra la etapa final del login, donde tras ingresar el código de verificación correctamente, el usuario es redirigido automáticamente a su dashboard específico. Si el perfil registrado es de conductor, se carga una vista con mapas y accesos rápidos a estacionamientos. En cambio, si es dueño de estacionamiento, se presenta una interfaz orientada a la gestión de espacios. Esta lógica garantiza una experiencia diferenciada desde el primer acceso, alineada con las funcionalidades requeridas por cada tipo de usuario.
+
+<p align="center"><strong><em>Wireflow de acceso a dashboards según perfil de usuario</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.37.34 a. m..png>)
+
+
+**User goal: Navegar por la aplicación como conductor y completar una reserva con confirmación.**
+
+Este flujo describe cómo el conductor puede desplazarse por las funcionalidades principales del menú lateral en *ParkingNow*, accediendo a soporte, seguimiento, configuración y notificaciones. El recorrido incluye la realización de una reserva de estacionamiento: el usuario selecciona un espacio, efectúa el pago correspondiente, recibe un ticket digital con código QR y visualiza una pantalla de éxito al final. Todo el proceso está diseñado para ser claro, rápido y completamente funcional desde el entorno móvil.
+
+<p align="center"><strong><em>Wireflow de navegación y flujo de reserva para conductores</em></strong></p>
+
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.39.27 a. m..png>)
+
+**User goal: Gestionar espacios y configuraciones como dueño de estacionamiento desde el menú lateral.**
+
+Este wireflow muestra las acciones disponibles para el dueño de estacionamiento tras iniciar sesión. Desde el menú lateral puede acceder al registro de locales, visualizar notificaciones sobre actividades recientes, configurar parámetros de seguridad del sistema y acceder a secciones como configuración general o reservas activas. Cada vista está adaptada para optimizar el control administrativo y operativo del negocio, permitiendo gestionar recursos y validar información desde la app de forma eficiente y organizada.
+
+<p align="center"><strong><em>Wireflow de navegación y gestión interna para dueños de estacionamiento</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.41.07 a. m..png>)
+
+#### 5.1.4.5. Mobile Applications Prototyping
+
+
+Este prototipo visual realizado en Figma muestra el recorrido completo del usuario dentro del aplicativo móvil *ParkingNow*, integrando tanto la experiencia del conductor como del dueño de estacionamiento. Incluye todas las rutas posibles desde el landing page, login, verificación, selección de rol y formularios de registro, hasta la navegación interna y funcionalidades clave como reservas, pagos, emisión de tickets, soporte, configuración y seguridad. Las flechas azules indican las conexiones interactivas establecidas entre pantallas, lo que permite validar la experiencia de usuario antes de su desarrollo.
+
+<p align="center"><strong><em>Prototipo interactivo de alta fidelidad en Figma</em></strong></p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 1.10.21 a. m..png>)
 
 **Recomendaciones:**
 
