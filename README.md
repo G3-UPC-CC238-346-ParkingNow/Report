@@ -2566,163 +2566,43 @@ PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviend
          <td>5</td>
          <td>Samuel Molina</td>
          <td>Done</td>
-      </tr>
+      </tr>     
       <tr>
-         <td rowspan="2">US34</td>
-         <td rowspan="2">Gestión de Clientes en Servicio al Cliente</td>
-      </tr>
-      <tr>
-         <td>WT16</td>
-         <td>Implementación de Gestión de Clientes</td>
-         <td>Crear endpoint para gestionar consultas y solicitudes de servicio al cliente.</td>
-         <td>5</td>
-         <td>Diego Soto</td>
-         <td>In-Process</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US35</td>
-         <td rowspan="2">Notificación de Cambios en la Disponibilidad de Espacios</td>
-      </tr>
-      <tr>
-         <td>WT17</td>
-         <td>Implementación de Notificaciones de Espacios</td>
-         <td>Desarrollar notificaciones automáticas para cambios en la disponibilidad de espacios.</td>
-         <td>6</td>
-         <td>Juan Calisaya</td>
-         <td>Done</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US36</td>
-         <td rowspan="2">Historial de Transacciones para Usuarios</td>
-      </tr>
-      <tr>
-         <td>WT18</td>
-         <td>Implementación de Historial de Transacciones</td>
-         <td>Crear endpoint para consultar el historial de transacciones de cada usuario.</td>
-         <td>6</td>
-         <td>Frezzia Espinoza</td>
-         <td>Done</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US37</td>
-         <td rowspan="2">Gestión de Ocupación de Espacios en Tiempo Real</td>
-      </tr>
-      <tr>
-         <td>WT19</td>
-         <td>Implementación de Ocupación de Espacios</td>
-         <td>Desarrollar funcionalidad para actualizar automáticamente la disponibilidad de espacios en tiempo real.</td>
-         <td>8</td>
-         <td>Samuel Molina</td>
-         <td>Done</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US38</td>
-         <td rowspan="2">Configuración de Alertas de Seguridad</td>
-      </tr>
-      <tr>
-         <td>WT20</td>
-         <td>Implementación de Configuración de Alertas</td>
-         <td>Implementar un endpoint para que los administradores configuren alertas de seguridad.</td>
-         <td>6</td>
-         <td>Mathias Hidalgo</td>
-         <td>To-do</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US40</td>
-         <td rowspan="2">Registro de Alertas de Seguridad</td>
-      </tr>
-      <tr>
-         <td>WT21</td>
-         <td>Implementación de Registro de Alertas</td>
-         <td>Crear un sistema para registrar todas las alertas de seguridad en el sistema.</td>
-         <td>8</td>
-         <td>Diego Soto</td>
-         <td>To-do</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US41</td>
-         <td rowspan="2">Gestión de Datos de Vehículos</td>
-      </tr>
-      <tr>
-         <td>WT22</td>
-         <td>Implementación de Gestión de Vehículos</td>
-         <td>Crear un endpoint para almacenar y gestionar información de vehículos registrados.</td>
-         <td>6</td>
-         <td>Juan Calisaya</td>
-         <td>To-do</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US45</td>
-         <td rowspan="2">Integración con el Sistema de Pago</td>
-      </tr>
-      <tr>
-         <td>WT23</td>
-         <td>Implementación de Sistema de Pago</td>
-         <td>Desarrollar un endpoint para procesar pagos y verificar transacciones.</td>
-         <td>6</td>
-         <td>Frezzia Espinoza</td>
-         <td>To-do</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US46</td>
-         <td rowspan="2">Integración con Sistema de Facturación</td>
-      </tr>
-      <tr>
-         <td>WT24</td>
-         <td>Implementación de Integración con Sistema de Facturación</td>
-         <td>Desarrollar la funcionalidad que permita integrar el sistema con una solución de facturación electrónica.</td>
-         <td>8</td>
-         <td>Diego Soto</td>
-         <td>Done</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US47</td>
-         <td rowspan="2">Mejoras en el Sistema de Búsqueda de Vehículos</td>
-      </tr>
-      <tr>
-         <td>WT25</td>
-         <td>Implementación de Mejoras en el Sistema de Búsqueda</td>
-         <td>Optimizar el sistema de búsqueda para mejorar la precisión y velocidad de los resultados.</td>
-         <td>7</td>
-         <td>Juan Calisaya</td>
-         <td>Done</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US48</td>
-         <td rowspan="2">Funcionalidad de Mensajería entre Usuarios</td>
-      </tr>
-      <tr>
-         <td>WT26</td>
-         <td>Implementación de Funcionalidad de Mensajería</td>
-         <td>Desarrollar un sistema interno de mensajería para la comunicación entre arrendatarios y adquirientes.</td>
-         <td>6</td>
-         <td>Frezzia Espinoza</td>
-         <td>Done</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US49</td>
-         <td rowspan="2">Historial de Mantenimientos de Vehículos</td>
-      </tr>
-      <tr>
-         <td>WT27</td>
-         <td>Implementación de Historial de Mantenimientos</td>
-         <td>Permitir a los universitarios registrar y consultar el historial de mantenimientos de sus vehículos.</td>
-         <td>8</td>
-         <td>Samuel Molina</td>
-         <td>Done</td>
-      </tr>
-      <tr>
-         <td rowspan="2">US55</td>
-         <td rowspan="2">Control de Multas y Penalidades</td>
-      </tr>
-      <tr>
-         <td>WT50</td>
-         <td>Implementación de Control de Multas</td>
-         <td>Agregar una sección para gestionar las multas impuestas a los usuarios por uso indebido del servicio.</td>
-         <td>8</td>
-         <td>Mathias Hidalgo</td>
-         <td>Done</td>
-      </tr>
+   <td rowspan="2">US15</td>
+   <td rowspan="2">Inicio de Sesión para Conductores</td>
+</tr>
+<tr>
+   <td>WT16</td>
+   <td>Implementación de Inicio de Sesión</td>
+   <td>Desarrollar la funcionalidad de inicio de sesión para conductores en la aplicación.</td>
+   <td>6</td>
+   <td>Diego Soto</td>
+   <td>To-do</td>
+</tr>
+<tr>
+   <td rowspan="2">US16</td>
+   <td rowspan="2">Registro de Conductores</td>
+</tr>
+<tr>
+   <td>WT17</td>
+   <td>Implementación de Registro</td>
+   <td>Crear la funcionalidad de registro de conductores en la plataforma.</td>
+   <td>6</td>
+   <td>Juan Calisaya</td>
+   <td>To-do</td>
+</tr>
+<tr>
+   <td rowspan="2">US17</td>
+   <td rowspan="2">Registro de Dueños de Playa</td>
+</tr>
+<tr>
+   <td>WT18</td>
+   <td>Implementación de Registro de Dueños</td>
+   <td>Desarrollar el registro para dueños de playa en la aplicación.</td>
+   <td>6</td>
+   <td>Frezzia Espinoza</td>
+   <td>To-do</td>
+</tr> 
    </tbody>
 </table>
 
