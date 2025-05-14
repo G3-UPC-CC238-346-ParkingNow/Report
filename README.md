@@ -2293,6 +2293,440 @@ Se debe implementar el análisis constante de datos de uso y ocupación de espac
 - **Sostenibilidad y responsabilidad social:**  
 PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviendo iniciativas que reduzcan la huella de carbono y colaborando con proyectos de ciudades inteligentes, para posicionarse no solo como una plataforma tecnológica, sino también como un actor clave en la sostenibilidad urbana.
 
+
+## 6.2. Landing Page & Mobile Application Implementation
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+<table style="width: 100%; border-collapse: collapse;">
+   <thead>
+      <tr>
+         <th colspan="1">Sprint #</th>
+         <th colspan="2">Sprint 1</th>
+      </tr>
+      <tr> 
+        <td style="font-weight: bold;" colspan="3"> Sprint Planing Background</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th>Date</th>
+         <td colspan="2">02/05/2025</td>
+      </tr>
+      <tr>
+         <th>Time</th>
+         <td colspan="2">15:00 horas (GMT-5)</td>
+      </tr>
+      <tr>
+         <th>Location</th>
+         <td colspan="2">Modalidad remota a través de Discord</td>
+      </tr>
+      <tr>
+         <th>Prepared By</th>
+         <td colspan="2">Calisaya Sánchez, Juan Jesús</td>
+      </tr>
+      <tr>
+         <th>Attendees (to planning meeting)</th>
+         <td colspan="2">
+             Calisaya Sánchez, Juan Jesús
+            <br>
+             Espinoza Paredes, Frezzia Eldaa Isabel
+            <br>
+             Hidalgo Lopez, Mathias Adriano
+            <br>
+             Molina Asencios, Samuel Elias
+            <br>
+             Soto Quispe, Diego Ulises
+         </td>
+      </tr>
+      <tr>
+         <th>Sprint 0 Review Summary</th>
+         <td colspan="2">Dado que este es nuestro primer sprint de desarrollo, no hay un resumen de revisión del sprint disponible.</td>
+      </tr>
+      <tr>
+         <th>Sprint 0 Retrospective Summary</th>
+         <td colspan="2">Dado que este es nuestro primer sprint de desarrollo, aún no hemos identificado planes de mejora.</td>
+      </tr>
+      <tr> 
+        <th colspan="3"> Sprint Goal & User Stories</th>
+     </tr>
+     <tr>
+         <th>Sprint 1 Goal</th>
+         <td colspan="2">En este sprint se desarrollará la landing page con sus secciones, el backend, y un primer avance de la app móvil. Al finalizar, la landing y el backend deben estar desplegados y accesibles. Además, se debe mostrar un prototipo funcional de la app móvil.</td>
+      </tr>
+      <tr>
+         <th>Sprint 1 Velocity</th>
+         <td colspan="2">116</td>
+      </tr>
+      <tr>
+         <th>Sum of Story Points</th>
+         <td colspan="2">120</td>
+      </tr>   
+    </tbody>
+</table>
+
+#### 6.2.1.1. Sprint Backlog 1
+
+<table style="width: 100%; border-collapse: collapse;">
+   <thead>
+      <tr>
+         <th colspan="1">Sprint #</th>
+         <th colspan="7">Sprint 1</th>
+      </tr>
+      <tr>
+         <th colspan="2">User Story</th>
+         <th colspan="6">Work-Item / Task</th>
+      </tr>
+      <tr>
+         <th>Id</th>
+         <th>Title</th>
+         <th>Id</th>
+         <th>Title</th>
+         <th>Description</th>
+         <th>Estimation (Hours)</th>
+         <th>Assigned To</th>
+         <th>Status (To-do / In-Process / To-Review / Done)</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td rowspan="2">US01</td>
+         <td rowspan="2">Navegación Intuitiva en la Landing Page</td>
+      </tr>
+      <tr>
+         <td>WT01</td>
+         <td>Implementación del header, estilos y barra de navegación</td>
+         <td>Realizar la barra de navegación utilizando JS/CSS</td>
+         <td>6</td>
+         <td>Diego Soto</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US02</td>
+         <td rowspan="2">Visualización de Ciudades con Servicio</td>
+      </tr>
+      <tr>
+         <td>WT02</td>
+         <td>Implementación de la sección de Ciudades</td>
+         <td>Realizar la sección que muestre las ciudades donde PARKINGNOW está disponible</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US03</td>
+         <td rowspan="2">Promociones Destacadas</td>
+      </tr>
+      <tr>
+         <td>WT03</td>
+         <td>Implementación de la sección de Promociones</td>
+         <td>Mostrar promociones destacadas en la landing page</td>
+         <td>5</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US04</td>
+         <td rowspan="2">Beneficios para Conductores y Dueños de Playas</td>
+      </tr>
+      <tr>
+         <td>WT04</td>
+         <td>Implementación de la sección de Beneficios</td>
+         <td>Describir los beneficios de usar PARKINGNOW</td>
+         <td>4</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US05</td>
+         <td rowspan="2">Visualización de Misión de la Empresa</td>
+      </tr>
+      <tr>
+         <td>WT05</td>
+         <td>Implementación de la sección de Misión</td>
+         <td>Mostrar la misión de PARKINGNOW en la landing page</td>
+         <td>4</td>
+         <td>Mathias Hidalgo</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US06</td>
+         <td rowspan="2">Visualización de Visión de la Empresa</td>
+      </tr>
+      <tr>
+         <td>WT06</td>
+         <td>Implementación de la sección de Visión</td>
+         <td>Mostrar la visión de PARKINGNOW en la landing page</td>
+         <td>4</td>
+         <td>Diego Soto</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US07</td>
+         <td rowspan="2">Visualización del Equipo</td>
+      </tr>
+      <tr>
+         <td>WT07</td>
+         <td>Implementación de la sección del Equipo</td>
+         <td>Mostrar a los miembros del equipo de PARKINGNOW</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US08</td>
+         <td rowspan="2">Información de Contacto</td>
+      </tr>
+      <tr>
+         <td>WT08</td>
+         <td>Implementación de la sección de Contacto</td>
+         <td>Proveer información de contacto de PARKINGNOW</td>
+         <td>4</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US09</td>
+         <td rowspan="2">Envío de Mensaje de Contacto</td>
+      </tr>
+      <tr>
+         <td>WT09</td>
+         <td>Implementación del formulario de Contacto</td>
+         <td>Permitir a los visitantes enviar mensajes a PARKINGNOW</td>
+         <td>5</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US10</td>
+         <td rowspan="2">Visualización de Información de Características</td>
+      </tr>
+      <tr>
+         <td>WT10</td>
+         <td>Implementación de la sección de Características</td>
+         <td>Mostrar características del servicio PARKINGNOW</td>
+         <td>4</td>
+         <td>Mathias Hidalgo</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US11</td>
+         <td rowspan="2">Botón de Registro e Inicio de Sesión</td>
+      </tr>
+      <tr>
+         <td>WT11</td>
+         <td>Implementación de botones de Registro e Inicio de Sesión</td>
+         <td>Agregar botones para registro y acceso a cuentas</td>
+         <td>5</td>
+         <td>Diego Soto</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US12</td>
+         <td rowspan="2">Enlace a Redes Sociales</td>
+      </tr>
+      <tr>
+         <td>WT12</td>
+         <td>Implementación de enlaces a Redes Sociales</td>
+         <td>Proveer enlaces a las redes sociales de PARKINGNOW</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="3">US13</td>
+         <td rowspan="3">Visualización de Slogan</td>
+      </tr>
+      <tr>
+         <td>WT13</td>
+         <td>Implementación del Slogan</td>
+         <td>Mostrar un slogan atractivo en la landing page</td>
+         <td>4</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td>WT14</td>
+         <td>Implementación del boton Call To Action</td>
+         <td>Mostrar un boton atractivo en la landing page que redirige a la aplicacion mobile</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US14</td>
+         <td rowspan="2">Acceso a Información Legal</td>
+      </tr>
+      <tr>
+         <td>WT15</td>
+         <td>Implementación de enlaces a Información Legal</td>
+         <td>Proveer enlaces a políticas de privacidad y términos de uso</td>
+         <td>5</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US34</td>
+         <td rowspan="2">Gestión de Clientes en Servicio al Cliente</td>
+      </tr>
+      <tr>
+         <td>WT16</td>
+         <td>Implementación de Gestión de Clientes</td>
+         <td>Crear endpoint para gestionar consultas y solicitudes de servicio al cliente.</td>
+         <td>5</td>
+         <td>Diego Soto</td>
+         <td>In-Process</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US35</td>
+         <td rowspan="2">Notificación de Cambios en la Disponibilidad de Espacios</td>
+      </tr>
+      <tr>
+         <td>WT17</td>
+         <td>Implementación de Notificaciones de Espacios</td>
+         <td>Desarrollar notificaciones automáticas para cambios en la disponibilidad de espacios.</td>
+         <td>6</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US36</td>
+         <td rowspan="2">Historial de Transacciones para Usuarios</td>
+      </tr>
+      <tr>
+         <td>WT18</td>
+         <td>Implementación de Historial de Transacciones</td>
+         <td>Crear endpoint para consultar el historial de transacciones de cada usuario.</td>
+         <td>6</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US37</td>
+         <td rowspan="2">Gestión de Ocupación de Espacios en Tiempo Real</td>
+      </tr>
+      <tr>
+         <td>WT19</td>
+         <td>Implementación de Ocupación de Espacios</td>
+         <td>Desarrollar funcionalidad para actualizar automáticamente la disponibilidad de espacios en tiempo real.</td>
+         <td>8</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US38</td>
+         <td rowspan="2">Configuración de Alertas de Seguridad</td>
+      </tr>
+      <tr>
+         <td>WT20</td>
+         <td>Implementación de Configuración de Alertas</td>
+         <td>Implementar un endpoint para que los administradores configuren alertas de seguridad.</td>
+         <td>6</td>
+         <td>Mathias Hidalgo</td>
+         <td>To-do</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US40</td>
+         <td rowspan="2">Registro de Alertas de Seguridad</td>
+      </tr>
+      <tr>
+         <td>WT21</td>
+         <td>Implementación de Registro de Alertas</td>
+         <td>Crear un sistema para registrar todas las alertas de seguridad en el sistema.</td>
+         <td>8</td>
+         <td>Diego Soto</td>
+         <td>To-do</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US41</td>
+         <td rowspan="2">Gestión de Datos de Vehículos</td>
+      </tr>
+      <tr>
+         <td>WT22</td>
+         <td>Implementación de Gestión de Vehículos</td>
+         <td>Crear un endpoint para almacenar y gestionar información de vehículos registrados.</td>
+         <td>6</td>
+         <td>Juan Calisaya</td>
+         <td>To-do</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US45</td>
+         <td rowspan="2">Integración con el Sistema de Pago</td>
+      </tr>
+      <tr>
+         <td>WT23</td>
+         <td>Implementación de Sistema de Pago</td>
+         <td>Desarrollar un endpoint para procesar pagos y verificar transacciones.</td>
+         <td>6</td>
+         <td>Frezzia Espinoza</td>
+         <td>To-do</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US46</td>
+         <td rowspan="2">Integración con Sistema de Facturación</td>
+      </tr>
+      <tr>
+         <td>WT24</td>
+         <td>Implementación de Integración con Sistema de Facturación</td>
+         <td>Desarrollar la funcionalidad que permita integrar el sistema con una solución de facturación electrónica.</td>
+         <td>8</td>
+         <td>Diego Soto</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US47</td>
+         <td rowspan="2">Mejoras en el Sistema de Búsqueda de Vehículos</td>
+      </tr>
+      <tr>
+         <td>WT25</td>
+         <td>Implementación de Mejoras en el Sistema de Búsqueda</td>
+         <td>Optimizar el sistema de búsqueda para mejorar la precisión y velocidad de los resultados.</td>
+         <td>7</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US48</td>
+         <td rowspan="2">Funcionalidad de Mensajería entre Usuarios</td>
+      </tr>
+      <tr>
+         <td>WT26</td>
+         <td>Implementación de Funcionalidad de Mensajería</td>
+         <td>Desarrollar un sistema interno de mensajería para la comunicación entre arrendatarios y adquirientes.</td>
+         <td>6</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US49</td>
+         <td rowspan="2">Historial de Mantenimientos de Vehículos</td>
+      </tr>
+      <tr>
+         <td>WT27</td>
+         <td>Implementación de Historial de Mantenimientos</td>
+         <td>Permitir a los universitarios registrar y consultar el historial de mantenimientos de sus vehículos.</td>
+         <td>8</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US55</td>
+         <td rowspan="2">Control de Multas y Penalidades</td>
+      </tr>
+      <tr>
+         <td>WT50</td>
+         <td>Implementación de Control de Multas</td>
+         <td>Agregar una sección para gestionar las multas impuestas a los usuarios por uso indebido del servicio.</td>
+         <td>8</td>
+         <td>Mathias Hidalgo</td>
+         <td>Done</td>
+      </tr>
+   </tbody>
+</table>
+
+
 # Bibliografía
 
 1. **ICCSI**. (2023, 12 de marzo). *Estacionamiento inteligente con sensores: Revolución en estacionamientos*. ICCSI. Recuperado el 6 de septiembre de 2024, de [https://iccsi.com.ar/estacionamiento-inteligente-con-sensores](https://iccsi.com.ar/estacionamiento-inteligente-con-sensores)
