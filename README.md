@@ -226,4 +226,6 @@ Esta sección detalla las guías de estilo y convenciones de codificación que s
 
 ### 6.1.4. Software Deployment Configuration 
 
+Se utilizó GitHub Pages para desplegar la landing page de manera estática, aprovechando la integración nativa de GitHub con Jekyll (motor de generación de sitios estáticos) y la automatización del despliegue mediante commits en la rama principal.
+
 
