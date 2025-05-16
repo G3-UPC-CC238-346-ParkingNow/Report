@@ -693,7 +693,7 @@ Ambos segmentos coinciden en que una aplicación móvil que integre información
 
 Link de las entrevistas completas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=UaqlvS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-**Análisis por medio de herramientas estadísticas:**
+**Análisis por medio de herramientas estadística:**
 
 Segmento objetivo 1: [https://forms.gle/Lo3Z69GnkyYDcaAYA](https://forms.gle/Lo3Z69GnkyYDcaAYA) 
 
