@@ -228,4 +228,4 @@ Esta sección detalla las guías de estilo y convenciones de codificación que s
 
 Se utilizó GitHub Pages para desplegar la landing page de manera estática, aprovechando la integración nativa de GitHub con Jekyll (motor de generación de sitios estáticos) y la automatización del despliegue mediante commits en la rama principal.
 
-
+**GitHub Pages:**es un servicio de alojamiento web gratuito proporcionado por GitHub que permite publicar sitios web estáticos directamente desde un repositorio. Está diseñado para proyectos personales, organizacionales o documentación, y es ampliamente utilizado para portafolios, blogs, landing pages y documentación técnica.
