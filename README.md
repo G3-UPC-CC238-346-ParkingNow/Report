@@ -230,3 +230,77 @@ Se utilizó GitHub Pages para desplegar la landing page de manera estática, apr
 
 **GitHub Pages:**
 es un servicio de alojamiento web gratuito proporcionado por GitHub que permite publicar sitios web estáticos directamente desde un repositorio. Está diseñado para proyectos personales, organizacionales o documentación, y es ampliamente utilizado para portafolios, blogs, landing pages y documentación técnica.
+
+
+## 6.2. Landing Page & Mobile Application Implementation
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+<table style="width: 100%; border-collapse: collapse;">
+   <thead>
+      <tr>
+         <th colspan="1">Sprint #</th>
+         <th colspan="2">Sprint 1</th>
+      </tr>
+      <tr> 
+        <td style="font-weight: bold;" colspan="3"> Sprint Planing Background</td>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th>Date</th>
+         <td colspan="2">02/05/2025</td>
+      </tr>
+      <tr>
+         <th>Time</th>
+         <td colspan="2">15:00 horas (GMT-5)</td>
+      </tr>
+      <tr>
+         <th>Location</th>
+         <td colspan="2">Modalidad remota a través de Discord</td>
+      </tr>
+      <tr>
+         <th>Prepared By</th>
+         <td colspan="2">Calisaya Sánchez, Juan Jesús</td>
+      </tr>
+      <tr>
+         <th>Attendees (to planning meeting)</th>
+         <td colspan="2">
+             Calisaya Sánchez, Juan Jesús
+            <br>
+             Espinoza Paredes, Frezzia Eldaa Isabel
+            <br>
+             Hidalgo Lopez, Mathias Adriano
+            <br>
+             Molina Asencios, Samuel Elias
+            <br>
+             Soto Quispe, Diego Ulises
+         </td>
+      </tr>
+      <tr>
+         <th>Sprint 0 Review Summary</th>
+         <td colspan="2">Dado que este es nuestro primer sprint de desarrollo, no hay un resumen de revisión del sprint disponible.</td>
+      </tr>
+      <tr>
+         <th>Sprint 0 Retrospective Summary</th>
+         <td colspan="2">Dado que este es nuestro primer sprint de desarrollo, aún no hemos identificado planes de mejora.</td>
+      </tr>
+      <tr> 
+        <th colspan="3"> Sprint Goal & User Stories</th>
+     </tr>
+     <tr>
+         <th>Sprint 1 Goal</th>
+         <td colspan="2">En este sprint se desarrollará la landing page con sus secciones, el backend, y un primer avance de la app móvil. Al finalizar, la landing y el backend deben estar desplegados y accesibles. Además, se debe mostrar un prototipo funcional de la app móvil.</td>
+      </tr>
+      <tr>
+         <th>Sprint 1 Velocity</th>
+         <td colspan="2">116</td>
+      </tr>
+      <tr>
+         <th>Sum of Story Points</th>
+         <td colspan="2">120</td>
+      </tr>   
+    </tbody>
+</table>
