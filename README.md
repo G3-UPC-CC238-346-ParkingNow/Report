@@ -565,21 +565,21 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
 
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
-![LandingPage](/Assets/chapter-6/Lp1.png)
+![LandingPage](/Assets/Lp1.png)
 
-![LandingPage](/Assets/chapter-6/Lp2.png)
+![LandingPage](/Assets/Lp2.png)
 
-![LandingPage](/Assets/chapter-6/Lp3.png)
+![LandingPage](/Assets/Lp3.png)
 
-![LandingPage](/Assets/chapter-6/Lp4.png)
+![LandingPage](/Assets/Lp4.png)
 
-![LandingPage](/Assets/chapter-6/Lp5.png)
+![LandingPage](/Assets/Lp5.png)
 
-![LandingPage](/Assets/chapter-6/Lp6.png)
+![LandingPage](/Assets/Lp6.png)
 
-![LandingPage](/Assets/chapter-6/Lp7.png)
+![LandingPage](/Assets/Lp7.png)
 
-![LandingPage](/Assets/chapter-6/Lp8.png)
+![LandingPage](/Assets/Lp8.png)
 
 
 
