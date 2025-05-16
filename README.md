@@ -304,3 +304,245 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
       </tr>   
     </tbody>
 </table>
+
+
+#### 6.2.1.1. Sprint Backlog 1
+
+<table style="width: 100%; border-collapse: collapse;">
+   <thead>
+      <tr>
+         <th colspan="1">Sprint #</th>
+         <th colspan="7">Sprint 1</th>
+      </tr>
+      <tr>
+         <th colspan="2">User Story</th>
+         <th colspan="6">Work-Item / Task</th>
+      </tr>
+      <tr>
+         <th>Id</th>
+         <th>Title</th>
+         <th>Id</th>
+         <th>Title</th>
+         <th>Description</th>
+         <th>Estimation (Hours)</th>
+         <th>Assigned To</th>
+         <th>Status (To-do / In-Process / To-Review / Done)</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td rowspan="2">US01</td>
+         <td rowspan="2">Navegación Intuitiva en la Landing Page</td>
+      </tr>
+      <tr>
+         <td>WT01</td>
+         <td>Implementación del header, estilos y barra de navegación</td>
+         <td>Realizar la barra de navegación utilizando JS/CSS</td>
+         <td>6</td>
+         <td>Diego Soto</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US02</td>
+         <td rowspan="2">Visualización de Ciudades con Servicio</td>
+      </tr>
+      <tr>
+         <td>WT02</td>
+         <td>Implementación de la sección de Ciudades</td>
+         <td>Realizar la sección que muestre las ciudades donde PARKINGNOW está disponible</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US03</td>
+         <td rowspan="2">Promociones Destacadas</td>
+      </tr>
+      <tr>
+         <td>WT03</td>
+         <td>Implementación de la sección de Promociones</td>
+         <td>Mostrar promociones destacadas en la landing page</td>
+         <td>5</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US04</td>
+         <td rowspan="2">Beneficios para Conductores y Dueños de Playas</td>
+      </tr>
+      <tr>
+         <td>WT04</td>
+         <td>Implementación de la sección de Beneficios</td>
+         <td>Describir los beneficios de usar PARKINGNOW</td>
+         <td>4</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US05</td>
+         <td rowspan="2">Visualización de Misión de la Empresa</td>
+      </tr>
+      <tr>
+         <td>WT05</td>
+         <td>Implementación de la sección de Misión</td>
+         <td>Mostrar la misión de PARKINGNOW en la landing page</td>
+         <td>4</td>
+         <td>Mathias Hidalgo</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US06</td>
+         <td rowspan="2">Visualización de Visión de la Empresa</td>
+      </tr>
+      <tr>
+         <td>WT06</td>
+         <td>Implementación de la sección de Visión</td>
+         <td>Mostrar la visión de PARKINGNOW en la landing page</td>
+         <td>4</td>
+         <td>Diego Soto</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US07</td>
+         <td rowspan="2">Visualización del Equipo</td>
+      </tr>
+      <tr>
+         <td>WT07</td>
+         <td>Implementación de la sección del Equipo</td>
+         <td>Mostrar a los miembros del equipo de PARKINGNOW</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US08</td>
+         <td rowspan="2">Información de Contacto</td>
+      </tr>
+      <tr>
+         <td>WT08</td>
+         <td>Implementación de la sección de Contacto</td>
+         <td>Proveer información de contacto de PARKINGNOW</td>
+         <td>4</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US09</td>
+         <td rowspan="2">Envío de Mensaje de Contacto</td>
+      </tr>
+      <tr>
+         <td>WT09</td>
+         <td>Implementación del formulario de Contacto</td>
+         <td>Permitir a los visitantes enviar mensajes a PARKINGNOW</td>
+         <td>5</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US10</td>
+         <td rowspan="2">Visualización de Información de Características</td>
+      </tr>
+      <tr>
+         <td>WT10</td>
+         <td>Implementación de la sección de Características</td>
+         <td>Mostrar características del servicio PARKINGNOW</td>
+         <td>4</td>
+         <td>Mathias Hidalgo</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US11</td>
+         <td rowspan="2">Botón de Registro e Inicio de Sesión</td>
+      </tr>
+      <tr>
+         <td>WT11</td>
+         <td>Implementación de botones de Registro e Inicio de Sesión</td>
+         <td>Agregar botones para registro y acceso a cuentas</td>
+         <td>5</td>
+         <td>Diego Soto</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US12</td>
+         <td rowspan="2">Enlace a Redes Sociales</td>
+      </tr>
+      <tr>
+         <td>WT12</td>
+         <td>Implementación de enlaces a Redes Sociales</td>
+         <td>Proveer enlaces a las redes sociales de PARKINGNOW</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="3">US13</td>
+         <td rowspan="3">Visualización de Slogan</td>
+      </tr>
+      <tr>
+         <td>WT13</td>
+         <td>Implementación del Slogan</td>
+         <td>Mostrar un slogan atractivo en la landing page</td>
+         <td>4</td>
+         <td>Frezzia Espinoza</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td>WT14</td>
+         <td>Implementación del boton Call To Action</td>
+         <td>Mostrar un boton atractivo en la landing page que redirige a la aplicacion mobile</td>
+         <td>4</td>
+         <td>Juan Calisaya</td>
+         <td>Done</td>
+      </tr>
+      <tr>
+         <td rowspan="2">US14</td>
+         <td rowspan="2">Acceso a Información Legal</td>
+      </tr>
+      <tr>
+         <td>WT15</td>
+         <td>Implementación de enlaces a Información Legal</td>
+         <td>Proveer enlaces a políticas de privacidad y términos de uso</td>
+         <td>5</td>
+         <td>Samuel Molina</td>
+         <td>Done</td>
+      </tr>     
+      <tr>
+   <td rowspan="2">US15</td>
+   <td rowspan="2">Inicio de Sesión para Conductores</td>
+</tr>
+<tr>
+   <td>WT16</td>
+   <td>Implementación de Inicio de Sesión</td>
+   <td>Desarrollar la funcionalidad de inicio de sesión para conductores en la aplicación.</td>
+   <td>6</td>
+   <td>Diego Soto</td>
+   <td>To-do</td>
+</tr>
+<tr>
+   <td rowspan="2">US16</td>
+   <td rowspan="2">Registro de Conductores</td>
+</tr>
+<tr>
+   <td>WT17</td>
+   <td>Implementación de Registro</td>
+   <td>Crear la funcionalidad de registro de conductores en la plataforma.</td>
+   <td>6</td>
+   <td>Juan Calisaya</td>
+   <td>To-do</td>
+</tr>
+<tr>
+   <td rowspan="2">US17</td>
+   <td rowspan="2">Registro de Dueños de Playa</td>
+</tr>
+<tr>
+   <td>WT18</td>
+   <td>Implementación de Registro de Dueños</td>
+   <td>Desarrollar el registro para dueños de playa en la aplicación.</td>
+   <td>6</td>
+   <td>Frezzia Espinoza</td>
+   <td>To-do</td>
+</tr> 
+   </tbody>
+</table>
+
+
