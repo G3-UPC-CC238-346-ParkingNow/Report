@@ -560,5 +560,11 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
 | landing-page | main                   |   9679712            |   update                | Diego Ulises Soto Quispe| May 11th, 2025        |
 | landing-page | main                   | 8c1f8ca       |  Update landing page: enhanced footer, social icons, and support section     | Diego Ulises Soto Quispe| May 11th, 2025           |
 | landing-page | main                   |  eee2609         |  Update 404 page layout, fix footer position and apply background improvements                  | Diego Ulises Soto Quispe| May 11th, 2025                 |
-| landing-page | main                   |   78db499              |   Fix responsive header on About page for mobile devices
-                  | Diego Ulises Soto Quispe| May 11th, 2025                |
+| landing-page | main                   |   78db499              |   Fix responsive header on About page for mobile devices | Diego Ulises Soto Quispe| May 11th, 2025             |
+
+
+#### 6.2.1.5. Execution Evidence for Sprint Review
+
+
+
+
