@@ -3053,6 +3053,10 @@ Landing
 
 Backend
 
+
+Video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EYOajxvFR85Nu8jiZWjN-LMBsXskewjVOlyAhocolZQdGQ?e=9BCcb5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
 ### 6.2.1.5. Services Documentation Evidence for Sprint Review
 
 Durante este Sprint se documentaron los endpoints correspondientes a los siguientes módulos del backend de ParkingNow:
