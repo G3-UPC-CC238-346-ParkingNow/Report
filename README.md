@@ -33,12 +33,13 @@ Ciclo: 6to <br>
 <p align="center"><strong>Abril 2025</strong></p>
 
 # Registro de Versiones del Informe
-| Versión | Fecha      | Autor(es)                                                                                                                                                                                                                   | Descripción de la modificación                                                                                                                                                                                                                                                                                                                                                                                                                               |
-|---------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| TB1     | 07/09/2024 | Calisaya Sánchez Juan Jesús <br><br> Hidalgo Lopez Mathias Adriano <br><br> Samuel Elias Molina Asencios <br><br> Frezzia Eldaa Isabel Espinoza Paredes <br><br> Diego Ulises Soto Quispe                                   | Se agregó el contenido del capítulo 1 (apartados 1.1, 1.1.1, 1.1.2, 1.2, 1.2.1, 1.2.2, 1.2.2.1, 1.2.2.2, 1.2.2.3, 1.2.2.4, 1.3); el contenido del capítulo 2 (apartados 2.1, 2.1.1, 2.1.2, 2.2, 2.2.1, 2.2.2, 2.2.3, 2.3, 2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.3.5, 2.4); el contenido del capítulo 3 (apartados 3.1, 3.2, 3.3 y 3.4); y el contenido del capítulo 4 (apartados 4.1, 4.1.1, 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3, 4.1.3.1, 4.1.3.2, 4.1.3.3, 4.2, 4.2.X, 4.2.X.1, 4.2.X.2, 4.2.X.3, 4.2.X.4, 4.2.X.5, 4.2.X.6, 4.2.X.6.1, 4.2.X.6.2). |
-| TP1     | --         | --                                                                                                                                                                                                                           | --                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| TB2     | --         | --                                                                                                                                                                                                                           | --                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| TF1     | --         | --                                                                                                                                                                                                                           | --                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
+| Versión | Fecha        | Autor(es)                                                                                                                                                                                                                   | Descripción de la modificación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|---------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TB1     | 07/09/2024   | Calisaya Sánchez Juan Jesús <br><br> Hidalgo Lopez Mathias Adriano <br><br> Samuel Elias Molina Asencios <br><br> Frezzia Eldaa Isabel Espinoza Paredes <br><br> Diego Ulises Soto Quispe                                   | Se agregó el contenido del capítulo 1 (apartados 1.1, 1.1.1, 1.1.2, 1.2, 1.2.1, 1.2.2, 1.2.2.1, 1.2.2.2, 1.2.2.3, 1.2.2.4, 1.3); el contenido del capítulo 2 (apartados 2.1, 2.1.1, 2.1.2, 2.2, 2.2.1, 2.2.2, 2.2.3, 2.3, 2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.3.5, 2.4); el contenido del capítulo 3 (apartados 3.1, 3.2, 3.3 y 3.4); y el contenido del capítulo 4 (apartados 4.1, 4.1.1, 4.1.1.1, 4.1.1.2, 4.1.1.3, 4.1.2, 4.1.3, 4.1.3.1, 4.1.3.2, 4.1.3.3, 4.2, 4.2.X, 4.2.X.1, 4.2.X.2, 4.2.X.3, 4.2.X.4, 4.2.X.5, 4.2.X.6, 4.2.X.6.1, 4.2.X.6.2). |
+| TP1     | 16/05/2025   | Calisaya Sánchez Juan Jesús <br><br> Hidalgo Lopez Mathias Adriano <br><br> Samuel Elias Molina Asencios <br><br> Frezzia Eldaa Isabel Espinoza Paredes <br><br> Diego Ulises Soto Quispe                                   | Se añadió el contenido del capítulo 5 **Solution UI/UX Design**, incluyendo los apartados: 5.1 Product design, 5.1.1 Style Guidelines (5.1.1.1), 5.1.2 Information Architecture (5.1.2.1 a 5.1.2.5), 5.1.3 Landing Page UI Design (5.1.3.1, 5.1.3.2) y 5.1.4 Mobile Applications UX/UI Design (5.1.4.1 a 5.1.4.5). También se incorporó el capítulo 6 **Product Implementation, Validation & Deployment**, con los apartados: 6.1 Software Configuration Management (6.1.1 a 6.1.4), 6.2 Landing Page, Services & Applications Implementation, y 6.2.1 Sprint 1 (6.2.1.1 a 6.2.1.7). |
+| TB2     | --           | --                                                                                                                                                                                                                           | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| TF1     | --           | --                                                                                                                                                                                                                           | --                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 
 ## Project Report Collaboration Insights
 
@@ -60,9 +61,24 @@ Durante la preparación del informe, se llevaron a cabo las siguientes actividad
 
  TP1: Project Report Collaboration Insights
 
-_(Contenido en preparación)_
 
----
+- ✅ Se desarrollaron y documentaron las **primeras 17 historias de usuario (US01 a US17)**, correspondientes al **Sprint 1**, las cuales abarcan tanto la **Landing Page web** como el inicio de la **aplicación móvil**.
+
+- ✅ Se implementó el diseño y desarrollo de la **Landing Page**, asegurando responsividad para diferentes dispositivos (web y mobile), siguiendo la paleta de colores y lineamientos UX/UI establecidos para el proyecto.
+
+- ✅ Se trabajaron de forma paralela dos versiones de la **aplicación móvil**:
+  - Con **Flutter**, se construyó el flujo base de autenticación (login, registro, selección de rol) bajo una arquitectura modular limpia.
+  - Con **Kotlin y Jetpack Compose**, se implementaron pantallas equivalentes para la versión nativa Android, cumpliendo con los lineamientos del curso.
+
+- ✅ Se configuró e inició el desarrollo del **backend en Node.js**, implementando los primeros endpoints para login, registro y validación de usuarios. La API fue conectada al frontend mediante pruebas locales.
+
+- ✅ Todo el avance se gestionó colaborativamente usando control de versiones en GitHub. Los contenidos fueron redactados en formato Markdown y organizados en el repositorio, haciendo commits constantes por parte de los integrantes.
+
+- ✅ Se utilizaron herramientas recomendadas para la creación de diagramas, wireframes y mockups, los cuales fueron almacenados en la carpeta `Assets` dentro de la rama `develop` del repositorio.
+
+- ✅ Finalmente, se organizaron reuniones semanales para coordinar avances, resolver bloqueos y garantizar una adecuada distribución de tareas entre el equipo de frontend, backend y diseño.
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 1.30.30 p. m..png>)
 
 TB2: Project Report Collaboration Insights
 
@@ -2121,16 +2137,6 @@ Se desarrolló el mock-up visual de la landing page aplicando la identidad gráf
 ![alt text](<Assets/mobile 8.png>)
 
 
-
-
-### Conclusiones y recomendaciones
-
-El proyecto PARKINGNOW ha logrado avances significativos en el desarrollo de una solución tecnológica integral para resolver los problemas de estacionamiento en entornos urbanos. Al integrar cámaras de monitoreo visual en tiempo real con una plataforma intuitiva, PARKINGNOW optimiza la ocupación de los espacios disponibles y facilita el acceso a estacionamiento para los conductores urbanos. Esta solución ha demostrado ser eficaz en la reducción de tiempos de búsqueda y en la mejora de la rentabilidad para los administradores de espacios de estacionamiento, mostrando un balance adecuado entre tecnología y experiencia del usuario.
-
-Durante su desarrollo, se priorizó un enfoque de automatización e integración fluida con sistemas existentes de gestión de estacionamientos. Las entrevistas de validación con usuarios y las pruebas de campo confirmaron que la solución no solo cumple con las expectativas iniciales, sino que también supera las necesidades de los principales actores involucrados. La aplicación no solo resuelve la dificultad de encontrar estacionamiento, sino que también contribuye a la reducción del tráfico urbano y a una gestión más eficiente de los recursos, alineándose con los objetivos de sostenibilidad a largo plazo.
-
-PARKINGNOW tiene el potencial de consolidarse como un referente en la gestión de estacionamientos urbanos, especialmente en ciudades donde el tráfico y la falta de espacios representan un desafío diario. La plataforma ha demostrado capacidad de escalabilidad y adaptación tanto en diferentes contextos geográficos como tecnológicos.
-
 ### 5.1.4. Mobile Applications UX/UI Design
 
 link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=ia65tQyBRcSvMzMD-1
@@ -2275,24 +2281,6 @@ Este prototipo visual realizado en Figma muestra el recorrido completo del usuar
 <p align="center"><strong><em>Prototipo interactivo de alta fidelidad en Figma</em></strong></p>
 
 ![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 1.10.21 a. m..png>)
-
-**Recomendaciones:**
-
-- **Expansión de funcionalidades:**  
-Se recomienda continuar con el desarrollo de nuevas funcionalidades que agreguen valor a los usuarios y administradores, como la integración de sistemas de pago automatizados, alertas de disponibilidad en tiempo real y mejoras en la personalización mediante análisis predictivo. La incorporación de inteligencia artificial para pronosticar ocupación sería una ventaja competitiva.
-
-- **Expansión geográfica y sectorial:**  
-Tras el éxito inicial, PARKINGNOW debería expandirse a nuevas ciudades con alta demanda de estacionamiento y explorar oportunidades en sectores como aeropuertos, centros comerciales y eventos masivos.
-
-- **Estrategia de marketing y educación:**  
-Es esencial diseñar una campaña de marketing digital enfocada en conductores y administradores de estacionamientos. El uso de testimonios reales y estudios de caso sobre mejoras en tiempos de búsqueda puede aumentar significativamente la adopción. Además, se debe educar al público sobre los beneficios en sostenibilidad urbana.
-
-- **Monitoreo y análisis continuo:**  
-Se debe implementar el análisis constante de datos de uso y ocupación de espacios para anticipar necesidades del mercado y corregir posibles deficiencias, asegurando una mejora continua de la experiencia del usuario.
-
-- **Sostenibilidad y responsabilidad social:**  
-PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviendo iniciativas que reduzcan la huella de carbono y colaborando con proyectos de ciudades inteligentes, para posicionarse no solo como una plataforma tecnológica, sino también como un actor clave en la sostenibilidad urbana.
-
 
 ## 6.2. Landing Page & Mobile Application Implementation
 
@@ -2605,6 +2593,32 @@ PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviend
 </tr> 
    </tbody>
 </table>
+
+### Conclusiones y recomendaciones
+
+El proyecto PARKINGNOW ha logrado avances significativos en el desarrollo de una solución tecnológica integral para resolver los problemas de estacionamiento en entornos urbanos. Al integrar cámaras de monitoreo visual en tiempo real con una plataforma intuitiva, PARKINGNOW optimiza la ocupación de los espacios disponibles y facilita el acceso a estacionamiento para los conductores urbanos. Esta solución ha demostrado ser eficaz en la reducción de tiempos de búsqueda y en la mejora de la rentabilidad para los administradores de espacios de estacionamiento, mostrando un balance adecuado entre tecnología y experiencia del usuario.
+
+Durante su desarrollo, se priorizó un enfoque de automatización e integración fluida con sistemas existentes de gestión de estacionamientos. Las entrevistas de validación con usuarios y las pruebas de campo confirmaron que la solución no solo cumple con las expectativas iniciales, sino que también supera las necesidades de los principales actores involucrados. La aplicación no solo resuelve la dificultad de encontrar estacionamiento, sino que también contribuye a la reducción del tráfico urbano y a una gestión más eficiente de los recursos, alineándose con los objetivos de sostenibilidad a largo plazo.
+
+PARKINGNOW tiene el potencial de consolidarse como un referente en la gestión de estacionamientos urbanos, especialmente en ciudades donde el tráfico y la falta de espacios representan un desafío diario. La plataforma ha demostrado capacidad de escalabilidad y adaptación tanto en diferentes contextos geográficos como tecnológicos.
+
+**Recomendaciones:**
+
+- **Expansión de funcionalidades:**  
+Se recomienda continuar con el desarrollo de nuevas funcionalidades que agreguen valor a los usuarios y administradores, como la integración de sistemas de pago automatizados, alertas de disponibilidad en tiempo real y mejoras en la personalización mediante análisis predictivo. La incorporación de inteligencia artificial para pronosticar ocupación sería una ventaja competitiva.
+
+- **Expansión geográfica y sectorial:**  
+Tras el éxito inicial, PARKINGNOW debería expandirse a nuevas ciudades con alta demanda de estacionamiento y explorar oportunidades en sectores como aeropuertos, centros comerciales y eventos masivos.
+
+- **Estrategia de marketing y educación:**  
+Es esencial diseñar una campaña de marketing digital enfocada en conductores y administradores de estacionamientos. El uso de testimonios reales y estudios de caso sobre mejoras en tiempos de búsqueda puede aumentar significativamente la adopción. Además, se debe educar al público sobre los beneficios en sostenibilidad urbana.
+
+- **Monitoreo y análisis continuo:**  
+Se debe implementar el análisis constante de datos de uso y ocupación de espacios para anticipar necesidades del mercado y corregir posibles deficiencias, asegurando una mejora continua de la experiencia del usuario.
+
+- **Sostenibilidad y responsabilidad social:**  
+PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviendo iniciativas que reduzcan la huella de carbono y colaborando con proyectos de ciudades inteligentes, para posicionarse no solo como una plataforma tecnológica, sino también como un actor clave en la sostenibilidad urbana.
+
 
 
 # Bibliografía
