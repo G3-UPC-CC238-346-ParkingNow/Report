@@ -2295,53 +2295,92 @@ Esta sección detalla las herramientas y tecnologías que el equipo utilizará p
 #### **Requirements Management**
 
 **Trello:** Herramienta para gestionar proyectos bajo metodologías ágiles. Permite la planificación, seguimiento y priorización de tareas, así como la asignación de responsables durante cada sprint.  
+
+![alt text](Assets/trello1.png)
+
 **Ruta de referencia:** [https://trello.com/es](https://trello.com/es)
 
 #### **User Experience Design (UX/UI)**
 
 **Figma:** Plataforma colaborativa de diseño digital. En este proyecto se utilizará para crear prototipos de alta fidelidad, mockups y wireflows tanto para la aplicación móvil como para la web.  
+
+![alt text](Assets/figma.png)
+
 **Ruta de referencia:** [https://www.figma.com/login](https://www.figma.com/login)
 
 #### **Software Testing**
 
 **Gherkin + Cucumber:** Lenguaje estructurado y herramienta que permiten definir criterios de aceptación, pruebas de integración y pruebas de aceptación automatizadas en formato legible. Su aplicación será en el backend desarrollado con Spring Boot.  
+
+![alt text](Assets/cucumber.png)
+
 **Ruta de referencia:** [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)
 
 #### **Software Development**
 
 **Android Studio:** IDE oficial para el desarrollo de aplicaciones móviles Android. Se utilizará para la primera versión de la aplicación nativa desarrollada en Kotlin.  
+
+![alt text](Assets/android.png)
+
 **Ruta de referencia:** [https://developer.android.com/studio](https://developer.android.com/studio)
 
 **Kotlin:** Lenguaje de programación moderno, interoperable con Java y orientado al desarrollo Android.  
+
+![alt text](Assets/kotlin.jpeg)
+
 **Ruta de referencia:** [https://kotlinlang.org/](https://kotlinlang.org/)
 
 **Flutter** _(planificado en siguientes entregas)_: Framework UI de código abierto para desarrollar aplicaciones nativas multiplataforma desde una sola base de código.  
+
+![alt text](Assets/flutter.png)
+
 **Ruta de referencia:** [https://flutter.dev/](https://flutter.dev/)
 
 **HTML5:** Lenguaje de marcado para la estructura de contenido en la Landing Page.  
+
+![alt text](Assets/html5.png)
+
 **Ruta de referencia:** [https://www.w3schools.com/html/html5_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
 
 **CSS:** Lenguaje de estilos usado para definir la presentación visual del contenido web en la Landing Page.  
+
+![alt text](Assets/css.png)
+
 **Ruta de referencia:** [https://developer.mozilla.org/es/docs/Web/CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
 **JavaScript:** Lenguaje de programación para la interactividad de la Landing Page.  
+
+![alt text](Assets/js.png)
+
 **Ruta de referencia:** [https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 
-**Java + Spring Boot:** Lenguaje y framework utilizados para desarrollar los servicios RESTful del backend.  
-**Ruta de referencia Java:** [https://dev.java](https://dev.java)  
-**Ruta de referencia Spring Boot:** [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
+**Node.js + NestJS:** Lenguaje y framework utilizados para desarrollar los servicios RESTful del backend de manera eficiente, modular y escalable. NestJS aprovecha el motor de ejecución de Node.js junto con las ventajas de TypeScript, permitiendo una arquitectura limpia y mantenible.
+
+![alt text](Assets/node.jpeg)
+
+**Ruta de referencia Node.js:** [https://nodejs.org](https://nodejs.org)  
+**Ruta de referencia NestJS:** [https://nestjs.com](https://nestjs.com)
 
 **IntelliJ IDEA Ultimate:** Entorno de desarrollo integrado utilizado para construir y mantener el backend en Java con Spring Boot.  
+
+![alt text](Assets/intellij.jpeg)
+
 **Ruta de referencia:** [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
 
 #### **Software Deployment**
 
 **Git:** Sistema de control de versiones que permite gestionar los cambios del código fuente y facilitar el trabajo colaborativo.  
+
+![alt text](Assets/git.png)
+
 **Ruta de referencia:** [https://git-scm.com/](https://git-scm.com/)
 
 #### **Software Documentation and Project Management**
 
 **GitHub:** Plataforma de gestión de repositorios donde se almacenará el código fuente y documentación del proyecto. También se usará para la revisión de cambios y gestión de issues.  
+
+![alt text](Assets/github.png)
+
 **Ruta de referencia:** [https://github.com/](https://github.com/)
 
 ### 6.1.2. Source Code Management 
@@ -2355,11 +2394,14 @@ El equipo utilizará GitHub como sistema de gestión de versiones. La organizaci
 - **Organización GitHub:**  
     [https://github.com/G3-UPC-CC238-346-ParkingNow](https://github.com/G3-UPC-CC238-346-ParkingNow)
     
-- **Landing Page:** 
+- **Landing Page:** https://github.com/G3-UPC-CC238-346-ParkingNow/New-Landing-Page
     
-- **Web Services:** 
+- **Web Services:** https://github.com/G3-UPC-CC238-346-ParkingNow/Backend
     
-- **Mobile Application:**
+- **Mobile Application Flutter:** https://github.com/G3-UPC-CC238-346-ParkingNow/Flutter-Mobile
+
+- **Mobile Application Kotlin:** https://github.com/G3-UPC-CC238-346-ParkingNow/Kotlin-Mobile
+
     
 
 #### **Modelo de Ramas: GitFlow**
@@ -2429,6 +2471,53 @@ _Ejemplo de commit:_
 
 Referencias: [https://www.conventionalcommits.org/](https://www.conventionalcommits.org/)
 
+### 🧾 Tabla de Evidencia de Commits – Sprint 1
+
+| Commit ID | Repositorio               | Rama   | Autor                    | Fecha       | Mensaje de Commit                                                      |
+|-----------|---------------------------|--------|---------------------------|-------------|-------------------------------------------------------------------------|
+| c8b6e6d   | Kotlin-Mobile             | main   | Diego Soto                | 16/05/2025  | Complete registration and dashboard features                           |
+| bbeed2a   | Flutter-Mobile            | main   | Diego Soto                | 15/05/2025  | Initial Flutter app structure with backend integration models and API ready |
+| 78db499   | Landing Page              | main   | Diego Soto                | 13/05/2025  | Fix responsive header on About page for mobile devices                 |
+| eee2609   | Landing Page              | main   | Diego Soto                | 13/05/2025  | Update 404 page layout, fix footer position and apply background improvements |
+| 8c1f8ca   | Landing Page              | main   | Diego Soto                | 13/05/2025  | Update landing page: enhanced footer, social icons, and support section |
+| f597680   | Backend (NestJS)          | main   | Juan Jesús Calisaya       | 14/05/2025  | feat: initialize NestJS project with default structure                 |
+| 33919ff   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(documentation) Documentation for endpoints                        |
+| b0324fe   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(usuario) Adding API for Usuario Management                        |
+| a1f7d92   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(reserva) Adding API for reserva management                        |
+| a2c8c38   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(local) Adding API for Local management                            |
+| d4c260b   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | fix(app) Adding Services and Controllers                               |
+| f6b7b5f   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | fix(core) Adding dependencies                                          |
+
+
+### 🧪 Web Services – Backend
+
+El backend del proyecto está desarrollado con **NestJS + TypeScript** y estructurado por módulos independientes como `local`, `reserva` y `usuario`, cada uno con sus respectivos controladores, servicios, entidades y pruebas unitarias.
+
+El repositorio está alojado en:
+
+🔗 [https://github.com/G3-UPC-CC238-346-ParkingNow/Backend](https://github.com/G3-UPC-CC238-346-ParkingNow/Backend)
+
+#### 📁 Estructura real del backend:
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 2.53.53 p. m..png>)
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 2.54.30 p. m..png>)
+
+#### 🧪 Pruebas y configuración
+
+El proyecto ya incluye archivos de prueba unitaria (`*.spec.ts`) y pruebas end-to-end, los cuales están listos para ser ejecutados usando el comando: npm run test
+
+Esto permitirá verificar individualmente la lógica de cada módulo. A pesar de que no se ha ejecutado localmente, el repositorio cuenta con la preparación técnica para validar controladores, servicios y flujos de integración conforme avancen los sprints.
+
+#### 🧠 Estándares aplicados
+
+- ✅ **GitFlow** (`main`, `develop`, `feature/*`, `release/*`, `hotfix/*`)
+- ✅ **Semantic Versioning** (`v1.0.0`, `v1.1.0`)
+- ✅ **Conventional Commits** (`feat:`, `fix:`, `test:`)
+
+Con esta estructura, el módulo de Web Services cumple con los estándares de calidad, pruebas y control de versiones exigidos por el curso.
+
+
 ### 6.1.3. Source Code Style Guide & Conventions
 
 Esta sección detalla las guías de estilo y convenciones de codificación que seguirá el equipo para asegurar la legibilidad, coherencia y mantenibilidad del código fuente en todos los lenguajes usados. Se adoptan estándares reconocidos y nomenclatura en inglés para todos los elementos del código.
@@ -2455,35 +2544,16 @@ Esta sección detalla las guías de estilo y convenciones de codificación que s
 - Constantes en **UPPER_SNAKE_CASE**.
     
 - Ruta de referencia: [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript)
-    
 
-#### TypeScript
+#### TypeScript (Backend con NestJS)
 
-- Se sigue el **Google TypeScript Style Guide**.
-    
-- Uso de **interfaces** y tipado explícito.
-    
-- Archivos con una sola clase o componente.
-    
+- Se aplica el **Google TypeScript Style Guide**.
+- Uso de **camelCase** para variables y funciones.
+- Clases nombradas en **PascalCase**.
+- Separación modular entre `controllers`, `services`, `dto`, y `entities`.
+- Se respeta el principio de responsabilidad única por archivo.
+- Se aplican prácticas recomendadas de NestJS para mantener la inyección de dependencias, uso de decoradores y estructura clara.
 - Ruta de referencia: https://google.github.io/styleguide/tsguide.html
-    
-
-#### Java (Backend con Spring Boot y DDD)
-
-- Se aplica el **Google Java Style Guide**.
-    
-- Clases, métodos y atributos en inglés, utilizando **camelCase** y **PascalCase** según corresponda.
-    
-- El backend aplica **Domain-Driven Design (DDD)**, por lo tanto:
-    
-    - Las entidades y agregados seguirán principios de encapsulación y responsabilidad única.
-        
-    - No se utilizarán DTOs ni controladores típicos de un enfoque MVC.
-        
-- Se prioriza la separación de responsabilidades entre capas del dominio, aplicación e infraestructura.
-    
-- Ruta de referencia: https://google.github.io/styleguide/javaguide.html
-    
 
 #### Kotlin (Android)
 
@@ -2508,6 +2578,19 @@ Esta sección detalla las guías de estilo y convenciones de codificación que s
     
 - Ruta de referencia: [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)
 
+#### Flutter (Dart)
+
+- Se sigue la convención oficial **Dart Style Guide**.
+- Uso de **camelCase** para nombres de variables, métodos y funciones.
+- Nombres de clases y widgets en **UpperCamelCase** (PascalCase).
+- Archivos organizados en carpetas como `screens/`, `widgets/`, `models/`, `services/`, según su responsabilidad.
+- Cada archivo contiene una sola clase principal, manteniendo la modularidad y legibilidad.
+- Se utilizan comentarios en inglés para describir funciones clave y lógica compleja.
+- Se prioriza el uso de `const` y widgets inmutables para mejorar el rendimiento.
+- Se evita la lógica de negocio en la capa de UI (`StatelessWidget`, `StatefulWidget`).
+- Ruta de referencia: [https://dart.dev/guides/language/effective-dart/style](https://dart.dev/guides/language/effective-dart/style)
+
+
 ### 6.1.4. Software Deployment Configuration 
 
 Se utilizó GitHub Pages para desplegar la landing page de manera estática, aprovechando la integración nativa de GitHub con Jekyll (motor de generación de sitios estáticos) y la automatización del despliegue mediante commits en la rama principal.
@@ -2515,13 +2598,38 @@ Se utilizó GitHub Pages para desplegar la landing page de manera estática, apr
 **GitHub Pages:**
 es un servicio de alojamiento web gratuito proporcionado por GitHub que permite publicar sitios web estáticos directamente desde un repositorio. Está diseñado para proyectos personales, organizacionales o documentación, y es ampliamente utilizado para portafolios, blogs, landing pages y documentación técnica.
 
+Link del despliegue del landing page: https://g3-upc-cc238-346-parkingnow.github.io/New-Landing-Page/
+
+
+#### 🖥️ Backend (NestJS + Node.js)
+
+El backend será desplegado utilizando servicios de alojamiento cloud como Render o Railway, los cuales permiten ejecutar servidores Node.js directamente a partir de un repositorio de GitHub. Este tipo de despliegue facilita la integración continua, la configuración de entornos y el acceso público al backend desde las aplicaciones móviles del proyecto.
+
+Link del backend desplegado en render: 
+
+#### 📱 Aplicaciones móviles
+
+##### Flutter
+
+La aplicación desarrollada en Flutter será distribuida como un archivo instalable (`.apk`), el cual puede ser compartido para pruebas internas en dispositivos Android. Este archivo no genera un enlace web público, ya que se instala manualmente en celulares físicos o emuladores desde el entorno de desarrollo. Esta forma de despliegue permite validar la app antes de cualquier publicación en tiendas oficiales.
+
+##### Kotlin (Jetpack Compose)
+
+La aplicación móvil nativa en Kotlin también será compilada como archivo `.apk`, generado desde Android Studio. Al igual que en Flutter, este archivo no se despliega en una URL pública, sino que se instala directamente en dispositivos Android para fines de validación y pruebas. El despliegue se realiza de forma local en los equipos de desarrollo, sin requerir una publicación inmediata en Google Play.
 
 ## 6.2. Landing Page & Mobile Application Implementation
 
+En esta sección se explica y documenta el proceso de implementación, pruebas, documentación técnica y despliegue de los tres componentes principales del proyecto:
 
+- **Landing Page:** desarrollo del sitio informativo con diseño responsivo.
+- **Web Services:** construcción del backend con Node.js + NestJS, incluyendo controladores, servicios, pruebas unitarias y despliegue.
+- **Mobile Applications:** implementación de las aplicaciones móviles utilizando Flutter (cross-platform) y Kotlin (Android nativo), con su respectiva estructura y empaquetado en archivos `.apk`.
 
+Cada uno de estos bloques será evidenciado en los siguientes subapartados, organizados por Sprint.
 
 ### 6.2.1. Sprint 1
+
+En este sprint se desarrollaron las HU US01 a US17, centradas en la Landing Page (navegación, beneficios, promociones, contacto, etc.) y el flujo de login y registro móvil para conductores y dueños. Estas funcionalidades forman la base inicial del proyecto ParkingNow.
 
 #### 6.2.1.1. Sprint Planning 1
 
@@ -2532,13 +2640,13 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
          <th colspan="2">Sprint 1</th>
       </tr>
       <tr> 
-        <td style="font-weight: bold;" colspan="3"> Sprint Planing Background</td>
+         <td style="font-weight: bold;" colspan="3">Sprint Planning Background</td>
       </tr>
    </thead>
    <tbody>
       <tr>
          <th>Date</th>
-         <td colspan="2">02/05/2025</td>
+         <td colspan="2">2025-05-02</td>
       </tr>
       <tr>
          <th>Time</th>
@@ -2550,36 +2658,32 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
       </tr>
       <tr>
          <th>Prepared By</th>
-         <td colspan="2">Calisaya Sánchez, Juan Jesús</td>
+         <td colspan="2">Soto Quispe, Diego Ulises</td>
       </tr>
       <tr>
          <th>Attendees (to planning meeting)</th>
          <td colspan="2">
-             Calisaya Sánchez, Juan Jesús
-            <br>
-             Espinoza Paredes, Frezzia Eldaa Isabel
-            <br>
-             Hidalgo Lopez, Mathias Adriano
-            <br>
-             Molina Asencios, Samuel Elias
-            <br>
-             Soto Quispe, Diego Ulises
+            Calisaya Sánchez, Juan Jesús<br>
+            Espinoza Paredes, Frezzia Eldaa Isabel<br>
+            Hidalgo Lopez, Mathias Adriano<br>
+            Molina Asencios, Samuel Elias<br>
+            Soto Quispe, Diego Ulises
          </td>
       </tr>
       <tr>
-         <th>Sprint 0 Review Summary</th>
-         <td colspan="2">Dado que este es nuestro primer sprint de desarrollo, no hay un resumen de revisión del sprint disponible.</td>
+         <th>Sprint 1 – 1 Review Summary</th>
+         <td colspan="2">Al tratarse del primer sprint del proyecto, no existe un sprint anterior que revisar. Este será el punto de partida para medir el progreso futuro.</td>
       </tr>
       <tr>
-         <th>Sprint 0 Retrospective Summary</th>
-         <td colspan="2">Dado que este es nuestro primer sprint de desarrollo, aún no hemos identificado planes de mejora.</td>
+         <th>Sprint 1 – 1 Retrospective Summary</th>
+         <td colspan="2">Dado que este es el primer sprint del proyecto, no se identifican mejoras aún. Las retrospectivas comenzarán a partir del próximo sprint.</td>
       </tr>
       <tr> 
-        <th colspan="3"> Sprint Goal & User Stories</th>
-     </tr>
-     <tr>
+         <th colspan="3">Sprint Goal & User Stories</th>
+      </tr>
+      <tr>
          <th>Sprint 1 Goal</th>
-         <td colspan="2">En este sprint se desarrollará la landing page con sus secciones, el backend, y un primer avance de la app móvil. Al finalizar, la landing y el backend deben estar desplegados y accesibles. Además, se debe mostrar un prototipo funcional de la app móvil.</td>
+         <td colspan="2">Desarrollar la landing page con sus secciones, el backend funcional, y un primer avance de la app móvil. Al finalizar, tanto la landing como el backend deben estar desplegados y operativos.</td>
       </tr>
       <tr>
          <th>Sprint 1 Velocity</th>
@@ -2589,7 +2693,7 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
          <th>Sum of Story Points</th>
          <td colspan="2">120</td>
       </tr>   
-    </tbody>
+   </tbody>
 </table>
 
 #### 6.2.1.1. Sprint Backlog 1
@@ -2830,6 +2934,199 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
 </tr> 
    </tbody>
 </table>
+
+#### 6.2.1.3. Development Evidence for Sprint Review.
+
+Durante este sprint se completó el desarrollo de la landing page con todas sus secciones, así como la implementación básica del backend y el primer avance de la app móvil. Se entregaron funcionalidades clave como navegación, ciudades disponibles, formulario de contacto, y el inicio de sesión/registro. Todo fue validado en base a las HU del 1 al 17, y se presenta evidencia visual de cada uno para su revisión.
+
+### 🧾 Tabla de Evidencia de Commits – Sprint 1
+
+| Commit ID | Repositorio               | Rama   | Autor                    | Fecha       | Mensaje de Commit                                                      |
+|-----------|---------------------------|--------|---------------------------|-------------|-------------------------------------------------------------------------|
+| c8b6e6d   | Kotlin-Mobile             | main   | Diego Soto                | 16/05/2025  | Complete registration and dashboard features                           |
+| bbeed2a   | Flutter-Mobile            | main   | Diego Soto                | 15/05/2025  | Initial Flutter app structure with backend integration models and API ready |
+| 78db499   | Landing Page              | main   | Diego Soto                | 13/05/2025  | Fix responsive header on About page for mobile devices                 |
+| eee2609   | Landing Page              | main   | Diego Soto                | 13/05/2025  | Update 404 page layout, fix footer position and apply background improvements |
+| 8c1f8ca   | Landing Page              | main   | Diego Soto                | 13/05/2025  | Update landing page: enhanced footer, social icons, and support section |
+| f597680   | Backend (NestJS)          | main   | Juan Jesús Calisaya       | 14/05/2025  | feat: initialize NestJS project with default structure                 |
+| 33919ff   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(documentation) Documentation for endpoints                        |
+| b0324fe   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(usuario) Adding API for Usuario Management                        |
+| a1f7d92   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(reserva) Adding API for reserva management                        |
+| a2c8c38   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | feat(local) Adding API for Local management                            |
+| d4c260b   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | fix(app) Adding Services and Controllers                               |
+| f6b7b5f   | Backend (NestJS)          | main   | Samuel Molina             | 16/05/2025  | fix(core) Adding dependencies                                          |
+
+
+#### 6.2.1.4. Execution Evidence for Sprint Review.
+
+A continuación, se presentan screenshots de las vistas desarrolladas durante el Sprint 1, incluyendo la landing page, el backend desplegado y el avance inicial de la app móvil. Además, se incluye un video que muestra la navegación y funcionalidades implementadas hasta el momento.
+
+Landing
+
+### <p align="center">Pantalla principal de la Landing Page con secciones dinámicas</p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 3.53.09 p. m..png>)
+
+### <p align="center">Sección de Promociones por Ciudad</p>
+
+![alt text](Assets/Lp3.png)
+
+### <p align="center">Beneficios del Servicio para Usuarios y Propietarios</p>
+
+![alt text](Assets/Lp4.png)
+
+### <p align="center">Características de Seguridad y Confianza de la App</p>
+
+![alt text](Assets/Lp5.png)
+
+### <p align="center">Banner de Llamado a la Acción para Reserva Rápida</p>
+
+![alt text](Assets/Lp6.png)
+
+### <p align="center">Formulario de Contacto para Soporte Inmediato</p>
+
+![alt text](Assets/Lp7.png)
+
+### <p align="center">Sección de Misión de la Plataforma</p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 3.59.55 p. m..png>)
+
+### <p align="center">Sección de Visión de la Plataforma</p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.00.05 p. m..png>)
+
+### <p align="center">Características Clave del Servicio</p>
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.00.25 p. m..png>)
+
+
+📱 Mobile Applications
+
+<p align="center">
+  <strong> Pantalla de Inicio de la Aplicación Móvil</strong>
+</p>
+
+![alt text](Assets/mobile1.jpeg)
+
+<p align="center"><strong>Pantalla de Inicio de Sesión</strong></p>
+
+![alt text](<Assets/mobile 2.jpeg>)
+
+<p align="center"><strong>Pantalla de Recuperación de Contraseña</strong></p>
+
+![alt text](<Assets/mobile 3.jpeg>)
+
+
+<p align="center"><strong>Cambiar Contraseña</strong></p>
+
+![alt text](Assets/mobile4.jpeg)
+
+<p align="center"><strong>Selecciona tu Rol</strong></p>
+
+![alt text](Assets/mobile5.jpeg)
+
+<p align="center"><strong>Registro de Conductor</strong></p>
+
+![alt text](Assets/mobile6.jpeg)
+
+
+<p align="center"><strong>Panel Principal del Conductor</strong></p>
+
+![alt text](Assets/mobile7.jpeg)
+
+<p align="center"><strong>Menú de Navegación del Conductor</strong></p>
+
+![alt text](Assets/mobile8.jpeg)
+
+<p align="center"><strong>Registro de Dueño de Estacionamiento</strong></p>
+
+![alt text](Assets/mobile9.jpeg)
+
+<p align="center"><strong>Dashboard de Dueño de Estacionamiento</strong></p>
+
+
+![alt text](Assets/mobile10.jpeg)
+
+<p align="center"><strong>Menú de Navegación - Dueño de Estacionamiento</strong></p>
+
+![alt text](Assets/mobile11.jpeg)
+
+Backend
+
+### 6.2.1.5. Services Documentation Evidence for Sprint Review
+
+Durante este Sprint se documentaron los endpoints correspondientes a los siguientes módulos del backend de ParkingNow:
+
+- `local`
+- `reserva`
+- `usuario`
+
+Cada módulo cuenta con sus respectivos endpoints documentados mediante Swagger. A continuación, se presentarán capturas de la documentación generada que ilustran la estructura, rutas y organización de los servicios expuestos.
+
+<!-- Aquí se insertarán las capturas del Swagger -->
+
+### 6.2.1.6. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint se realizaron los despliegues correspondientes de los tres productos principales del proyecto: la Landing Page, los Web Services y la Aplicación Móvil. A continuación, se presentarán capturas de cada uno de ellos como evidencia del correcto funcionamiento y despliegue:
+
+- **Landing Page**: desplegada mediante GitHub Pages.
+Link del landing page desplegada : https://g3-upc-cc238-346-parkingnow.github.io/New-Landing-Page/
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.32.18 p. m..png>)
+
+![alt text](Assets/Lp2.png)
+- **Web Services (Backend)**: ejecutado localmente con Swagger para documentar los endpoints.
+- **Aplicación Móvil**: ejecutada en emulador o dispositivo real, mostrando su pantalla de inicio.
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.38.54 p. m..png>)
+
+
+### 6.2.1.7. Team Collaboration Insights during Sprint
+
+Durante este Sprint, el equipo trabajó de manera colaborativa para lograr el desarrollo completo de los tres productos digitales: la Landing Page, el aplicativo móvil y los Web Services. A continuación, se detallan los aportes por cada sección, incluyendo espacio para evidencias de commits y capturas relevantes.
+
+
+#### 📄 Landing Page
+
+El equipo frontend trabajó en la implementación de todas las secciones de la página, utilizando HTML, CSS, JavaScript y Angular. Las tareas se asignaron equitativamente y se registraron los avances mediante commits individuales en GitHub.
+
+**Capturas y Commits (Landing Page):**
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.45.00 p. m..png>)
+
+#### 📱 Aplicación Móvil
+
+La app se desarrolló en dos partes: una versión nativa con Kotlin + Jetpack Compose y una estructura multiplataforma con Flutter. Se implementaron pantallas funcionales como login, registro, selección de rol y dashboard.
+
+**Capturas y Commits (Mobile App):**
+
+Kotlin
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.45.31 p. m..png>)
+
+Flutter
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.46.09 p. m..png>)
+
+
+#### 🔧 Web Services (Backend)
+
+El equipo backend estructuró módulos como `usuario`, `reserva` y `local`, desarrollando los endpoints principales. La documentación se realizó con OpenAPI y se versionó correctamente en GitHub.
+
+**Capturas y Commits (Backend):**
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.46.45 p. m..png>)
+
+
+
+#### 📝 Análisis de colaboración - Reporte 
+
+Cada integrante participó activamente en su área asignada. Se revisaron los analíticos de GitHub para verificar contribuciones equitativas y se adjuntan capturas que evidencian la distribución del trabajo en el repositorio grupal.
+
+**Capturas de actividad en GitHub:**
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.47.46 p. m..png>)
+
 
 ### Conclusiones y recomendaciones
 
