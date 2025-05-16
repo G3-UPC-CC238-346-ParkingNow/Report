@@ -545,4 +545,20 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
    </tbody>
 </table>
 
+#### 6.2.1.3. Development Evidence for Sprint Review.
 
+
+| Repository   | Branch                                      | Commit Id | Commit Message                   | User | Commited on (Date) |
+| ------------ | ------------------------------------------- | --------- | -------------------------------- | ------------------- | ------------------ |
+| landing-page | main          | f32af65         | Initial commit        | Diego Ulises Soto Quispe| May 11th, 2025        | 
+| landing-page | main       | 571009a        | Add responsive landing page for ParkingNow with mobile-first design | Diego Ulises Soto Quispe| May 11th, 2025       |
+| landing-page | main       | 72ea52c       | Add 404 error page with full styling and layout | Diego Ulises Soto Quispe| May 11th, 2025       |
+| landing-page | main                            | 6b46525        |Add complete landing structure with 404 and about pages         | Diego Ulises Soto Quispe| May 11th, 2025                |
+| landing-page | main                   | beeb96a             |  Enhance homepage with new 'Security and Trust' section, responsive images, and layout improvements                     | Diego Ulises Soto Quispe| May 11th, 2025               |
+| landing-page | main                   |  7c5aaac             |    update             | Diego Ulises Soto Quispe| May 11th, 2025          |
+| landing-page | main                   |   a22f4f6           |  update                      | Diego Ulises Soto Quispe| May 11th, 2025        |
+| landing-page | main                   |   9679712            |   update                | Diego Ulises Soto Quispe| May 11th, 2025        |
+| landing-page | main                   | 8c1f8ca       |  Update landing page: enhanced footer, social icons, and support section     | Diego Ulises Soto Quispe| May 11th, 2025           |
+| landing-page | main                   |  eee2609         |  Update 404 page layout, fix footer position and apply background improvements                  | Diego Ulises Soto Quispe| May 11th, 2025                 |
+| landing-page | main                   |   78db499              |   Fix responsive header on About page for mobile devices
+                  | Diego Ulises Soto Quispe| May 11th, 2025                |
