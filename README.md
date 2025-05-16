@@ -582,11 +582,9 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
 ![LandingPage](/Assets/Lp8.png)
 
 
-#### 6.2.1.4. Testing Suite Evidence for Sprint Review.
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Para la entrega del Sprint 1, nos enfocamos  en lograr el desarrollo completo, la implementación y el despliegue del Landing Page. Por lo tanto, la sección de "Testing" se enfocó en la implementación de las necesidades de los usuarios, priorizando secciones fáciles de entender e intuitivas.
+Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
 
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
-| Repository                                                  | Branch         | Commit ID | Commit Message                  | Commited on (Date) |
-|-------------------------------------------------------------|----------------|-----------|----------------------------------|-------------------|
-| [https://github.com/G3-UPC-CC238-346-ParkingNow/New-Landing-Page.git] | Nwe-Landing-Page/main | 30cb741   | feat: add features (landingPage) | 11/05/2025        |
