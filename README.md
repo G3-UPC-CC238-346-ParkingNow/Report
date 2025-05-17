@@ -2471,7 +2471,7 @@ _Ejemplo de commit:_
 
 Referencias: [https://www.conventionalcommits.org/](https://www.conventionalcommits.org/)
 
-### 🧾 Tabla de Evidencia de Commits – Sprint 1
+### Tabla de Evidencia de Commits – Sprint 1
 
 | Commit ID | Repositorio               | Rama   | Autor                    | Fecha       | Mensaje de Commit                                                      |
 |-----------|---------------------------|--------|---------------------------|-------------|-------------------------------------------------------------------------|
@@ -3053,6 +3053,11 @@ Landing
 
 Backend
 
+Se evicencia el demo local del backend en la siguiente imagen
+
+![backend](Assets/demo-backend.jpg)
+
+
 
 Video explicativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EYOajxvFR85Nu8jiZWjN-LMBsXskewjVOlyAhocolZQdGQ?e=9BCcb5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
@@ -3067,7 +3072,97 @@ Durante este Sprint se documentaron los endpoints correspondientes a los siguien
 
 Cada módulo cuenta con sus respectivos endpoints documentados mediante Swagger. A continuación, se presentarán capturas de la documentación generada que ilustran la estructura, rutas y organización de los servicios expuestos.
 
-<!-- Aquí se insertarán las capturas del Swagger -->
+#### Usuario
+
+http://localhost:3000/usuario
+POST Crear un nuevo usuario
+
+![backend](Assets/endpoint-user.png)
+
+http://localhost:3000/usuario
+GET Obtener todos los usuarios
+
+![backend](Assets/endpoint-user2.png)
+
+http://localhost:3000/usuario/1
+get Obtener un usuario por ID 
+
+![backend](Assets/endpoint-user3.png)
+
+http://localhost:3000/usuario/1/locales
+GET Obtiene todos los locales asociados a un usuario específico.
+
+![backend](Assets/endpoint-user4.png)
+
+http://localhost:3000/usuario/1
+PUT Actualizar un usuario por ID
+
+![backend](Assets/endpoint-user5.png)
+
+http://localhost:3000/usuario/1
+DELETE Eliminar un usuario por ID
+
+![backend](Assets/endpoint-user6.png)
+
+#### Local
+
+http://localhost:3000/local
+POST Crear un nuevo local
+
+![backend](Assets/endpoint-local.png)
+
+http://localhost:3000/local/5
+GET Obtener un local por ID
+
+![backend](Assets/endpoint-local2.png)
+
+http://localhost:3000/local
+GET Obtener todos los locales
+
+![backend](Assets/endpoint-local3.png)
+
+http://localhost:3000/local/5
+PUT Actualizar un local por ID
+
+![backend](Assets/endpoint-local4.png)
+
+http://localhost:3000/local/5
+DELETE Eliminar un local por ID
+
+![backend](Assets/endpoint-local5.png)
+
+http://localhost:3000/local/6/usuario
+GET Obtener el usuario dueño de un local
+
+![backend](Assets/endpoint-local6.png)
+
+#### Reserva
+
+http://localhost:3000/reserva
+POST Crear una nueva reserva
+
+![backend](Assets/endpoint-reserva.png)
+
+http://localhost:3000/reserva
+GET Obtener todas las reservas
+
+![backend](Assets/endpoint-reserva2.png)
+
+http://localhost:3000/reserva/1
+GET Obtener una reserva por ID
+
+![backend](Assets/endpoint-reserva3.png)
+
+http://localhost:3000/reserva/1
+PUT Actualizar una reserva por ID
+
+![backend](Assets/endpoint-reserva4.png)
+
+http://localhost:3000/reserva/1
+DELETE Eliminar una reserva por ID
+
+![backend](Assets/endpoint-reserva5.png)
+
 
 ### 6.2.1.6. Software Deployment Evidence for Sprint Review
 
@@ -3079,7 +3174,10 @@ Link del landing page desplegada : https://g3-upc-cc238-346-parkingnow.github.io
 ![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.32.18 p. m..png>)
 
 ![alt text](Assets/Lp2.png)
-- **Web Services (Backend)**: ejecutado localmente con Swagger para documentar los endpoints.
+- **Web Services (Backend)**: ejecutado localmente para documentar los endpoints.
+
+![backend](Assets/demo-backend.jpg)
+
 - **Aplicación Móvil**: ejecutada en emulador o dispositivo real, mostrando su pantalla de inicio.
 
 ![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.38.54 p. m..png>)
