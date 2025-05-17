@@ -217,10 +217,12 @@ En el siguiente cuadro se describen las acciones realizadas y enunciados de conc
 
 ### ABET – EAC - Resultado del Estudiante 7
 
+
+
 | Criterio específico | Acciones realizadas | Conclusiones |
 | ------------------- | ------------------- | ------------ |
-| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **TB1:**<br><br>- *Calisaya Sánchez Juan Jesús:* Redactó el capítulo 1 del informe aplicando conceptos de presentación de startups y problemática.<br><br>- *Hidalgo Lopez Mathias Adriano:* Aplicó Lean UX Problem Statements y desarrolló el Canvas a partir de investigaciones propias.<br><br>- *Samuel Elias Molina Asencios:* Implementó el Empathy Mapping y el User Journey Mapping tras investigar su aplicación en UX.<br><br>- *Frezzia Eldaa Isabel Espinoza Paredes:* Aportó en entrevistas y definición de requerimientos investigando metodologías efectivas.<br><br>- *Diego Ulises Soto Quispe:* Lideró la estructura del informe y aplicó documentación técnica basada en buenas prácticas.<br><br>**TP:**<br><br>**TB2:**<br><br>**TF:** | **TB1:**<br><br>El equipo demostró una apropiada adquisición y aplicación de nuevos conocimientos tanto vistos en clase como aprendidos de forma autónoma. Se evidenció la capacidad de trasladar herramientas teóricas (Lean UX, entrevistas, mapeos, documentación técnica) a productos concretos dentro del proyecto *ParkingNow*.<br><br>**TP:**<br><br>**TB2:**<br><br>**TF:** |
-| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **TB1:**<br><br>- *Calisaya Sánchez Juan Jesús:* Estudió técnicas de presentación y redacción para aplicarlas al informe.<br><br>- *Hidalgo Lopez Mathias Adriano:* Investigó metodologías centradas en el usuario y cómo estructurar entrevistas.<br><br>- *Samuel Elias Molina Asencios:* Aprendió por cuenta propia sobre diseño de experiencias y tareas del usuario.<br><br>- *Frezzia Eldaa Isabel Espinoza Paredes:* Reforzó su comprensión del levantamiento de información a través de entrevistas.<br><br>- *Diego Ulises Soto Quispe:* Investigó estructuras y patrones de informes técnicos para liderar la coherencia documental.<br><br>**TP:**<br><br>**TB2:**<br><br>**TF:** | **TB1:**<br><br>Se reflejó un compromiso claro con el aprendizaje autónomo al profundizar de forma individual en metodologías y herramientas útiles para el proyecto. El equipo se adaptó activamente al reto, demostrando crecimiento profesional y técnico en cada etapa de TB1.<br><br>**TP:**<br><br>**TB2:**<br><br>**TF:** |
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **TB1:**<br><br>- *Calisaya Sánchez Juan Jesús:* Redactó el capítulo 1 del informe aplicando conceptos de presentación de startups y problemática.<br>- *Hidalgo Lopez Mathias Adriano:* Aplicó Lean UX Problem Statements y desarrolló el Canvas a partir de investigaciones propias.<br>- *Samuel Elias Molina Asencios:* Implementó el Empathy Mapping y el User Journey Mapping tras investigar su aplicación en UX.<br>- *Frezzia Eldaa Isabel Espinoza Paredes:* Aportó en entrevistas y definición de requerimientos investigando metodologías efectivas.<br>- *Diego Ulises Soto Quispe:* Lideró la estructura del informe y aplicó documentación técnica basada en buenas prácticas.<br><br>**TP:**<br><br>- *Calisaya Sánchez Juan Jesús:* Aplicó conocimientos sobre configuración y documentación técnica de servicios backend en NestJS, participando en la escritura de endpoints y evidencias del capítulo 6.<br>- *Hidalgo Lopez Mathias Adriano:* Redactó de forma estructurada todas las evidencias de desarrollo y ejecución del backend, demostrando dominio en documentación técnica formal del proyecto.<br>- *Samuel Elias Molina Asencios:* Implementó toda la estructura de datos y endpoints de la API en NestJS, aplicando principios de arquitectura REST y organización por módulos.<br>- *Frezzia Eldaa Isabel Espinoza Paredes:* Aplicó conocimientos sobre metodologías ágiles al organizar las secciones de Sprint Planning y Backlog en el informe, aunque sin profundizar técnicamente.<br>- *Diego Ulises Soto Quispe:* Aplicó habilidades de desarrollo frontend web y mobile, trabajando desde cero en la Landing Page y en la estructura de las apps móviles (Kotlin y Flutter). | **TB1:**<br>El equipo logró llevar a la práctica los conceptos aprendidos en clase, plasmando conocimientos de UX, diseño centrado en el usuario y documentación formal en la planificación inicial del proyecto.<br><br>**TP:**<br>Cada integrante demostró haber consolidado conocimientos técnicos útiles para su perfil profesional. El trabajo se centró en programación backend, frontend y planificación ágil, usando herramientas reales como NestJS, Angular, Kotlin, y Flutter, sin necesidad de despliegue en nube para validar su progreso. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** | **TB1:**<br><br>- *Calisaya Sánchez Juan Jesús:* Estudió técnicas de presentación y redacción para aplicarlas al informe.<br>- *Hidalgo Lopez Mathias Adriano:* Investigó metodologías centradas en el usuario y cómo estructurar entrevistas.<br>- *Samuel Elias Molina Asencios:* Aprendió por cuenta propia sobre diseño de experiencias y tareas del usuario.<br>- *Frezzia Eldaa Isabel Espinoza Paredes:* Reforzó su comprensión del levantamiento de información a través de entrevistas.<br>- *Diego Ulises Soto Quispe:* Investigó estructuras y patrones de informes técnicos para liderar la coherencia documental.<br><br>**TP:**<br><br>- *Calisaya Sánchez Juan Jesús:* Fortaleció su experiencia técnica aprendiendo a documentar APIs usando Swagger y a colaborar en entornos backend reales.<br>- *Hidalgo Lopez Mathias Adriano:* Investigó por su cuenta cómo estructurar correctamente las evidencias del backend, reflejando compromiso con la calidad del informe técnico.<br>- *Samuel Elias Molina Asencios:* Aprendió de forma autónoma cómo implementar APIs escalables, trabajando con arquitectura modular y buenas prácticas de desarrollo.<br>- *Frezzia Eldaa Isabel Espinoza Paredes:* Aprendió sobre la dinámica ágil de trabajo y los entregables formales del proyecto, con foco en la planificación y organización.<br>- *Diego Ulises Soto Quispe:* Se capacitó de forma autónoma en frameworks frontend y mobile, construyendo interfaces desde cero con un enfoque autodidacta. | **TB1:**<br>El equipo evidenció un compromiso claro con el aprendizaje autónomo al investigar y aplicar conceptos nuevos por cuenta propia. Cada miembro se adaptó al enfoque UX y herramientas necesarias en las primeras fases del proyecto.<br><br>**TP:**<br>Se reafirmó el rol del aprendizaje continuo en el desarrollo profesional. Todos los integrantes investigaron más allá del contenido visto en clase, aprendiendo nuevas tecnologías, documentando con estándares reales y adaptándose a roles técnicos clave para sacar adelante el producto sin depender de despliegues externos. |
 
 # Objetivos SMART
 
@@ -965,9 +967,9 @@ El "To-Be Scenario Mapping" para **Conductores Urbanos Frecuentes** Muestra los 
 
 ![To Be Scenario](./Assets/To%20be%20Scenario%20Mapping%201.png)
 
-### Segmento Dueños de playas de estacionamientos
+### Segmento Dueños de estacionamientos
 
-El "To-Be Scenario Mapping" para **Dueños de Estacionamientos** muestra los resultados esperados para la gestion de playas de estacionamientos brinadas por  **PARKINGNOW**.
+El "To-Be Scenario Mapping" para **Dueños de Estacionamientos** muestra los resultados esperados para la gestion de estacionamientos brinadas por  **PARKINGNOW**.
 
 <p style="text-align: center;"><em>Escenario ideal para usuarios frecuentes que buscan estacionar sin complicaciones.</em></p>
 
@@ -1024,7 +1026,7 @@ Las **historias de usuario** para el proyecto PARKINGNOW están orientadas a mej
 | **US14**            | Acceso a Información Legal                               | **Como** visitante, **deseo** ver enlaces a la información legal y políticas de privacidad en la landing page **para** revisar los términos de uso y la protección de mis datos.                                            | **Escenario 01**: **Given** que estoy en la landing page, **When** desplazo hacia el pie de página, **Then** debería ver enlaces a las políticas de privacidad y términos de servicio. `<br>` **Escenario 02**: **Given** que hago clic en el enlace de política de privacidad, **When** se abre el documento, **Then** debería ver la información completa de privacidad en una nueva página o ventana.                                                   | **EP13**                      |
 | **US15**            | Inicio de Sesión para Conductores                        | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar la funcionalidad de inicio de sesión para conductores **para** que puedan acceder a sus cuentas de manera segura.                                | **Escenario 01**: **Given** que el conductor ingresa su correo y contraseña, **When** hace clic en "Iniciar sesión", **Then** debe acceder a su dashboard de conductor si las credenciales son correctas. `<br>` **Escenario 02**: **Given** que el conductor ingresa credenciales incorrectas, **When** intenta iniciar sesión, **Then** debe mostrarse un mensaje de error indicando que las credenciales son inválidas.                                     | **EP11**                      |
 | **US16**            | Registro de Conductores                                   | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el registro de conductores **para** que puedan crear una cuenta en la plataforma.                                                                 | **Escenario 01**: **Given** que un nuevo usuario quiere registrarse, **When** ingresa los datos necesarios y hace clic en "Registrarse", **Then** debe recibir un mensaje de confirmación de cuenta creada. `<br>` **Escenario 02**: **Given** que el usuario intenta registrarse sin llenar los campos requeridos, **When** intenta completar el registro, **Then** debe mostrarse un mensaje de error solicitando los datos faltantes.                          | **EP02**                      |
-| **US17**            | Registro de Dueños de estacionamiento                             | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el registro de dueños de playa **para** que puedan crear una cuenta y gestionar su estacionamiento.                                              | **Escenario 01**: **Given** que un dueño de estacionamiento quiere registrarse, **When** llena el formulario de registro y hace clic en "Registrarse", **Then** debe recibir un mensaje de confirmación de cuenta creada. `<br>` **Escenario 02**: **Given** que el formulario no está completo, **When** intenta registrarse, **Then** debe mostrarse un mensaje de error indicando los campos faltantes.                                                                | **EP02**                      |
+| **US17**            | Registro de Dueños de estacionamiento                             | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el registro de dueños de estacionamiento **para** que puedan crear una cuenta y gestionar su estacionamiento.                                              | **Escenario 01**: **Given** que un dueño de estacionamiento quiere registrarse, **When** llena el formulario de registro y hace clic en "Registrarse", **Then** debe recibir un mensaje de confirmación de cuenta creada. `<br>` **Escenario 02**: **Given** que el formulario no está completo, **When** intenta registrarse, **Then** debe mostrarse un mensaje de error indicando los campos faltantes.                                                                | **EP02**                      |
 | **US18**            | Búsqueda de Reservas para Conductores                    | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar la búsqueda de reservas **para** que los conductores puedan ver sus reservas activas y pasadas.                                                  | **Escenario 01**: **Given** que el conductor quiere ver sus reservas, **When** ingresa al menú de reservas, **Then** debe ver una lista de todas sus reservas activas y completadas. `<br>` **Escenario 02**: **Given** que el conductor busca una reserva específica, **When** ingresa un criterio de búsqueda, **Then** debe mostrarse la reserva correspondiente si existe.                                                                                  | **EP04**                      |
 | **US19**            | Pago de Reservas por Transacción                         | **Como** developer de mobile Application de PARKINGNOW, **necesito** implementar el pago por transacción **para** que los conductores puedan completar sus reservas.                                                              | **Escenario 01**: **Given** que el conductor realiza una reserva, **When** selecciona "Pagar", **Then** debe ser dirigido a la pasarela de pago para completar la transacción. `<br>` **Escenario 02**: **Given** que el pago es exitoso, **When** se procesa el pago, **Then** debe recibir una confirmación de reserva y recibo de pago.                                                                                                                       | **EP12**                      |
 | **US20**            | Confirmación de Reserva Registrada                       | **Como** developer de mobile Application de PARKINGNOW, **necesito** que se muestre una pantalla de confirmación **para** asegurar que el usuario sepa que su reserva fue registrada correctamente.                               | **Escenario 01**: **Given** que el usuario completa una reserva, **When** el sistema confirma la transacción, **Then** debe ver una pantalla indicando que su reserva fue registrada con éxito. `<br>` **Escenario 02**: **Given** que el sistema no puede confirmar la reserva, **When** se produce un error en el pago, **Then** debe mostrarse un mensaje solicitando un nuevo intento de pago.                                                               | **EP12**                      |
@@ -1892,7 +1894,7 @@ Esta sección define las guías visuales que aseguran coherencia y uniformidad e
 
 En diversas ciudades, encontrar un espacio de estacionamiento disponible puede ser una tarea difícil, principalmente por la falta de información en tiempo real y la ausencia de herramientas para realizar reservas anticipadas. Esta situación genera estacionamientos indebidos, mayor congestión vehicular y una experiencia negativa para los conductores.
 
-**ParkingNow** surge como una solución a estos problemas, ofreciendo una plataforma que conecta a los conductores con espacios de estacionamiento disponibles de manera inmediata. A través del uso de tecnología moderna, como cámaras de monitoreo y geolocalización, la plataforma permite no solo ubicar y reservar espacios fácilmente, sino también mejorar el flujo vehicular urbano, beneficiando tanto a conductores como a propietarios de playas de estacionamiento.
+**ParkingNow** surge como una solución a estos problemas, ofreciendo una plataforma que conecta a los conductores con espacios de estacionamiento disponibles de manera inmediata. A través del uso de tecnología moderna, como cámaras de monitoreo y geolocalización, la plataforma permite no solo ubicar y reservar espacios fácilmente, sino también mejorar el flujo vehicular urbano, beneficiando tanto a conductores como a propietarios de estacionamiento.
 
 #### Brand Name
 
@@ -2115,6 +2117,8 @@ Se elaboró un wireframe de la landing page con enfoque mobile-first, priorizand
 
 ![alt text](<Assets/mobile 4 .png>)
 
+Link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1
+
 #### 5.1.3.2. Landing Page Mock-up
 
 
@@ -2136,12 +2140,13 @@ Se desarrolló el mock-up visual de la landing page aplicando la identidad gráf
 
 ![alt text](<Assets/mobile 8.png>)
 
+Link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1
 
 ### 5.1.4. Mobile Applications UX/UI Design
 
-link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=ia65tQyBRcSvMzMD-1
-
 En esta sección se detalla el proceso de diseño UX/UI aplicado al aplicativo móvil de *ParkingNow*. El objetivo es garantizar una experiencia de usuario fluida e intuitiva, considerando las necesidades específicas de los usuarios al buscar, reservar y gestionar espacios de estacionamiento. Se abordarán aspectos clave como wireframes, diagramas de flujo, mock-ups visuales y prototipos interactivos que guían el desarrollo coherente de la interfaz móvil.
+
+Link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1
 
 #### 5.1.4.1. Mobile Applications Wireframes  
 
@@ -2203,6 +2208,8 @@ Estas pantallas corresponden a las funcionalidades específicas para el rol de *
 
 ![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.15.12 a. m..png>)
 
+Link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1
+
 #### 5.1.4.3. Mobile Applications Mock-ups  
 
 Estas pantallas representan una versión visualmente refinada del flujo de autenticación del aplicativo móvil *ParkingNow*, aplicando principios modernos de diseño UI. Incluyen vistas clave como la bienvenida, inicio de sesión, recuperación de contraseña, verificación por código y cambio de clave. El estilo visual, basado en colores suaves, elementos geométricos y una disposición limpia, refuerza la identidad gráfica de la aplicación y mejora la experiencia del usuario desde el primer contacto.
@@ -2235,7 +2242,7 @@ Aquí se visualizan las herramientas internas para los **Dueños de estacionamie
 
 ![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.26.51 a. m..png>)
 
-
+Link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1
 
 #### 5.1.4.4. Mobile Applications User Flow Diagrams  
 
@@ -2273,6 +2280,8 @@ Este wireflow muestra las acciones disponibles para el dueño de estacionamiento
 
 ![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 12.41.07 a. m..png>)
 
+Link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1
+
 #### 5.1.4.5. Mobile Applications Prototyping
 
 
@@ -2281,6 +2290,8 @@ Este prototipo visual realizado en Figma muestra el recorrido completo del usuar
 <p align="center"><strong><em>Prototipo interactivo de alta fidelidad en Figma</em></strong></p>
 
 ![alt text](<Assets/Captura de pantalla 2025-05-09 a la(s) 1.10.21 a. m..png>)
+
+Link del figma: https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1
 
 ## Capítulo VI: Product Implementation, Validation & Deployment 
 
@@ -2603,9 +2614,9 @@ Link del despliegue del landing page: https://g3-upc-cc238-346-parkingnow.github
 
 #### 🖥️ Backend (NestJS + Node.js)
 
-El backend será desplegado utilizando servicios de alojamiento cloud como Render o Railway, los cuales permiten ejecutar servidores Node.js directamente a partir de un repositorio de GitHub. Este tipo de despliegue facilita la integración continua, la configuración de entornos y el acceso público al backend desde las aplicaciones móviles del proyecto.
+Actualmente, la documentación Swagger **aún no se encuentra desplegada públicamente**, pero ya ha sido **implementada y completada en el entorno local**. La configuración de los endpoints y sus descripciones están listas, permitiendo probar y visualizar la API correctamente desde la máquina del desarrollador.
 
-Link del backend desplegado en render: 
+Se está trabajando en su despliegue en un entorno, lo cual permitirá el acceso remoto a la documentación desde cualquier navegador.
 
 #### 📱 Aplicaciones móviles
 
@@ -2758,7 +2769,7 @@ En este sprint se desarrollaron las HU US01 a US17, centradas en la Landing Page
       </tr>
       <tr>
          <td rowspan="2">US04</td>
-         <td rowspan="2">Beneficios para Conductores y Dueños de Playas</td>
+         <td rowspan="2">Beneficios para Conductores y Dueños de estacionamiento</td>
       </tr>
       <tr>
          <td>WT04</td>
@@ -2922,18 +2933,24 @@ En este sprint se desarrollaron las HU US01 a US17, centradas en la Landing Page
 </tr>
 <tr>
    <td rowspan="2">US17</td>
-   <td rowspan="2">Registro de Dueños de Playa</td>
+   <td rowspan="2">Registro de Dueños de estacionamiento</td>
 </tr>
 <tr>
    <td>WT18</td>
    <td>Implementación de Registro de Dueños</td>
-   <td>Desarrollar el registro para dueños de playa en la aplicación.</td>
+   <td>Desarrollar el registro para dueños de estacionamiento en la aplicación.</td>
    <td>6</td>
    <td>Frezzia Espinoza</td>
    <td>To-do</td>
 </tr> 
    </tbody>
 </table>
+
+
+Trello: https://trello.com/invite/b/682808c86697c9a394dc8b12/ATTIda1c9216f53ce3913ed85cbb9445734eA3B9B093/parkingnow
+
+![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 11.09.53 p. m..png>)
+
 
 #### 6.2.1.3. Development Evidence for Sprint Review.
 
@@ -3271,11 +3288,17 @@ PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviend
 ## Anexos
 | Sección                                                     | Enlace                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Lean UX Canvas                                               | [https://www.canva.com/design/DAGOyaW6z7E/ub8lVBXsKH3Em5YVQb223g/edit](https://www.canva.com/design/DAGOyaW6z7E/ub8lVBXsKH3Em5YVQb223g/edit) |
-| To be Scenario Mapping - Dueños de Estacionamiento           | [https://miro.com/app/board/uXjVKmNkzqc=/?share_link_id=307784420338](https://miro.com/app/board/uXjVKmNkzqc=/?share_link_id=307784420338) |
-| To be Scenario Mapping - Conductores Urbanos Frecuentes      | [https://miro.com/app/board/uXjVKmOWBhk=/?share_link_id=425124811159](https://miro.com/app/board/uXjVKmOWBhk=/?share_link_id=425124811159) |
-| Entrevistas en general - Segmento 1 y 2                      | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=B1S994](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=B1S994) |
-| Event Storming                                               | [https://miro.com/welcomeonboard/VTBYK0pNaFZXMHdaZkJJVklrQTJlbkVVK1hua3I3SGxZS0tJWDlrdkdSKzBCMStzODVJdnRCYUVhNUlXWnZuVkROSlFUSThIRUpqYnhGTXFwVEhSNDhHaE55VE00RUtjTGZpdVdXVHZSZlJURGVVcHp1Nm9xYSsraFMrWS9QaUN0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=](https://miro.com/welcomeonboard/VTBYK0pNaFZXMHdaZkJJVklrQTJlbkVVK1hua3I3SGxZS0tJWDlrdkdSKzBCMStzODVJdnRCYUVhNUlXWnZuVkROSlFUSThIRUpqYnhGTXFwVEhSNDhHaE55VE00RUtjTGZpdVdXVHZSZlJURGVVcHp1Nm9xYSsraFMrWS9QaUN0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=) |
-| Bounded Context Canvas                                       | [https://miro.com/welcomeonboard/cGZuTUVpS2dKQmNEMyttdnVVNmRwMHJjSHNZWnFXYW0wanRFSzJwbXJPZCtJZXVudE9mNUdwMUNIeG1IWWhiV241SDVhdFhGcjJQM1VPQW5LbGtXY3NHaE55VE00RUtjTGZpdVdXVHZSZlJRK1Y5YlUxeDhOV2RGTnpZNnBsWGNnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=](https://miro.com/welcomeonboard/cGZuTUVpS2dKQmNEMyttdnVVNmRwMHJjSHNZWnFXYW0wanRFSzJwbXJPZCtJZXVudE9mNUdwMUNIeG1IWWhiV241SDVhdFhGcjJQM1VPQW5LbGtXY3NHaE55VE00RUtjTGZpdVdXVHZSZlJRK1Y5YlUxeDhOV2RGTnpZNnBsWGNnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=) |
-| Link de video de exposición                                 | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EXCy3Yx-ootKqbTJ8lONJC4BT_OlgkPH8eKWBfwJB90xWw?e=9upHuN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EXCy3Yx-ootKqbTJ8lONJC4BT_OlgkPH8eKWBfwJB90xWw?e=9upHuN) |
-| GitHub del reporte                                           | [https://github.com/G3-UPC-CC238-346-ParkingNow/Report](https://github.com/G3-UPC-CC238-346-ParkingNow/Report) |
+| 🎯 Lean UX Canvas                                            | [https://www.canva.com/design/DAGOyaW6z7E/ub8lVBXsKH3Em5YVQb223g/edit](https://www.canva.com/design/DAGOyaW6z7E/ub8lVBXsKH3Em5YVQb223g/edit) |
+| 🧭 To-be Scenario Mapping - Dueños de Estacionamiento        | [https://miro.com/app/board/uXjVKmNkzqc=/?share_link_id=307784420338](https://miro.com/app/board/uXjVKmNkzqc=/?share_link_id=307784420338) |
+| 🚗 To-be Scenario Mapping - Conductores Urbanos Frecuentes   | [https://miro.com/app/board/uXjVKmOWBhk=/?share_link_id=425124811159](https://miro.com/app/board/uXjVKmOWBhk=/?share_link_id=425124811159) |
+| 🎤 Entrevistas en general - Segmento 1 y 2                   | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=B1S994](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQfuOaavJTVCi5jKvTLzMU0Bixb6cO1iHY4X7yZitnQhUw?e=B1S994) |
+| ⚡ Event Storming                                             | [https://miro.com/welcomeonboard/VTBYK0pNaFZXMHdaZkJJVklrQTJlbkVVK1hua3I3SGxZS0tJWDlrdkdSKzBCMStzODVJdnRCYUVhNUlXWnZuVkROSlFUSThIRUpqYnhGTXFwVEhSNDhHaE55VE00RUtjTGZpdVdXVHZSZlJURGVVcHp1Nm9xYSsraFMrWS9QaUN0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=](https://miro.com/welcomeonboard/VTBYK0pNaFZXMHdaZkJJVklrQTJlbkVVK1hua3I3SGxZS0tJWDlrdkdSKzBCMStzODVJdnRCYUVhNUlXWnZuVkROSlFUSThIRUpqYnhGTXFwVEhSNDhHaE55VE00RUtjTGZpdVdXVHZSZlJURGVVcHp1Nm9xYSsraFMrWS9QaUN0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=) |
+| 🧱 Bounded Context Canvas                                     | [https://miro.com/welcomeonboard/cGZuTUVpS2dKQmNEMyttdnVVNmRwMHJjSHNZWnFXYW0wanRFSzJwbXJPZCtJZXVudE9mNUdwMUNIeG1IWWhiV241SDVhdFhGcjJQM1VPQW5LbGtXY3NHaE55VE00RUtjTGZpdVdXVHZSZlJRK1Y5YlUxeDhOV2RGTnpZNnBsWGNnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=](https://miro.com/welcomeonboard/cGZuTUVpS2dKQmNEMyttdnVVNmRwMHJjSHNZWnFXYW0wanRFSzJwbXJPZCtJZXVudE9mNUdwMUNIeG1IWWhiV241SDVhdFhGcjJQM1VPQW5LbGtXY3NHaE55VE00RUtjTGZpdVdXVHZSZlJRK1Y5YlUxeDhOV2RGTnpZNnBsWGNnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=) |
+| 🎥 Video de Sprint Review (6.2.1.4)                          | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EYOajxvFR85Nu8jiZWjN-LMBsXskewjVOlyAhocolZQdGQ?e=EYdvDO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EYOajxvFR85Nu8jiZWjN-LMBsXskewjVOlyAhocolZQdGQ?e=EYdvDO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| 📱 Figma – UI del Proyecto                                   | [https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1](https://www.figma.com/design/qb02D1snVoDtoLfT0qdkRV/Parking-now?node-id=0-1&t=vfQZ7EcT7cMorKUF-1) |
+| 📋 Tablero Trello – Gestión de Tareas                         | [https://trello.com/invite/b/682808c86697c9a394dc8b12/ATTIda1c9216f53ce3913ed85cbb9445734eA3B9B093/parkingnow](https://trello.com/invite/b/682808c86697c9a394dc8b12/ATTIda1c9216f53ce3913ed85cbb9445734eA3B9B093/parkingnow) |
+| 💻 Repositorio GitHub – Kotlin (Android Nativo)              | [https://github.com/G3-UPC-CC238-346-ParkingNow/Kotlin-Mobile](https://github.com/G3-UPC-CC238-346-ParkingNow/Kotlin-Mobile) |
+| 💻 Repositorio GitHub – Backend                              | [https://github.com/G3-UPC-CC238-346-ParkingNow/Backend](https://github.com/G3-UPC-CC238-346-ParkingNow/Backend) |
+| 💻 Repositorio GitHub – Flutter (Cross-platform)             | [https://github.com/G3-UPC-CC238-346-ParkingNow/Flutter-Mobile](https://github.com/G3-UPC-CC238-346-ParkingNow/Flutter-Mobile) |
+| 💻 Repositorio GitHub – Landing Page Web                     | [https://github.com/G3-UPC-CC238-346-ParkingNow/New-Landing-Page](https://github.com/G3-UPC-CC238-346-ParkingNow/New-Landing-Page) |
+| 📁 Repositorio GitHub – Reporte Final                        | [https://github.com/G3-UPC-CC238-346-ParkingNow/Report](https://github.com/G3-UPC-CC238-346-ParkingNow/Report) |
