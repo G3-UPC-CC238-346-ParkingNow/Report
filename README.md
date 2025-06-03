@@ -3256,6 +3256,87 @@ Cada integrante participó activamente en su área asignada. Se revisaron los an
 
 ![alt text](<Assets/Captura de pantalla 2025-05-16 a la(s) 4.47.46 p. m..png>)
 
+### 6.2.2. Sprint 2
+
+En este sprint se desarrollaron las **US18 a US33**, enfocadas principalmente en funcionalidades clave del **segmento conductor**, como la visualización de reservas, historial, pagos, notificaciones, mapa, seguimiento en tiempo real y soporte desde el dashboard. 
+
+Paralelamente, se avanzó en la construcción del segmento **dueño de estacionamiento** con la estructura base del dashboard, validación de espacios y consultas iniciales sobre la disponibilidad, con enfoque en el diseño de vistas y navegación entre funcionalidades.
+
+Estas implementaciones permitieron establecer una estructura sólida para los siguientes módulos operativos de la plataforma ParkingNow.
+
+
+### 6.2.2.1. Sprint Planning 2
+
+| Sprint #                  | Sprint 2 |
+|---------------------------|----------|
+| **Date**                  | 2025-06-03 |
+| **Time**                  | 17:00 horas (GMT-5) |
+| **Location**              | Modalidad remota a través de Discord |
+| **Prepared By**           | Soto Quispe, Diego Ulises |
+| **Attendees**             | Calisaya Sánchez, Juan Jesús<br>Hidalgo Lopez, Mathias Adriano<br>Molina Asencios, Samuel Elias<br>Soto Quispe, Diego Ulises |
+| **Sprint 1 Review Summary** | En el Sprint 1 se completaron las funcionalidades de la landing page y el flujo base de autenticación para conductores y dueños. Se cumplieron los objetivos planificados en cuanto a diseño visual, experiencia de usuario y conectividad básica con backend. |
+| **Sprint 1 Retrospective Summary** | Se identificó la necesidad de mejorar la distribución de tareas y realizar validaciones más frecuentes en backend. Se acordó usar pruebas unitarias más temprano en el desarrollo. |
+| **Sprint 2 Goal**         | Desarrollar funcionalidades clave del módulo conductor y del módulo dueño: reservas, pagos, tickets, seguimiento, configuración, notificaciones y mejoras de perfil. |
+| **Sprint 2 Velocity**     | 120 |
+| **Sum of Story Points**   | 112 |
+
+### 6.2.2.2. Sprint Backlog 2
+
+| User Story | Title                                     | Work-Item ID | Work-Item Title                 | Description                                               | Estimation (Hours) | Assigned To         | Status  |
+|------------|-------------------------------------------|--------------|----------------------------------|-----------------------------------------------------------|--------------------|----------------------|---------|
+| US18       | Búsqueda de Reservas                      | WT18         | Ver reservas activas y pasadas  | Mostrar historial de reservas del conductor               | 6                  | Samuel Molina        | Done    |
+| US19       | Pago de Reservas                          | WT19         | Integrar pasarela de pago       | Flujo completo de pago móvil                              | 6                  | Juan Calisaya        | Done    |
+| US20       | Confirmación de Reserva                   | WT20         | Pantalla de éxito               | Indicar que la reserva se registró correctamente          | 4                  | Diego Soto           | Done    |
+| US21       | Registro de Opiniones                     | WT21         | Enviar opiniones                | Permitir enviar feedback luego de una reserva             | 4                  | Mathias Hidalgo      | Done    |
+| US22       | Notificaciones en Dashboard               | WT22         | Alertas y notificaciones        | Mostrar notificaciones al usuario                         | 5                  | Samuel Molina        | Done    |
+| US23       | Configuración de Preferencias             | WT23         | Ajustes de usuario              | Cambiar idioma, tema y notificaciones                     | 5                  | Diego Soto           | Done    |
+| US24       | Historial de Reservas                     | WT24         | Visualizar historial completo   | Mostrar reservas anteriores por fechas                    | 6                  | Juan Calisaya        | Done    |
+| US25       | Alerta de Espacio Disponible              | WT25         | Activar alertas                 | Notificar disponibilidad de espacios                      | 6                  | Mathias Hidalgo      | Done    |
+| US26       | Soporte en Tiempo Real                    | WT26         | Sistema de soporte              | Chat o formulario de contacto en dashboard                | 5                  | Samuel Molina        | Done    |
+| US27       | Favoritos para Conductores                | WT27         | Marcar como favorito            | Guardar y listar estacionamientos favoritos               | 5                  | Diego Soto           | Done    |
+| US28       | Verificación de Reserva                   | WT28         | Estado de la reserva            | Mostrar si la reserva está confirmada o en proceso        | 4                  | Juan Calisaya        | Done    |
+| US29       | Cancelación de Reserva                    | WT29         | Cancelar reservas               | Permitir anular una reserva activa                        | 5                  | Mathias Hidalgo      | Done    |
+| US30       | Gestión de Alertas                        | WT30         | Ver y administrar alertas       | Mostrar y gestionar alertas en el dashboard               | 4                  | Samuel Molina        | Done    |
+| US31       | Personalización de Notificaciones         | WT31         | Ajustar notificaciones          | Activar/desactivar tipos de alertas                       | 4                  | Diego Soto           | Done    |
+| US32       | Visualización de Mapa                     | WT32         | Mapa interactivo                | Mostrar mapa con espacios disponibles                     | 6                  | Juan Calisaya        | Done    |
+| US33       | Seguimiento en Tiempo Real                | WT33         | Tracking de reserva             | Ver estado actualizado de la reserva                     | 5                  | Mathias Hidalgo      | Done    |
+
+### 6.2.2.3. Development Evidence for Sprint Review
+
+
+### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+
+
+### 6.2.2.5. Execution Evidence for Sprint Review
+
+
+
+### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+
+### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+### 6.2.2.8. Team Collaboration Insights during Sprint
+
+
+### 6.3.1. Diseño de Entrevistas
+
+
+
+### 6.3.2. Registro de Entrevistas
+
+
+
+
+### 6.3.3. Evaluaciones según heurísticas
+
+
+
+
+
 
 ### Conclusiones y recomendaciones
 
