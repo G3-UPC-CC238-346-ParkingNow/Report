@@ -25,7 +25,6 @@ Ciclo: 6to <br>
 | Calisaya Sánchez Juan Jesús  | u202121935    |
 | Hidalgo Lopez, Mathias Adriano     | U202213222    |
 | Samuel Elias Molina Asencios  | U20191A456     |
-| Frezzia Eldaa Isabel Espinoza Paredes | u200815121     |
 | Diego Ulises Soto Quispe      | U2022144778    |
 
 </div>
@@ -3301,41 +3300,509 @@ Estas implementaciones permitieron establecer una estructura sólida para los si
 | US32       | Visualización de Mapa                     | WT32         | Mapa interactivo                | Mostrar mapa con espacios disponibles                     | 6                  | Juan Calisaya        | Done    |
 | US33       | Seguimiento en Tiempo Real                | WT33         | Tracking de reserva             | Ver estado actualizado de la reserva                     | 5                  | Mathias Hidalgo      | Done    |
 
+Trello: https://trello.com/invite/b/6851bac9c06fde8f5e2e88f5/ATTI4f480fdeeccada7d967d82c1e5eb20578F4C1A5D/sprint-2-parkingnow
+
+![alt text](Assets/sprint2.jpeg)
+
 ### 6.2.2.3. Development Evidence for Sprint Review
 
+Durante el segundo sprint se implementaron funcionalidades clave para el segmento conductor, como el flujo completo de reservas, pagos, notificaciones, visualización de mapa, seguimiento en tiempo real y ajustes personalizados. Asimismo, se continuó con la implementación del segmento dueño en Flutter, construyendo vistas base e integración visual.
+
+A continuación, se presenta la evidencia técnica mediante commits asociados a las historias US18 a US33:
+
+
+### 🔷 Kotlin – Segmento Objetivo: Conductor
+
+| 🆔 Commit ID | 📁 Repositorio     | 🌱 Rama  | 👤 Autor       | 📅 Fecha       | 💬 Mensaje de Commit                                                                 |
+|-------------|--------------------|---------|----------------|----------------|--------------------------------------------------------------------------------------|
+| 0844608     | Kotlin-Mobile      | main    | Diego Soto     | 11/06/2025     | Add GPS activation prompt to DashboardScreen                                         |
+| 6b984a      | Kotlin-Mobile      | main    | Diego Soto     | 11/06/2025     | Add debug APK for testing                                                            |
+| 2d5deb4     | Kotlin-Mobile      | main    | Diego Soto     | 09/06/2025     | update app icon alignment                                                            |
+| 00dc823     | Kotlin-Mobile      | main    | Diego Soto     | 09/06/2025     | Adjust FAB position on DashboardScreen for better alignment with top bar            |
+| 7a26d28     | Kotlin-Mobile      | main    | Diego Soto     | 04/06/2025     | Update LoginScreen: remove social login and enable guest mode navigation            |
+| ac81138     | Kotlin-Mobile      | main    | Diego Soto     | 04/06/2025     | polish UI for password update and validation flow                                    |
+| d61546e     | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Add custom app icon for ParkingNow                                                   |
+| c1b1114     | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Fix: Apply global dark mode using AppViewModel                                       |
+| da42c27     | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Fix bottom navigation layout on Tracking screen to match Support screen style        |
+| 4db18aa     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Fix TicketScreen background and remove unused imports                                |
+| 2e2a736     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Update: improved booking screen layout and visibility                                |
+| 4c88466     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Refactor UI: adjusted layout spacing for favorites and reservation button visibility |
+| 025323e     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Fix navigation: ensure safe routes and prevent crashes on back navigation            |
+| e84797c     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Show real-time user location with car icon in Dashboard map                          |
+| d3231a4     | Kotlin-Mobile      | main    | Diego Soto     | 28/05/2025     | Enhance NotificationsScreen UI with back navigation and layout adjustments           |
+| 3266b1c     | Kotlin-Mobile      | main    | Diego Soto     | 28/05/2025     | Feature: Improved ticket UI and payment method handling                              |
+| abfdc25     | Kotlin-Mobile      | main    | Diego Soto     | 27/05/2025     | Smooth welcome transition with fade and scale animation                              |
+| b403f37     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Adjust map position at bottom of dashboard                                           |
+| 2ffcc0b     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Show registered username in Dashboard                                                |
+| 90d538d     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Add NotificationsScreen and complete all routing                                     |
+| fa34cc2     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Add full payment flow and ticket generation screen                                   |
+| e683b14     | Kotlin-Mobile      | main    | Diego Soto     | 25/05/2025     | Add real-time user location to map in Dashboard                                      |
+
+
+### 🟣 Flutter – Segmento Objetivo: Dueño de Estacionamiento
+
+| 🆔 Commit ID | 📁 Repositorio | 🌱 Rama  | 👤 Autor       | 📅 Fecha       | 💬 Mensaje de Commit                                                               |
+|-------------|----------------|---------|----------------|----------------|------------------------------------------------------------------------------------|
+| 2efa9fe     | Flutter        | main    | Diego Soto     | 11/06/2025     | Add APK                                                                            |
+| b694f82     | Flutter        | main    | Diego Soto     | 09/06/2025     | update launcher icon configuration and generate icons                              |
+| c42bece     | Flutter        | main    | Diego Soto     | 09/06/2025     | Fix: default theme mode now respects system setting                                |
+| b4aa3de     | Flutter        | main    | Diego Soto     | 09/06/2025     | Fix: full dark mode applied in Security UI                                         |
+| 7920a4b     | Flutter        | main    | Diego Soto     | 08/06/2025     | Clean up alert cards and remove subscription dialog                                |
+| 22524bb     | Flutter        | main    | Diego Soto     | 08/06/2025     | Fix: remove duplicate ChangePasswordPage from settings                             |
+| 19ee43a     | Flutter        | main    | Diego Soto     | 08/06/2025     | Fix: initialize locale for date formatting in history                              |
+| 74a9c3e     | Flutter        | main    | Diego Soto     | 08/06/2025     | remove settings from quick actions                                                 |
+| 1493af1     | Flutter        | main    | Diego Soto     | 08/06/2025     | Improve reservation popup UI                                                       |
+| d3e5d2f     | Flutter        | main    | Diego Soto     | 07/06/2025     | Improve step 4 summary card and success pop-up design                              |
+| ec090f0     | Flutter        | main    | Diego Soto     | 07/06/2025     | Improve drawer header spacing and fix overflow                                     |
+| eaddcd1     | Flutter        | main    | Diego Soto     | 07/06/2025     | Fix: remove tab transition animation                                               |
+| 001d355     | Flutter        | main    | Diego Soto     | 07/06/2025     | update color styles                                                                 |
+| 92aabc2     | Flutter        | main    | Diego Soto     | 07/06/2025     | remove fade animation from login                                                   |
+| f496ec8     | Flutter        | main    | Diego Soto     | 07/06/2025     | update                                                                              |
+| 83599e0     | Flutter        | main    | Diego Soto     | 07/06/2025     | Fix UI bugs: remove missing image and update section titles                        |
+| 5c9f139     | Flutter        | main    | Diego Soto     | 06/06/2025     | Fix: restrict RUC input to numbers only                                            |
+| 09b465b     | Flutter        | main    | Diego Soto     | 05/06/2025     | Feature: first commit from external drive                                          |
 
 ### 6.2.2.4. Testing Suite Evidence for Sprint Review
 
 
+| Repository | Branch | Author         | Message                                        | Date        | Link                                                                                                      |
+|------------|--------|----------------|------------------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------|
+| Backend    | main   | Samuel Molina  | feat(documentation) Documentation for endpoints | 16/05/2025  | 🔗 https://github.com/G3-UPC-CC238-346-ParkingNow/Backend|
 
 ### 6.2.2.5. Execution Evidence for Sprint Review
 
+### 🚗 Segmento Objetivo: Conductor – Kotlin, Jetpack Compose y Android Studio
+
+<h3 align="center">📲 Pantalla de Inicio de Sesión – Login del Conductor</h3>
+
+![alt text](Assets/conductor1.jpeg)
+
+<h3 align="center">🔑 Pantalla de Recuperación – ¿Olvidaste tu Contraseña?</h3>
+
+![alt text](Assets/conductor2.jpeg)
+
+<h3 align="center">🔄 Pantalla de Cambio de Contraseña – Validación y Seguridad</h3>
+
+![alt text](Assets/conductor3.jpeg)
+
+
+<h3 align="center">🆕 Registro de Nuevo Usuario – Creación de Cuenta para Conductores</h3>
+
+![alt text](Assets/conductor4.jpeg)
+
+<h3 align="center">🏠 Dashboard del Conductor – Vista General de Actividades</h3>
+
+![alt text](Assets/conductor5.jpeg)
+
+![alt text](Assets/conductor6.jpeg)
+
+<h3 align="center">📂 Barra Lateral – Navegación con Opciones del Módulo Conductor</h3>
+
+![alt text](Assets/conductor7.jpeg)
+
+<h3 align="center">📅 Historial de Reservas – Visualización de Reservas Activas y Pasadas</h3>
+
+
+![alt text](Assets/conductor8.jpeg)
+
+<h3 align="center">📍 Reservar Estacionamiento – Selección de Espacio Cercano Según Ubicación</h3>
+
+![alt text](Assets/conductor9.jpeg)
+
+<h3 align="center">💳 Método de Pago – Selección de Tarjeta y Confirmación de Transacción</h3>
+
+![alt text](Assets/conductor10.jpeg)
+
+<h3 align="center">🔲 Código QR – Generación de Código para Validar la Reserva</h3>
+
+![alt text](Assets/conductor11.jpeg)
+
+<h3 align="center">✅ Confirmación de Reserva – Mensaje de Éxito tras la Transacción</h3>
+
+![alt text](Assets/conductor12.jpeg)
+
+<h3 align="center">🛠️ Soporte Técnico – Envío de Consultas y Comentarios desde el Dashboard</h3>
+
+![alt text](Assets/conductor13.jpeg)
+
+<h3 align="center">📡 Seguimiento del Vehículo – Tracking en Tiempo Real del Espacio Reservado</h3>
+
+![alt text](Assets/conductor14.jpeg)
+
+<h3 align="center">⚙️ Configuración del Sistema – Preferencias de Usuario y Notificaciones</h3>
+
+![alt text](Assets/conductor15.jpeg)
+
+<h3 align="center">🔔 Centro de Notificaciones – Alertas de Reserva, Promociones y Seguridad</h3>
+
+![alt text](Assets/conductor16.jpeg)
+
+
+### 🏢 Segmento Objetivo: Dueño de Estacionamiento – Flutter, Dart y Android Studio
+
+<h3 align="center">🔐 Pantalla de Inicio de Sesión – Login del Dueño de Estacionamiento</h3>
+
+![alt text](Assets/dueño1.jpeg)
+
+<h3 align="center">❓ Pantalla de Recuperación – ¿Olvidaste tu Contraseña?</h3>
+
+![alt text](Assets/dueño2.jpeg)
+
+<h3 align="center">🔄 Pantalla de Cambio de Contraseña – Validación Segura para el Dueño</h3>
+
+![alt text](Assets/dueño3.jpeg)
+
+<h3 align="center">🆕 Registro de Nuevo Usuario – Crear Cuenta como Dueño de Estacionamiento</h3>
+
+![alt text](Assets/dueño4.jpeg)
+
+![alt text](Assets/dueño5.jpeg)
+
+![alt text](Assets/dueño6.jpeg)
+
+<h3 align="center">🏢 Dashboard Principal – Vista General de la Actividad del Estacionamiento</h3>
+
+![alt text](Assets/dueño7.jpeg)
+
+<h3 align="center">📃 Términos y Condiciones – Revisión Legal por Parte del Dueño</h3>
+
+![alt text](Assets/dueño8.jpeg)
+
+<h3 align="center">📂 Barra Lateral – Navegación entre Funciones del Dueño de Estacionamiento</h3>
+
+![alt text](Assets/dueño17.jpeg)
+
+<h3 align="center">🧩 Registro Avanzado – Añadir Múltiples Estacionamientos y Configurar Extras</h3>
+
+![alt text](Assets/dueño9.jpeg)
+
+<h3 align="center">📍 Ubicación del Estacionamiento – Marcado y Visualización Geográfica</h3>
+
+![alt text](Assets/dueño10.jpeg)
+
+<h3 align="center">🛎️ Servicios del Estacionamiento – Horarios de Atención y Beneficios para Conductores</h3>
+
+![alt text](Assets/dueño11.jpeg)
+
+<h3 align="center">🛠️ Configuración General – Tarifas, Métodos de Pago y Preferencias</h3>
+
+![alt text](Assets/dueño12.jpeg)
+
+<h3 align="center">📅 Gestión de Reservas – Visualización y Administración de Espacios Reservados</h3>
+
+![alt text](Assets/dueño13.jpeg)
+
+<h3 align="center">🛡️ Módulo de Seguridad – Protección del Espacio y Alertas del Estacionamiento</h3>
+
+![alt text](Assets/dueño14.jpeg)
+
+<h3 align="center">🔔 Centro de Notificaciones y Configuración – Alertas y Preferencias del Dueño</h3>
+
+![alt text](Assets/dueño15.jpeg)
+
+<h3 align="center">⚙️ Configuración del Sistema – Ajustes Generales del Dueño y Preferencias de la Plataforma</h3>
+
+![alt text](Assets/dueño16.jpeg)
+
+Backend
 
 
 ### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
+Durante este Sprint se documentaron los endpoints correspondientes a los siguientes módulos del backend de ParkingNow:
+
+- `local`
+- `reserva`
+- `usuario`
+
+Cada módulo cuenta con sus respectivos endpoints documentados mediante Swagger. A continuación, se presentarán capturas de la documentación generada que ilustran la estructura, rutas y organización de los servicios expuestos.
+
+#### Usuario
+
+http://localhost:3000/usuario
+POST Crear un nuevo usuario
+
+![backend](Assets/endpoint-user.png)
+
+http://localhost:3000/usuario
+GET Obtener todos los usuarios
+
+![backend](Assets/endpoint-user2.png)
+
+http://localhost:3000/usuario/1
+get Obtener un usuario por ID 
+
+![backend](Assets/endpoint-user3.png)
+
+http://localhost:3000/usuario/1/locales
+GET Obtiene todos los locales asociados a un usuario específico.
+
+![backend](Assets/endpoint-user4.png)
+
+http://localhost:3000/usuario/1
+PUT Actualizar un usuario por ID
+
+![backend](Assets/endpoint-user5.png)
+
+http://localhost:3000/usuario/1
+DELETE Eliminar un usuario por ID
+
+![backend](Assets/endpoint-user6.png)
+
+#### Local
+
+http://localhost:3000/local
+POST Crear un nuevo local
+
+![backend](Assets/endpoint-local.png)
+
+http://localhost:3000/local/5
+GET Obtener un local por ID
+
+![backend](Assets/endpoint-local2.png)
+
+http://localhost:3000/local
+GET Obtener todos los locales
+
+![backend](Assets/endpoint-local3.png)
+
+http://localhost:3000/local/5
+PUT Actualizar un local por ID
+
+![backend](Assets/endpoint-local4.png)
+
+http://localhost:3000/local/5
+DELETE Eliminar un local por ID
+
+![backend](Assets/endpoint-local5.png)
+
+http://localhost:3000/local/6/usuario
+GET Obtener el usuario dueño de un local
+
+![backend](Assets/endpoint-local6.png)
+
+#### Reserva
+
+http://localhost:3000/reserva
+POST Crear una nueva reserva
+
+![backend](Assets/endpoint-reserva.png)
+
+http://localhost:3000/reserva
+GET Obtener todas las reservas
+
+![backend](Assets/endpoint-reserva2.png)
+
+http://localhost:3000/reserva/1
+GET Obtener una reserva por ID
+
+![backend](Assets/endpoint-reserva3.png)
+
+http://localhost:3000/reserva/1
+PUT Actualizar una reserva por ID
+
+![backend](Assets/endpoint-reserva4.png)
+
+http://localhost:3000/reserva/1
+DELETE Eliminar una reserva por ID
+
+![backend](Assets/endpoint-reserva5.png)
 
 
 ### 6.2.2.7. Software Deployment Evidence for Sprint Review
 
 
+Durante este sprint, ambas aplicaciones móviles fueron desarrolladas utilizando **Android Studio** y desplegadas correctamente en **emuladores y dispositivos reales** para pruebas funcionales.
+
+Cada segmento fue ejecutado mostrando correctamente su pantalla de inicio, navegación y funcionalidades clave, validando la estabilidad visual y lógica en entorno Android.
+
+Además, se ha generado el archivo **APK instalable**, disponible públicamente para su descarga desde cualquier dispositivo Android.
+
+📦 **APK disponible aquí:** https://drive.google.com/drive/folders/1z7wYWMZDh1zbb6wGD3-tZEP9n5YQBU84?usp=sharing
+
+
+🟣 Flutter – Segmento Objetivo: Dueño de Estacionamiento
+
+![alt text](Assets/visual1.jpeg)
+
+🔷 Kotlin – Segmento Objetivo: Conductor
+
+![alt text](Assets/visual2.jpeg)
+
+
+Backend 
+
 ### 6.2.2.8. Team Collaboration Insights during Sprint
 
 
+### 6.3. Validations Interviews
+
+Como parte del proceso de validación del producto, se realizaron entrevistas con usuarios potenciales de ambos segmentos: conductores y dueños de estacionamientos. El objetivo fue recoger retroalimentación temprana sobre la experiencia de uso, funcionalidades clave y percepciones generales de la propuesta de valor de ParkingNow.
+
+Estas entrevistas permitieron identificar necesidades reales, validar hipótesis de diseño, y orientar ajustes tanto en el flujo de navegación como en la priorización de futuras funcionalidades.
+
 ### 6.3.1. Diseño de Entrevistas
 
+#### 🚗 Segmento Objetivo #1: Conductores Urbanos Frecuentes
 
+**Preguntas personales:**
+- ¿Cuál es tu nombre?
+- ¿Cuántos años tienes?
+
+**Preguntas principales:**
+- ¿Sentiste que lograste navegar por la app sin complicaciones?
+- ¿Qué opinas acerca del diseño visual y la presentación de la app?
+- ¿Tuviste algún problema al buscar estacionamientos cercanos en el mapa?
+- ¿El proceso de reserva te pareció claro y eficiente?
+- ¿Tuviste dificultades para completar el pago desde la app?
+- ¿Consideras útil la funcionalidad del código QR generado al finalizar una reserva?
+- ¿Las notificaciones dentro de la app te resultaron claras y oportunas?
+- ¿Tienes alguna sugerencia o comentario que desees compartir para mejorar la experiencia?
+
+
+#### 🏢 Segmento Objetivo #2: Dueños de Estacionamientos
+
+**Preguntas personales:**
+- ¿Cuál es tu nombre?
+- ¿Cuántos años tienes?
+
+**Preguntas principales:**
+- ¿Pudiste navegar correctamente por la app como dueño de estacionamiento?
+- ¿Qué opinas del diseño de la interfaz desde tu rol de administrador?
+- ¿Tuviste algún inconveniente al registrar o editar información de tus estacionamientos?
+- ¿Fue sencillo colocar la ubicación geográfica de tu estacionamiento en el mapa?
+- ¿La funcionalidad para establecer horarios y tarifas por hora fue fácil de utilizar?
+- ¿Sientes que la sección de reservas te permite tener control sobre tu disponibilidad?
+- ¿Te pareció clara la sección de configuración de servicios y condiciones del local?
+- ¿Tienes alguna sugerencia o comentario sobre cómo mejorar la administración desde la app?
+
+
+Estas entrevistas permitieron identificar mejoras clave en la experiencia de usuario, detectar puntos de fricción en la navegación y recopilar comentarios para futuras iteraciones de la aplicación.
 
 ### 6.3.2. Registro de Entrevistas
 
+### 👤 Entrevistada – Segmento Conductor
 
+Una usuaria de 25 años destacó la **facilidad de navegación** dentro de la app, especialmente al buscar estacionamientos en el mapa. Elogió el **diseño limpio y moderno**, y señaló que el proceso de **reserva y pago fue rápido y sin errores**. Consideró muy útil el uso del **código QR para validar la reserva**.  
+Como sugerencias, propuso incluir un **tutorial inicial para nuevos usuarios** y la posibilidad de **compartir reservas activas con otros usuarios**, aunque resaltó que la app es muy intuitiva en general.
+
+**👤 Entrevistado: Jean Pierre – Segmento Dueño de Estacionamiento**
+
+Jean Pierre, de 39 años, comentó que la app le pareció **muy clara y funcional** desde el primer uso. Destacó que el proceso para **registrar su estacionamiento, ubicarlo en el mapa y establecer tarifas** fue sencillo y directo. Valoró positivamente el **control de reservas** desde el dashboard y la opción para **gestionar los servicios ofrecidos**. Como mejora, sugirió incorporar un **sistema de respuestas automáticas para consultas frecuentes**, de modo que los conductores puedan recibir atención inmediata sobre horarios, tarifas o normas del local sin necesidad de intervención directa.
 
 
 ### 6.3.3. Evaluaciones según heurísticas
 
 
+### 📌 SITE O APP A EVALUAR:
+
+**ParkingNow – Aplicación móvil para conductores y dueños de estacionamiento.**
 
 
+### 📝 TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+#### 🚗 Segmento Conductor:
+
+1. Registro de un nuevo conductor
+2. Inicio de sesión
+3. Recuperación y cambio de contraseña
+4. Búsqueda de estacionamientos cercanos en el mapa
+5. Reserva de un espacio de estacionamiento
+6. Confirmación de reserva con generación de código QR
+7. Pago mediante método en línea
+8. Visualización del historial de reservas
+9. Gestión de notificaciones
+10. Acceso a soporte técnico desde el dashboard
+11. Modificación de preferencias del sistema
+
+#### 🏢 Segmento Dueño de Estacionamiento:
+
+1. Registro como nuevo usuario dueño
+2. Inicio de sesión
+3. Recuperación y cambio de contraseña
+4. Registro de un estacionamiento nuevo
+5. Ubicación del estacionamiento en el mapa
+6. Configuración de horarios de atención y servicios ofrecidos
+7. Establecimiento de tarifas por hora
+8. Gestión y visualización de reservas recibidas
+9. Módulo de seguridad (alertas, control de acceso)
+10. Centro de notificaciones
+11. Barra lateral para navegación entre módulos
+12. Revisión de términos y condiciones legales
+
+
+
+### ❌ No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Mostrar un tutorial inicial para usuarios nuevos  
+- Compartir reservas activas entre usuarios  
+- Implementar respuestas automáticas para preguntas frecuentes del conductor  
+
+
+
+### ⚠️ ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1     | Problema superficial: fácilmente superado por el usuario |
+| 2     | Problema menor: ocurre ocasionalmente, requiere revisión |
+| 3     | Problema mayor: impide el uso correcto de funciones clave |
+| 4     | Problema muy grave: bloquea el uso o continuidad de la app |
+
+
+### 📋 TABLA RESUMEN:
+
+| # | Problema detectado                                                                       | Escala de Severidad | Heurística/Principio violado             |
+|---|-------------------------------------------------------------------------------------------|----------------------|------------------------------------------|
+| 1 | En la sección de soporte no hay un buscador de preguntas frecuentes                      | 2                    | Ayuda y documentación                    |
+| 2 | No hay opción clara para editar una reserva confirmada                                   | 3                    | Flexibilidad y eficiencia del uso        |
+| 3 | No se muestra confirmación visual tras actualizar configuraciones importantes            | 1                    | Visibilidad del estado del sistema       |
+
+
+
+### 🧠 DESCRIPCIÓN DE PROBLEMAS:
+
+
+#### PROBLEMA #1: En la sección de soporte no hay un buscador de preguntas frecuentes  
+**Severidad:** 2  
+**Heurística violada:** Ayuda y documentación  
+
+**Descripción:**  
+Aunque existe una sección para soporte, no hay un campo de búsqueda ni sugerencias automáticas para preguntas frecuentes. Esto puede dificultar encontrar ayuda rápida en problemas comunes.
+
+![alt text](Assets/conductor13.jpeg)
+
+**Recomendación:**  
+Incluir una barra de búsqueda con autocompletado que filtre las preguntas frecuentes o cree una base de conocimientos básica.
+
+
+#### PROBLEMA #2: No hay opción clara para editar una reserva confirmada  
+**Severidad:** 3  
+**Heurística violada:** Flexibilidad y eficiencia del uso  
+
+**Descripción:**  
+Actualmente, una vez realizada la reserva, no se ofrece una opción directa para modificar la hora, el estacionamiento o los datos de la reserva. El único camino es cancelarla y volver a crearla desde cero, lo que afecta la eficiencia.
+
+![alt text](Assets/conductor8.jpeg)
+
+**Recomendación:**  
+Agregar un botón “Editar reserva” dentro del detalle de cada reserva activa, permitiendo modificar datos como hora o estacionamiento sin cancelar.
+
+
+
+#### PROBLEMA #3: No se muestra confirmación visual tras actualizar configuraciones importantes  
+**Severidad:** 1  
+**Heurística violada:** Visibilidad del estado del sistema  
+
+**Descripción:**  
+Al modificar preferencias del sistema como idioma o tema, la app no muestra un mensaje de confirmación visual, lo que puede generar dudas al usuario sobre si se guardaron correctamente los cambios.
+
+![alt text](Assets/dueño16.jpeg)
+
+**Recomendación:**  
+Añadir un snack bar o mensaje emergente breve que indique que los cambios fueron aplicados exitosamente.
 
 
 ### Conclusiones y recomendaciones
