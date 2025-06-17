@@ -3504,8 +3504,6 @@ A continuación, se presenta la evidencia técnica mediante commits asociados a 
 
 ![alt text](Assets/dueño16.jpeg)
 
-Backend
-
 
 ### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
