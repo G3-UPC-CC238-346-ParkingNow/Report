@@ -3693,18 +3693,54 @@ Verificamos la creacion de registros en la base de datos de producción
 Comprobacion de las apis abieretas
 
 
-
-
 ### 6.2.2.7. Software Deployment Evidence for Sprint Review
 
-
-Durante este sprint, ambas aplicaciones móviles fueron desarrolladas utilizando **Android Studio** y desplegadas correctamente en **emuladores y dispositivos reales** para pruebas funcionales.
+Durante este sprint, ambas aplicaciones móviles fueron desarrolladas utilizando **Android Studio** y desplegadas correctamente para pruebas funcionales.
 
 Cada segmento fue ejecutado mostrando correctamente su pantalla de inicio, navegación y funcionalidades clave, validando la estabilidad visual y lógica en entorno Android.
 
 Además, se ha generado el archivo **APK instalable**, disponible públicamente para su descarga desde cualquier dispositivo Android.
 
 📦 **APK disponible aquí:** https://drive.google.com/drive/folders/1z7wYWMZDh1zbb6wGD3-tZEP9n5YQBU84?usp=sharing
+
+#### Deployment de Flutter y Kotlin
+
+Primero vamos a build y lo que haremos es firmar la aplicación, los requisitos es igual tanto para flutter y kotlin asi que se cumplen los mismos pasos y le damos clic en next
+
+![alt text](Assets/chapter-6/firebasedeployment1.jpg)
+
+Una vez llenado los datos y completado el formulario le damos clic en okay, todo esto se repite igual en flutter
+
+![alt text](Assets/chapter-6/firebasedeployment2.jpg)
+
+Aquí nos pide en este caso algunos requisitos para poder firmar el apk, le vamos a dar clic en create new
+
+![alt text](Assets/chapter-6/firebasedeployment3.jpg)
+
+Aquí validamos en este caso que todo este correctamente y coincidan con lo que hemos llenado
+
+![alt text](Assets/chapter-6/firebasedeployment4.jpg)
+
+Y aquí finalizamos con el proceso y le damos en create, lo mismo con flutter
+
+![alt text](Assets/chapter-6/firebasedeployment5.jpg)
+
+Aquí nos vamos a app distribution en firebase go to console
+
+![alt text](Assets/chapter-6/firebasedeployment6.jpg)
+
+Luego aca añadimos y registramos el apk, llenamos todo los campos como kotlin y flutter
+
+![alt text](Assets/chapter-6/firebasedeployment7.jpg)
+
+Seleccionamos el logo de android
+
+![alt text](Assets/chapter-6/firebasedeployment8.jpg)
+
+Le damos clic en comenzar
+
+![alt text](Assets/chapter-6/firebasedeployment9.jpg)
+
 
 
 🟣 Flutter – Segmento Objetivo: Dueño de Estacionamiento
