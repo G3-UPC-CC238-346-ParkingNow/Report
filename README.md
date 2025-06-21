@@ -587,7 +587,7 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
 Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
 
 Link base de la aplicación: https://parkingnow-app-963963f523b4.herokuapp.com/ 
-Endpoint obtencion de usuarios: https://parkingnow-app-963963f523b4.herokuapp.com/
+Endpoint obtencion de usuarios: https://parkingnow-app-963963f523b4.herokuapp.com/usuario
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
