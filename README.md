@@ -3684,10 +3684,46 @@ Estas entrevistas permitieron identificar mejoras clave en la experiencia de usu
 Una usuaria de 25 años destacó la **facilidad de navegación** dentro de la app, especialmente al buscar estacionamientos en el mapa. Elogió el **diseño limpio y moderno**, y señaló que el proceso de **reserva y pago fue rápido y sin errores**. Consideró muy útil el uso del **código QR para validar la reserva**.  
 Como sugerencias, propuso incluir un **tutorial inicial para nuevos usuarios** y la posibilidad de **compartir reservas activas con otros usuarios**, aunque resaltó que la app es muy intuitiva en general.
 
+![Entrevista a conductora](Assets/entrevista-conductor2-mary.jpg)
+
+**👤 Entrevistada: Marycielo Sánchez Soto – Segmento Conductor**
+Marycielo Sánchez Soto, de 21 años, comentó que la aplicación le pareció completa y destacó positivamente la opción de poder contactar a un oficial policial en caso de robo o daño. En cuanto a la navegación, mencionó que pudo usarla sin dificultades, ya que es intuitiva y fácil de utilizar.
+
+Respecto al diseño, señaló que es amigable y valoró especialmente la inclusión del modo oscuro. También le agradó el proceso de reserva de espacios de estacionamiento por su rapidez y eficiencia. En relación al pago, no presentó inconvenientes y resaltó la opción de pagar con Yape mediante código QR, por su rapidez y practicidad.
+
+Como sugerencia, indicó que sería ideal mejorar la visualización del mapa para que se refleje correctamente.
+
+![Entrevista a conductora](Assets/entrevista-conductor2-mary.jpg)
+
+**👤 Entrevistada: Alcántara Cruz, Rodrigo Alonso – Segmento Conductor - Landing Page**
+
+![Entrevista a conductora](Assets/entrevista-conductor3-rodri.jpg)
+
+Alcántara Cruz, Rodrigo Alonso, de 20 años, comentó que la landing page le pareció muy intuitiva y que logró comprender claramente el propósito de la aplicación gracias al mensaje principal, el cual transmite de forma directa la idea central del servicio.
+
+Destacó que el diseño le parece moderno y bien distribuido, y que las imágenes utilizadas ayudan a contextualizar la propuesta. Además, las ciudades destacadas en la página le transmitieron una sensación de realismo y confianza, especialmente al mencionar aspectos relacionados con la seguridad.
+
+También valoró positivamente la diferenciación entre los botones dirigidos a conductores y a dueños de estacionamientos, lo cual facilita la navegación según el rol del usuario.
+
+Finalmente, expresó que se animaría a unirse a la aplicación, ya que considera que en Lima es muy estresante encontrar un espacio disponible para estacionar, y esta solución le parece útil frente al tráfico y la falta de disponibilidad.
+
+### 👤 Entrevistada – Segmento Dueño de Estacionamiento
+
 **👤 Entrevistado: Jean Pierre – Segmento Dueño de Estacionamiento**
 
 Jean Pierre, de 39 años, comentó que la app le pareció **muy clara y funcional** desde el primer uso. Destacó que el proceso para **registrar su estacionamiento, ubicarlo en el mapa y establecer tarifas** fue sencillo y directo. Valoró positivamente el **control de reservas** desde el dashboard y la opción para **gestionar los servicios ofrecidos**. Como mejora, sugirió incorporar un **sistema de respuestas automáticas para consultas frecuentes**, de modo que los conductores puedan recibir atención inmediata sobre horarios, tarifas o normas del local sin necesidad de intervención directa.
 
+**👤 Entrevistado: Carlos Ochoa – Segmento Dueño de estacionamiento**
+
+![Entrevista a conductora](Assets/entrevista-dueño-carlos.jpg)
+
+Carlos Ochoa, de 25 años, comentó que la navegación dentro de la aplicación fue sencilla gracias a que la interfaz es intuitiva y está bien estructurada. Destacó que los botones grandes y las fuentes legibles hacen que el uso sea cómodo y visualmente agradable.
+
+Respecto al registro y edición de su estacionamiento, indicó que no tuvo problemas y que fue fácil ubicar su dirección en el mapa. También mencionó que ingresar datos como tarifas y horarios fue un proceso sencillo.
+
+Valoró positivamente el control que la aplicación le brinda sobre sus reservas de espacios, y señaló que la sección de notificaciones es clara, con botones grandes que facilitan no pasar por alto ningún detalle.
+
+Como sugerencia, mencionó que el logo de la aplicación le parece demasiado simple, ya que consiste únicamente en una “P”.
 
 ### 6.3.3. Evaluaciones según heurísticas
 
