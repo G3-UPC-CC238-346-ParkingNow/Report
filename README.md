@@ -3313,54 +3313,90 @@ A continuación, se presenta la evidencia técnica mediante commits asociados a 
 
 ### 🔷 Kotlin – Segmento Objetivo: Conductor
 
-| 🆔 Commit ID | 📁 Repositorio     | 🌱 Rama  | 👤 Autor       | 📅 Fecha       | 💬 Mensaje de Commit                                                                 |
-|-------------|--------------------|---------|----------------|----------------|--------------------------------------------------------------------------------------|
-| 0844608     | Kotlin-Mobile      | main    | Diego Soto     | 11/06/2025     | Add GPS activation prompt to DashboardScreen                                         |
-| 6b984a      | Kotlin-Mobile      | main    | Diego Soto     | 11/06/2025     | Add debug APK for testing                                                            |
-| 2d5deb4     | Kotlin-Mobile      | main    | Diego Soto     | 09/06/2025     | update app icon alignment                                                            |
-| 00dc823     | Kotlin-Mobile      | main    | Diego Soto     | 09/06/2025     | Adjust FAB position on DashboardScreen for better alignment with top bar            |
-| 7a26d28     | Kotlin-Mobile      | main    | Diego Soto     | 04/06/2025     | Update LoginScreen: remove social login and enable guest mode navigation            |
-| ac81138     | Kotlin-Mobile      | main    | Diego Soto     | 04/06/2025     | polish UI for password update and validation flow                                    |
-| d61546e     | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Add custom app icon for ParkingNow                                                   |
-| c1b1114     | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Fix: Apply global dark mode using AppViewModel                                       |
-| da42c27     | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Fix bottom navigation layout on Tracking screen to match Support screen style        |
-| 4db18aa     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Fix TicketScreen background and remove unused imports                                |
-| 2e2a736     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Update: improved booking screen layout and visibility                                |
-| 4c88466     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Refactor UI: adjusted layout spacing for favorites and reservation button visibility |
-| 025323e     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Fix navigation: ensure safe routes and prevent crashes on back navigation            |
-| e84797c     | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Show real-time user location with car icon in Dashboard map                          |
-| d3231a4     | Kotlin-Mobile      | main    | Diego Soto     | 28/05/2025     | Enhance NotificationsScreen UI with back navigation and layout adjustments           |
-| 3266b1c     | Kotlin-Mobile      | main    | Diego Soto     | 28/05/2025     | Feature: Improved ticket UI and payment method handling                              |
-| abfdc25     | Kotlin-Mobile      | main    | Diego Soto     | 27/05/2025     | Smooth welcome transition with fade and scale animation                              |
-| b403f37     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Adjust map position at bottom of dashboard                                           |
-| 2ffcc0b     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Show registered username in Dashboard                                                |
-| 90d538d     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Add NotificationsScreen and complete all routing                                     |
-| fa34cc2     | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Add full payment flow and ticket generation screen                                   |
-| e683b14     | Kotlin-Mobile      | main    | Diego Soto     | 25/05/2025     | Add real-time user location to map in Dashboard                                      |
-
+| 🆔 Commit ID | 📁 Repositorio     | 🌱 Rama  | 👤 Autor       | 📅 Fecha       | 💬 Mensaje de Commit                                                                                                                                                              |
+|--------------|--------------------|---------|----------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 7a88dbc      | Kotlin-Mobile  | main    | mathiasadriano | 20/06/2025 | Update colors.xml                                                                                                                                                                 |
+| 4152f23      | Kotlin-Mobile  | main    | mathiasadriano | 20/06/2025 | Update AndroidManifest.xml                                                                                                                                                        |
+| cc2e16f      | Kotlin-Mobile  | main    | mathiasadriano | 20/06/2025 | edit gradle.properties                                                                                                                                                            |
+| 055bb79      | Kotlin-Mobile  | main    | mathiasadriano | 20/06/2025 | Update README.md                                                                                                                                                                  |
+| e398f27      | Kotlin-Mobile  | main    | mathiasadriano | 20/06/2025 | feat:edit kotlin                                                                                                                                                                  |
+| ccbe57a      | Kotlin-Mobile  | main    | JuanCali999    | 18/06/2025 | feat: implement user registration flow with Retrofit and update API structure                                                                                                     |
+| db38a28      | Kotlin-Mobile  | main    | JuanCali999    | 18/06/2025 | feat: configure network security and update API base URL for emulator                                                                                                             |
+| f362356      | Kotlin-Mobile  | main    | JuanCali999    | 18/06/2025 | feat: implement user registration API integration                                                                                                                                 |
+| 49de69c      | Kotlin-Mobile  | main    | JuanCali999    | 18/06/2025 | feat: add Retrofit and Gson converter dependencies                                                                                                                                |
+| 9e9c8ad      | Kotlin-Mobile  | main    | JuanCali999    | 18/06/2025 | Merge branch 'main' of [https://github.com/G3-UPC-CC238-346-ParkingNow/Kotlin-Mobile](https://github.com/G3-UPC-CC238-346-ParkingNow/Kotlin-Mobile) into feature/consume-user-api |
+| 0844608      | Kotlin-Mobile      | main    | Diego Soto     | 11/06/2025     | Add GPS activation prompt to DashboardScreen                                                                                                                                      |
+| 6b984a       | Kotlin-Mobile      | main    | Diego Soto     | 11/06/2025     | Add debug APK for testing                                                                                                                                                         |
+| 2d5deb4      | Kotlin-Mobile      | main    | Diego Soto     | 09/06/2025     | update app icon alignment                                                                                                                                                         |
+| 00dc823      | Kotlin-Mobile      | main    | Diego Soto     | 09/06/2025     | Adjust FAB position on DashboardScreen for better alignment with top bar                                                                                                          |
+| 7a26d28      | Kotlin-Mobile      | main    | Diego Soto     | 04/06/2025     | Update LoginScreen: remove social login and enable guest mode navigation                                                                                                          |
+| ac81138      | Kotlin-Mobile      | main    | Diego Soto     | 04/06/2025     | polish UI for password update and validation flow                                                                                                                                 |
+| d61546e      | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Add custom app icon for ParkingNow                                                                                                                                                |
+| c1b1114      | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Fix: Apply global dark mode using AppViewModel                                                                                                                                    |
+| da42c27      | Kotlin-Mobile      | main    | Diego Soto     | 30/05/2025     | Fix bottom navigation layout on Tracking screen to match Support screen style                                                                                                     |
+| 4db18aa      | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Fix TicketScreen background and remove unused imports                                                                                                                             |
+| 2e2a736      | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Update: improved booking screen layout and visibility                                                                                                                             |
+| 4c88466      | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Refactor UI: adjusted layout spacing for favorites and reservation button visibility                                                                                              |
+| 025323e      | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Fix navigation: ensure safe routes and prevent crashes on back navigation                                                                                                         |
+| e84797c      | Kotlin-Mobile      | main    | Diego Soto     | 29/05/2025     | Show real-time user location with car icon in Dashboard map                                                                                                                       |
+| d3231a4      | Kotlin-Mobile      | main    | Diego Soto     | 28/05/2025     | Enhance NotificationsScreen UI with back navigation and layout adjustments                                                                                                        |
+| 3266b1c      | Kotlin-Mobile      | main    | Diego Soto     | 28/05/2025     | Feature: Improved ticket UI and payment method handling                                                                                                                           |
+| abfdc25      | Kotlin-Mobile      | main    | Diego Soto     | 27/05/2025     | Smooth welcome transition with fade and scale animation                                                                                                                           |
+| b403f37      | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Adjust map position at bottom of dashboard                                                                                                                                        |
+| 2ffcc0b      | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Show registered username in Dashboard                                                                                                                                             |
+| 90d538d      | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Add NotificationsScreen and complete all routing                                                                                                                                  |
+| fa34cc2      | Kotlin-Mobile      | main    | Diego Soto     | 26/05/2025     | Add full payment flow and ticket generation screen                                                                                                                                |
+| e683b14      | Kotlin-Mobile      | main    | Diego Soto     | 25/05/2025     | Add real-time user location to map in Dashboard                                                                                                                                   |
 
 ### 🟣 Flutter – Segmento Objetivo: Dueño de Estacionamiento
 
-| 🆔 Commit ID | 📁 Repositorio | 🌱 Rama  | 👤 Autor       | 📅 Fecha       | 💬 Mensaje de Commit                                                               |
-|-------------|----------------|---------|----------------|----------------|------------------------------------------------------------------------------------|
-| 2efa9fe     | Flutter        | main    | Diego Soto     | 11/06/2025     | Add APK                                                                            |
-| b694f82     | Flutter        | main    | Diego Soto     | 09/06/2025     | update launcher icon configuration and generate icons                              |
-| c42bece     | Flutter        | main    | Diego Soto     | 09/06/2025     | Fix: default theme mode now respects system setting                                |
-| b4aa3de     | Flutter        | main    | Diego Soto     | 09/06/2025     | Fix: full dark mode applied in Security UI                                         |
-| 7920a4b     | Flutter        | main    | Diego Soto     | 08/06/2025     | Clean up alert cards and remove subscription dialog                                |
-| 22524bb     | Flutter        | main    | Diego Soto     | 08/06/2025     | Fix: remove duplicate ChangePasswordPage from settings                             |
-| 19ee43a     | Flutter        | main    | Diego Soto     | 08/06/2025     | Fix: initialize locale for date formatting in history                              |
-| 74a9c3e     | Flutter        | main    | Diego Soto     | 08/06/2025     | remove settings from quick actions                                                 |
-| 1493af1     | Flutter        | main    | Diego Soto     | 08/06/2025     | Improve reservation popup UI                                                       |
-| d3e5d2f     | Flutter        | main    | Diego Soto     | 07/06/2025     | Improve step 4 summary card and success pop-up design                              |
-| ec090f0     | Flutter        | main    | Diego Soto     | 07/06/2025     | Improve drawer header spacing and fix overflow                                     |
-| eaddcd1     | Flutter        | main    | Diego Soto     | 07/06/2025     | Fix: remove tab transition animation                                               |
-| 001d355     | Flutter        | main    | Diego Soto     | 07/06/2025     | update color styles                                                                 |
-| 92aabc2     | Flutter        | main    | Diego Soto     | 07/06/2025     | remove fade animation from login                                                   |
-| f496ec8     | Flutter        | main    | Diego Soto     | 07/06/2025     | update                                                                              |
-| 83599e0     | Flutter        | main    | Diego Soto     | 07/06/2025     | Fix UI bugs: remove missing image and update section titles                        |
-| 5c9f139     | Flutter        | main    | Diego Soto     | 06/06/2025     | Fix: restrict RUC input to numbers only                                            |
-| 09b465b     | Flutter        | main    | Diego Soto     | 05/06/2025     | Feature: first commit from external drive                                          |
+| 🆔 Commit ID | 📁 Repositorio | 🌱 Rama  | 👤 Autor       | 📅 Fecha       | 💬 Mensaje de Commit                                                       |
+|-------------|----------------|---------|----------------|----------------|----------------------------------------------------------------------------|
+| 7c950c5          | Flutter            | feature/register-parking | mathiasadriano | 20/06/2025   | feat: edit api_constants                                                   |
+| 9fde524          | Flutter            | feature/register-parking | JuanCali999    | 20/06/2025   | feat: implement registration functionality for parking owners and locals   |
+| 2efa9fe     | Flutter        | main    | Diego Soto     | 11/06/2025     | Add APK                                                                    |
+| b694f82     | Flutter        | main    | Diego Soto     | 09/06/2025     | update launcher icon configuration and generate icons                      |
+| c42bece     | Flutter        | main    | Diego Soto     | 09/06/2025     | Fix: default theme mode now respects system setting                        |
+| b4aa3de     | Flutter        | main    | Diego Soto     | 09/06/2025     | Fix: full dark mode applied in Security UI                                 |
+| 7920a4b     | Flutter        | main    | Diego Soto     | 08/06/2025     | Clean up alert cards and remove subscription dialog                        |
+| 22524bb     | Flutter        | main    | Diego Soto     | 08/06/2025     | Fix: remove duplicate ChangePasswordPage from settings                     |
+| 19ee43a     | Flutter        | main    | Diego Soto     | 08/06/2025     | Fix: initialize locale for date formatting in history                      |
+| 74a9c3e     | Flutter        | main    | Diego Soto     | 08/06/2025     | remove settings from quick actions                                         |
+| 1493af1     | Flutter        | main    | Diego Soto     | 08/06/2025     | Improve reservation popup UI                                               |
+| d3e5d2f     | Flutter        | main    | Diego Soto     | 07/06/2025     | Improve step 4 summary card and success pop-up design                      |
+| ec090f0     | Flutter        | main    | Diego Soto     | 07/06/2025     | Improve drawer header spacing and fix overflow                             |
+| eaddcd1     | Flutter        | main    | Diego Soto     | 07/06/2025     | Fix: remove tab transition animation                                       |
+| 001d355     | Flutter        | main    | Diego Soto     | 07/06/2025     | update color styles                                                        |
+| 92aabc2     | Flutter        | main    | Diego Soto     | 07/06/2025     | remove fade animation from login                                           |
+| f496ec8     | Flutter        | main    | Diego Soto     | 07/06/2025     | update                                                                     |
+| 83599e0     | Flutter        | main    | Diego Soto     | 07/06/2025     | Fix UI bugs: remove missing image and update section titles                |
+| 5c9f139     | Flutter        | main    | Diego Soto     | 06/06/2025     | Fix: restrict RUC input to numbers only                                    |
+| 09b465b     | Flutter        | main    | Diego Soto     | 05/06/2025     | Feature: first commit from external drive                                  |
+
+### Backend – Web Services
+
+| **🆔 Commit ID** | **📁 Repositorio** | **🌱 Rama** | **👤 Autor**       | **📅 Fecha** | **💬 Mensaje de Commit**                                               |
+| ---------------- | ------------------ | ----------- | ------------------ | ------------ | ---------------------------------------------------------------------- |
+| f83243a          | Backend            | main        | samuelmolina201016 | 17/06/2025   | fix adding new endpoint for manage parking available                   |
+| 5392d32          | Backend            | main        | samuelmolina201016 | 17/06/2025   | fix adding user manage guide                                           |
+| 88b445a          | Backend            | main        | samuelmolina201016 | 17/06/2025   | fix adding API for get all reserves of a Local - manage parking plance |
+| e483b6e          | Backend            | main        | samuelmolina201016 | 17/06/2025   | fix Adding Api's guide                                                 |
+| 33919ff          | Backend            | main        | samuelmolina201016 | 16/05/2025   | feat(documentation) Documentation for endpoints                        |
+| 38224ffe         | Backend            | main        | samuelmolina201016 | 16/05/2025   | feat(usuario) Adding API for Usuario Managment                         |
+| a171b92          | Backend            | main        | samuelmolina201016 | 16/05/2025   | feat(reserva) Adding API for reserva managment                         |
+| a2b3c38          | Backend            | main        | samuelmolina201016 | 16/05/2025   | feat(local) Adding API for Local managment                             |
+| d4233bd          | Backend            | main        | samuelmolina201016 | 16/05/2025   | feat(app) Adding Services and Controllers                              |
+| f8b795f          | Backend            | main        | samuelmolina201016 | 16/05/2025   | fix(core) Adding dependencies                                          |
+| f5976b8          | Backend            | main        | JuanCali999        | 14/05/2025   | feat: Initialize NestJS project with default structure                 |
+| a218916          | Backend            | main        | Diego2005z         | 10/05/2025   | Initial commit                                                         |
+
+### Landing Page
+
+| **🆔 Commit ID** | **📁 Repositorio** | **🌱 Rama** | **👤 Autor** | **📅 Fecha** | **💬 Mensaje de Commit**                             |
+| ---------------- | ------------------ | ----------- | ------------ | ------------ | ---------------------------------------------------- |
+| 1594898          | Landing-ParkingNow | main        | Diego2005z   | 20/06/2025   | Fix: embed YouTube videos                            |
+| 8d4a6be          | Landing-ParkingNow | main        | Diego2005z   | 19/06/2025   | Fix i18n translation issues and update HTML entities |
+| 82d13ed          | Landing-ParkingNow | main        | Diego2005z   | 18/06/2025   | Add landing page with updated README and styles      |
 
 ### 6.2.2.4. Testing Suite Evidence for Sprint Review
 
