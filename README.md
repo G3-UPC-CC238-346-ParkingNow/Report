@@ -3902,6 +3902,8 @@ Valoró positivamente el control que la aplicación le brinda sobre sus reservas
 
 Como sugerencia, mencionó que el logo de la aplicación le parece demasiado simple, ya que consiste únicamente en una “P”.
 
+Link de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213222_upc_edu_pe/EQ4vKYPrxpNOrT7tJGKZidwBA2jaipNS-bhcYoqQpgUVFg?e=NkeEAJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 
