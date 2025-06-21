@@ -3802,6 +3802,23 @@ Al modificar preferencias del sistema como idioma o tema, la app no muestra un m
 **Recomendación:**  
 Añadir un snack bar o mensaje emergente breve que indique que los cambios fueron aplicados exitosamente.
 
+### 6.4. Video About the Product
+Este video explica las funcionalidades principales y ventajas de la aplicación ParkingNow, mostrando cómo facilita la gestión de estacionamientos para los usuarios.
+
+![alt text](<Assets/about 1.jpg>)
+
+Link de Youtube: https://youtu.be/XsC8IhDq_5g
+
+Link de OneDrive:https://drive.google.com/drive/folders/1hj5VXcLA54MAAl0q2zQwFMNUgJC4RYWE?usp=drive_link
+
+#### 6.4.1. Video About the Team
+Este video presenta al equipo de desarrollo detrás de ParkingNow, destacando el rol y las contribuciones de cada miembro al éxito del proyecto.
+
+![alt text](Assets/about.jpg)
+
+Link de Youtube: https://youtu.be/9jXLs6pOUi0
+
+Link de OneDrive:https://drive.google.com/drive/folders/1hj5VXcLA54MAAl0q2zQwFMNUgJC4RYWE?usp=drive_link
 
 ### Conclusiones y recomendaciones
 
