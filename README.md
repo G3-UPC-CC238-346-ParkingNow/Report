@@ -3628,7 +3628,56 @@ Además, se ha generado el archivo **APK instalable**, disponible públicamente 
 ![alt text](Assets/visual2.jpeg)
 
 
-Backend 
+Backend
+
+Durante este Sprint desplegamos el backend e hizimos las pruebas requeridas
+
+### Inicio del despliegue
+Empezamos logueandonos en la plataforma
+
+![startdeployment](/Assets/chapter-6/deploy_start.png)
+
+### Configuracion de la base de datos
+Configuramos una base de datos con NEON
+
+![configdb](/Assets/chapter-6/config_db.png)
+
+### Cambios finales para producción
+Se agregan cambios a producción para la ejecucion correcta de Nest en la plataforma
+
+![configdb](/Assets/chapter-6/cambios_produccion.png)
+
+Obtenemos el log del despliegue y comprobamos la conexion a la base de datos
+
+![configdb](/Assets/chapter-6/comprobacion_despliegue.png)
+
+### Comprobacion del despliegue
+
+Revision de los logs de despliegue
+
+![configdb](/Assets/chapter-6/tail_1.png)
+
+Sin conflicto, despliegue exitoso
+
+![configdb](/Assets/chapter-6/tail_2.png)
+
+Detalles de la aplicación en la plataforma
+
+![configdb](/Assets/chapter-6/heroku_details.png)
+
+### Testeo de la aplicación
+
+Testeo de la aplicacion en producción
+
+![configdb](/Assets/chapter-6/test_app.png)
+
+Verificamos la creacion de registros en la base de datos de producción
+
+![configdb](/Assets/chapter-6/test_exitoso.png)
+
+Comprobacion de las apis abieretas
+
+![configdb](/Assets/chapter-6/api_abierta.png)
 
 ### 6.2.2.8. Team Collaboration Insights during Sprint
 
