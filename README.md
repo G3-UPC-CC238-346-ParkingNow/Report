@@ -586,6 +586,9 @@ es un servicio de alojamiento web gratuito proporcionado por GitHub que permite 
 
 Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
 
+Link base de la aplicación: https://parkingnow-app-963963f523b4.herokuapp.com/ 
+Endpoint obtencion de usuarios: https://parkingnow-app-963963f523b4.herokuapp.com/
+
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Durante este Sprint (Sprint 1), logramos desarrollar el landing page de PARKINGNOW. Su propósito principal es atraer a potenciales clientes y mostrar la esencia de nuestro servicio. Respecto al Main de la landing page, optamos por utilizar GitHub page para su despliegue. Aunque la Aplicacion movil aún no está completamente terminada, consideramos que el progreso actual de nuestra landing page cumple con el requisito principal de transmitir nuestro servicio de forma clara y estilizada.
