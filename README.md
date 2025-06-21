@@ -3765,8 +3765,6 @@ Estas entrevistas permitieron identificar necesidades reales, validar hipótesis
 
 Estas entrevistas permitieron identificar mejoras clave en la experiencia de usuario, detectar puntos de fricción en la navegación y recopilar comentarios para futuras iteraciones de la aplicación.
 
-Link de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213222_upc_edu_pe/EQ4vKYPrxpNOrT7tJGKZidwBA2jaipNS-bhcYoqQpgUVFg?e=NkeEAJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
 ### 6.3.2. Registro de Entrevistas
 
 ### 👤 Entrevistada – Segmento Conductor
@@ -3818,6 +3816,8 @@ Respecto al registro y edición de su estacionamiento, indicó que no tuvo probl
 Valoró positivamente el control que la aplicación le brinda sobre sus reservas de espacios, y señaló que la sección de notificaciones es clara, con botones grandes que facilitan no pasar por alto ningún detalle.
 
 Como sugerencia, mencionó que el logo de la aplicación le parece demasiado simple, ya que consiste únicamente en una “P”.
+
+Link de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213222_upc_edu_pe/EQ4vKYPrxpNOrT7tJGKZidwBA2jaipNS-bhcYoqQpgUVFg?e=NkeEAJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 6.3.3. Evaluaciones según heurísticas
 
