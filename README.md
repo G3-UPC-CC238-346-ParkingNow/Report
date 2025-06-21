@@ -3509,6 +3509,9 @@ A continuación, se presenta la evidencia técnica mediante commits asociados a 
 
 Durante este Sprint se documentaron los endpoints correspondientes a los siguientes módulos del backend de ParkingNow:
 
+Link base de la aplicación: https://parkingnow-app-963963f523b4.herokuapp.com/ 
+Endpoint obtencion de usuarios: https://parkingnow-app-963963f523b4.herokuapp.com/usuario
+
 - `local`
 - `reserva`
 - `usuario`
@@ -3606,6 +3609,55 @@ DELETE Eliminar una reserva por ID
 
 ![backend](Assets/endpoint-reserva5.png)
 
+Durante este Sprint desplegamos el backend e hizimos las pruebas requeridas 
+
+### Inicio del despliegue
+Empezamos logueandonos en la plataforma
+
+![startdeployment](/Assets/deploy_start.png)
+
+### Configuracion de la base de datos
+Configuramos una base de datos con NEON 
+
+![configdb](/Assets/config_db.png)
+
+### Cambios finales para producción
+Se agregan cambios a producción para la ejecucion correcta de Nest en la plataforma
+
+![configdb](/Assets/cambios_produccion.png)
+
+Obtenemos el log del despliegue y comprobamos la conexion a la base de datos
+
+![configdb](/Assets/comprobacion_despliegue.png)
+
+### Comprobacion del despliegue
+
+Revision de los logs de despliegue
+
+![configdb](/Assets/tail_1.png)
+
+Sin conflicto, despliegue exitoso
+
+![configdb](/Assets/tail_2.png)
+
+Detalles de la aplicación en la plataforma
+
+![configdb](/Assets/heroku_details.png)
+
+### Testeo de la aplicación
+
+Testeo de la aplicacion en producción 
+
+![configdb](/Assets/test_app.png)
+
+Verificamos la creacion de registros en la base de datos de producción
+
+![configdb](/Assets/test_exitoso.png)
+
+Comprobacion de las apis abieretas
+
+
+
 
 ### 6.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -3630,8 +3682,44 @@ Además, se ha generado el archivo **APK instalable**, disponible públicamente 
 
 Backend 
 
+Link base de la aplicación: https://parkingnow-app-963963f523b4.herokuapp.com/ 
+Endpoint obtencion de usuarios: https://parkingnow-app-963963f523b4.herokuapp.com/usuario
+
+Testeo de la aplicacion en producción 
+
+![configdb](/Assets/test_app.png)
+
+Verificamos la creacion de registros en la base de datos de producción
+
+![configdb](/Assets/test_exitoso.png)
+
+Comprobacion de las apis abieretas
+
+
 ### 6.2.2.8. Team Collaboration Insights during Sprint
 
+Durante este Sprint, el equipo trabajó de manera colaborativa para lograr el desarrollo completo de los tres productos digitales: la Landing Page, el aplicativo móvil y los Web Services. A continuación, se detallan los aportes por cada sección, incluyendo espacio para evidencias de commits y capturas relevantes.
+
+**Reporte**
+
+![alt text](Assets/sprint22.png)
+
+
+**Landing Page**
+
+![alt text](Assets/sprint222.png)
+
+**Kotlin**
+
+![alt text](Assets/sprint2222.png)
+
+**Flutter**
+
+![alt text](Assets/sprint22222.png)
+
+**Backend**
+
+![alt text](Assets/sprint222222.png)
 
 ### 6.3. Validations Interviews
 
@@ -3681,10 +3769,12 @@ Estas entrevistas permitieron identificar mejoras clave en la experiencia de usu
 
 ### 👤 Entrevistada – Segmento Conductor
 
-Una usuaria de 25 años destacó la **facilidad de navegación** dentro de la app, especialmente al buscar estacionamientos en el mapa. Elogió el **diseño limpio y moderno**, y señaló que el proceso de **reserva y pago fue rápido y sin errores**. Consideró muy útil el uso del **código QR para validar la reserva**.  
+**👤 Entrevistadas: Pilar – Segmento Conductor**
+
+Pilar de 30 años destacó la **facilidad de navegación** dentro de la app, especialmente al buscar estacionamientos en el mapa. Elogió el **diseño limpio y moderno**, y señaló que el proceso de **reserva y pago fue rápido y sin errores**. Consideró muy útil el uso del **código QR para validar la reserva**.  
 Como sugerencias, propuso incluir un **tutorial inicial para nuevos usuarios** y la posibilidad de **compartir reservas activas con otros usuarios**, aunque resaltó que la app es muy intuitiva en general.
 
-![Entrevista a conductora](Assets/entrevista-conductor2-mary.jpg)
+![alt text](Assets/entrevistado2.png)
 
 **👤 Entrevistada: Marycielo Sánchez Soto – Segmento Conductor**
 Marycielo Sánchez Soto, de 21 años, comentó que la aplicación le pareció completa y destacó positivamente la opción de poder contactar a un oficial policial en caso de robo o daño. En cuanto a la navegación, mencionó que pudo usarla sin dificultades, ya que es intuitiva y fácil de utilizar.
@@ -3709,9 +3799,11 @@ Finalmente, expresó que se animaría a unirse a la aplicación, ya que consider
 
 ### 👤 Entrevistada – Segmento Dueño de Estacionamiento
 
-**👤 Entrevistado: Jean Pierre – Segmento Dueño de Estacionamiento**
+**👤 Entrevistado: Abraham Estrada – Segmento Dueño de Estacionamiento**
 
-Jean Pierre, de 39 años, comentó que la app le pareció **muy clara y funcional** desde el primer uso. Destacó que el proceso para **registrar su estacionamiento, ubicarlo en el mapa y establecer tarifas** fue sencillo y directo. Valoró positivamente el **control de reservas** desde el dashboard y la opción para **gestionar los servicios ofrecidos**. Como mejora, sugirió incorporar un **sistema de respuestas automáticas para consultas frecuentes**, de modo que los conductores puedan recibir atención inmediata sobre horarios, tarifas o normas del local sin necesidad de intervención directa.
+Abraham, de 21 años, comentó que la app le pareció **muy clara y funcional** desde el primer uso. Destacó que el proceso para **registrar su estacionamiento, ubicarlo en el mapa y establecer tarifas** fue sencillo y directo. Valoró positivamente el **control de reservas** desde el dashboard y la opción para **gestionar los servicios ofrecidos**. Como mejora, sugirió incorporar un **sistema de respuestas automáticas para consultas frecuentes**, de modo que los conductores puedan recibir atención inmediata sobre horarios, tarifas o normas del local sin necesidad de intervención directa.
+
+![alt text](Assets/entrevistado1.png)
 
 **👤 Entrevistado: Carlos Ochoa – Segmento Dueño de estacionamiento**
 
