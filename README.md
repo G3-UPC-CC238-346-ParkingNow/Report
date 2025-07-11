@@ -4797,42 +4797,38 @@ Estas entrevistas permitieron identificar mejoras clave en la experiencia de usu
 Pilar consideró que la app es clara y fácil de usar, con un flujo bien guiado. Valoró la rapidez del proceso de reserva y cómo le ayuda a ahorrar tiempo.  
 Sugirió mejorar la visualización de funciones en el mapa, ofrecer más métodos de pago como Plin y dar instrucciones más claras para el uso del código QR.
 
-![alt text](Assets/entrevistado2.png)
+![TF_Pilar.jpeg](Assets/TF_Pilar.jpeg)
 
 **Entrevistada: Rodrigo Viton – Segmento Conductor**
 
 Rodrigo tuvo una experiencia positiva tras entender el flujo inicial. Resaltó la rapidez en la reserva y la utilidad de la app para moverse por zonas complicadas.  
 Recomendó permitir guardar o compartir el código QR y simplificar la interfaz ocultando funciones innecesarias para usuarios ocasionales.
-![Entrevista a conductora](Assets/entrevista-conductor2-mary.jpg)
+
+![TF-Rodrigo.jpeg](Assets/TF-Rodrigo.jpeg)
 
 **👤 Entrevistada: Alcántara Cruz, Rodrigo Alonso - Landing Page**
 
 ![Entrevista a conductora](Assets/entrevista-conductor3-rodri.jpg)
 
-Alcántara Cruz, Rodrigo Alonso, de 20 años, comentó que la landing page le pareció muy intuitiva y que logró comprender claramente el propósito de la aplicación gracias al mensaje principal, el cual transmite de forma directa la idea central del servicio.
-
-Destacó que el diseño le parece moderno y bien distribuido, y que las imágenes utilizadas ayudan a contextualizar la propuesta. Además, las ciudades destacadas en la página le transmitieron una sensación de realismo y confianza, especialmente al mencionar aspectos relacionados con la seguridad.
-
-También valoró positivamente la diferenciación entre los botones dirigidos a conductores y a dueños de estacionamientos, lo cual facilita la navegación según el rol del usuario.
-
-Finalmente, expresó que se animaría a unirse a la aplicación, ya que considera que en Lima es muy estresante encontrar un espacio disponible para estacionar, y esta solución le parece útil frente al tráfico y la falta de disponibilidad.
-
+Destacó el diseño moderno y bien distribuido de la página, y que las imágenes y ciudades mostradas transmiten confianza. Valoró la separación clara entre conductores y dueños, y señaló que se animaría a usar la app por su utilidad frente al tráfico y la dificultad de encontrar estacionamiento en Lima.
 ### 👤 Entrevistada – Segmento Dueño de Estacionamiento
 
 **Entrevistado: Abraham Estrada – Segmento Dueño de Estacionamiento**
 
 Abraham tuvo una experiencia positiva pese a ser nuevo en la app. Apreció el resumen semanal y cómo le facilita la gestión diaria. Mencionó que algunos indicadores podrían explicarse mejor y propuso integrar una vista tipo calendario y conectarse con sensores o cámaras en el futuro. También valoró la reducción de tareas manuales gracias a la app.
-![alt text](Assets/entrevistado1.png)
+
+![TF_Abraham.jpeg](Assets/TF_Abraham.jpeg)
+
 
 **👤 Entrevistado: Alexandra Teves – Segmento Dueño de estacionamiento**
 
 Alexandra valoró mucho el resumen de ingresos y la visualización general del estado del parqueo. Le pareció útil la función de alertas, y reconoció que la app le ahorra tiempo en la gestión diaria. Sugirió mejorar la explicación visual de los porcentajes de ocupación y le gustaría exportar reportes y enviar promociones a conductores frecuentes.
 
 
-![Entrevista a conductora](Assets/entrevista-dueño-carlos.jpg)
+![TF_Alexandra.jpeg](Assets/TF_Alexandra.jpeg)
 
 
-Link de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213222_upc_edu_pe/EQ4vKYPrxpNOrT7tJGKZidwBA2jaipNS-bhcYoqQpgUVFg?e=NkeEAJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link de las entrevistas: 
 
 ### 6.3.3.1 Evaluaciones según heurísticas
 
@@ -4986,19 +4982,33 @@ Se debe implementar el análisis constante de datos de uso y ocupación de espac
 - **Sostenibilidad y responsabilidad social:**  
 PARKINGNOW debe fortalecer su compromiso con la movilidad sostenible, promoviendo iniciativas que reduzcan la huella de carbono y colaborando con proyectos de ciudades inteligentes, para posicionarse no solo como una plataforma tecnológica, sino también como un actor clave en la sostenibilidad urbana.
 
+  
+# Bibliografía - 4 papers 
 
+Ali, G., Ali, T., Irfan, M., Draz, U., Sohail, M., Glowacz, A., … Martis, C. (2020). IoT-based smart parking system using deep long short-memory network. *Electronics, 9*(10), 1696. https://doi.org/10.3390/electronics9101696  
 
-# Bibliografía
+Saharan, S., Kumar, N., & Bawa, S. (2020). An efficient smart parking pricing system for smart city environment: A machine-learning based approach. *Future Generation Computer Systems, 106*, 622–640. https://doi.org/10.1016/j.future.2020.01.031  
 
-1. **ICCSI**. (2023, 12 de marzo). *Estacionamiento inteligente con sensores: Revolución en estacionamientos*. ICCSI. Recuperado el 6 de septiembre de 2024, de [https://iccsi.com.ar/estacionamiento-inteligente-con-sensores](https://iccsi.com.ar/estacionamiento-inteligente-con-sensores)
-2. **Conducimos contigo**. (s.f.). *Elparking.com*. Recuperado el 1 de septiembre de 2024, de [https://elparking.com/](https://elparking.com/)
-3. **InnovaTech**. (2023, 15 de junio). *Smart Parking IoT: Descubre cómo funciona*. InnovaTech. Recuperado el 6 de septiembre de 2024, de [https://www.innova-tech.mx/smart-parking-iot](https://www.innova-tech.mx/smart-parking-iot)
-4. **People, S.**. (s.f.). *App Aparcados*. Apk2gestion.com. Recuperado el 2 de septiembre de 2024, de [https://apk2gestion.com/es/servicios/conoce-nuestra-app](https://apk2gestion.com/es/servicios/conoce-nuestra-app)
-5. **Reserva de parking - Parkimeter**. (s.f.). *Parkimeter.com*. Recuperado el 3 de septiembre de 2024, de [https://parkimeter.com/es?srsltid=AfmBOoqJCDlJN_hdtP3dMuF6fXWF8B1PytqQ2hWnVsgR7rEAH4a00y3P](https://parkimeter.com/es?srsltid=AfmBOoqJCDlJN_hdtP3dMuF6fXWF8B1PytqQ2hWnVsgR7rEAH4a00y3P)
-6. **Sernauto**. (s.f.). *Tipos de sensores de los vehículos: Qué función cumplen*. Sernauto. Recuperado el 6 de septiembre de 2024, de [https://www.sernauto.es/blog/tipos-de-sensores-de-losvehiculos-que-funcion-cumplen/](https://www.sernauto.es/blog/tipos-de-sensores-de-losvehiculos-que-funcion-cumplen/)
-7. **Propuesta País**. (2023, 22 de julio). *La necesidad de una política de estacionamiento vehicular en Lima Metropolitana*. Propuesta País. Recuperado el 6 de septiembre de 2024, de [https://propuestapais.pe/noticia/la-necesidad-de-una-politica-de-estacionamiento-vehicular-en-lima-metropolitana/](https://propuestapais.pe/noticia/la-necesidad-de-una-politica-de-estacionamiento-vehicular-en-lima-metropolitana/)
-8. **Intertraffic**. (2023, 28 de junio). *Revolucionando las experiencias de estacionamiento: Las últimas soluciones inteligentes para un estacionamiento eficiente*. Intertraffic. Recuperado el 6 de septiembre de 2024, de [https://www.intertraffic.com/news/espanol/revolucionando-las-experiencias-de-estacionamiento](https://www.intertraffic.com/news/espanol/revolucionando-las-experiencias-de-estacionamiento)
+Shen, L., Wu, X., Li, R., Chen, J., & Zhao, Y. (2020). Logistics sustainability practices: An IoT-enabled smart indoor parking system for industrial hazardous-chemical vehicles. *International Journal of Production Research, 58*(11), 3350–3367. https://doi.org/10.1080/00207543.2020.1720928  
 
+Simsek, M., Polat, K., Damas, M., & Celebi, M. (2020). Smart parking system with dynamic pricing, edge-cloud computing and LoRa. *Sensors, 20*(17), 4669. https://doi.org/10.3390/s20174669  
+# Bibliografía 
+
+1. **Conducimos contigo**. (s.f.). *Elparking.com*. Recuperado el 1 de septiembre de 2024, de <https://elparking.com/>
+
+2. **ICCSI**. (2023, 12 de marzo). *Estacionamiento inteligente con sensores: Revolución en estacionamientos*. ICCSI. Recuperado el 6 de septiembre de 2024, de <https://iccsi.com.ar/estacionamiento-inteligente-con-sensores>
+
+3. **InnovaTech**. (2023, 15 de junio). *Smart Parking IoT: Descubre cómo funciona*. InnovaTech. Recuperado el 6 de septiembre de 2024, de <https://www.innova-tech.mx/smart-parking-iot>
+
+4. **Intertraffic**. (2023, 28 de junio). *Revolucionando las experiencias de estacionamiento: Las últimas soluciones inteligentes para un estacionamiento eficiente*. Intertraffic. Recuperado el 6 de septiembre de 2024, de <https://www.intertraffic.com/news/espanol/revolucionando-las-experiencias-de-estacionamiento>
+
+5. **People, S.** (s.f.). *App Aparcados*. Apk2gestion.com. Recuperado el 2 de septiembre de 2024, de <https://apk2gestion.com/es/servicios/conoce-nuestra-app>
+
+6. **Propuesta País**. (2023, 22 de julio). *La necesidad de una política de estacionamiento vehicular en Lima Metropolitana*. Propuesta País. Recuperado el 6 de septiembre de 2024, de <https://propuestapais.pe/noticia/la-necesidad-de-una-politica-de-estacionamiento-vehicular-en-lima-metropolitana/>
+
+7. **Reserva de parking - Parkimeter**. (s.f.). *Parkimeter.com*. Recuperado el 3 de septiembre de 2024, de <https://parkimeter.com/es?srsltid=AfmBOoqJCDlJN_hdtP3dMuF6fXWF8B1PytqQ2hWnVsgR7rEAH4a00y3P>
+
+8. **Sernauto**. (s.f.). *Tipos de sensores de los vehículos: Qué función cumplen*. Sernauto. Recuperado el 6 de septiembre de 2024, de <https://www.sernauto.es/blog/tipos-de-sensores-de-losvehiculos-que-funcion-cumplen/>
 ## Anexos
 | Sección                                                     | Enlace                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
