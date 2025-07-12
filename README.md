@@ -4409,7 +4409,31 @@ Le damos clic en comenzar
 
 ![alt text](Assets/chapter-6/firebasedeployment9.jpg)
 
+Y pues una vez tengamos todo configurado, podremos subir el aplicativo que generamos en el Android Studio e invitar a nuestros compañeros por correo que les llegara para testearlo.
 
+![deployment1.jpeg](Assets/deployment1.jpeg)
+
+Una vez le enviamos por correo a nuestros compañeros, solo tendrian que aceptar la invitacion
+
+![deployment2.jpeg](Assets/deployment2.jpeg)
+
+Una vez aceptado, podran instalar el aplicativo
+
+![Deployment3.jpeg](Assets/Deployment3.jpeg)
+
+Prueba que se esta instalando en el dispositivo Mobile
+
+![Deployment4.jpeg](Assets/Deployment4.jpeg)
+
+Y finalizamos probando ambas aplicaciones, ya que estan correctamente instaladas.
+
+![deployment5.jpeg](Assets/deployment5.jpeg)
+
+La app **ParkingNow Conductor** ya está desplegada para pruebas internas.
+
+Enlace: https://appdistribution.firebase.google.com/testerapps/1:428034346426:android:7536cb1fe8c9d484bc6183/releases/1g055g04j6f78?utm_source=firebase-console
+
+Este proyecto ha sido desarrollado tanto en **Kotlin** (nativo) como en **Flutter** (multiplataforma).
 
 🟣 Flutter – Segmento Objetivo: Dueño de Estacionamiento
 
@@ -4828,7 +4852,7 @@ Alexandra valoró mucho el resumen de ingresos y la visualización general del e
 ![TF_Alexandra.jpeg](Assets/TF_Alexandra.jpeg)
 
 
-Link de las entrevistas: 
+Link de las entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EXEtNF96czNDiIdQBMxxR1oBzamOgCmxSzM9kjuRcv-ixw?e=TO1CCZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ### 6.3.3.1 Evaluaciones según heurísticas
 
